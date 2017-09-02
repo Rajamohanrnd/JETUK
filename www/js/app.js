@@ -1,5 +1,5 @@
 angular.module('acharyaApp', ['ionic','ngCordova', 
-'acharyaApp.controllers', 'acharyaApp.services','ionic-audio','ionic.cloud','ngSanitize','pdf'])
+'acharyaApp.controllers', 'acharyaApp.services', 'acharyaApp.directives','ionic-audio','ionic.cloud','ngSanitize','pdf'])
 
 .run(function($ionicPlatform) {
     $ionicPlatform.ready(function() {
