@@ -1,37 +1,33 @@
 <ion-view view-title="About Us">
     <ion-nav-title view-title="" center>
-        <div id="hometitle">ACHARYA<img alt="logo" class="guru" height="40" src="img\AcharyaLogo.png"></div>
+        <div id="hometitle">JETUK - ACHARYA<img alt="logo" class="guru" height="40" src="img\AcharyaLogo.png"></div>
 
     </ion-nav-title>
 
     <div class="bar bar-subheader bar-assertive">
         <ul class="sub_nav">
-            <li class="sub_nav"><a ui-sref="app.home" class="active">Home</a></li>
+            <li class="sub_nav"><a href="#" class="active">Home</a></li>
             <li class="sub_nav"><a ui-sref="app.event">Events & Alerts</a></li>
             <li class="sub_nav"><a href="#" ng-click="openUrl('https://jetuk.org/donations/')">Donate</a></li>
             <li class="sub_nav"><a href="#" ng-click="openUrl('https://jetuk.org/live/')">Live</a></li>
         </ul>
     </div>
-    <ion-content class="navpage aboutus">
-        <ion-list>
-            <a href="#" class="viewall navheading">Events</a>
+  <ion-content>
+    <ion-refresher on-refresh="loadData(true)"></ion-refresher>
+
+    <ion-list class="eventList" ng-repeat="event in eventList">
+            <div class="card">
+                <ion-item>
+                    <div class="video-container ">
+                        <p style="text-align: center">
+                            <h4>{{event.title}}</h4>
+                        </p>
+                        <img ng-if="event.enclosure" src="{{event.enclosure.url}}" width="100% ">
+						<p style="text-align: center">{{event.description}}</p>
+						<a href="{{event.link}}">{{event.link}}</a>
+                    </div>
+                </ion-item>
+            </div>
         </ion-list>
-
-        <h5>Add Rss Feed Content</h5>
-    </ion-content>
+  </ion-content>
 </ion-view>
-
-
-<ion-footer-bar align-title="center " class="bar-dark ">
-    <div class="buttons ">
-    </div>
-
-    <a class="shareemail " href="mailto:info@jetuk.org?subject=ACHARYA - JETUK&body=Namaste,%0A I just downloaded ACHARYA
-         on my smart phone.%0A This is an one stop shop app for all needs of multilingual Discourses, offline functionality,
-         Download feature of Devotional Audios and Slokas recitation, Videos, Ekadasi reminders, Calendar, and many other
-         useful things to learn about our tradition.%0A ACHARYA is available for iPhone, Android and Widows phone and more
-         over it 's FREE of cost.%0A You can get it now from htts://jetuk.org/ACHARYA. Or else you can reach on info@jetuk.org">Share</a>
-    <span style="padding-top: 5px;">&nbsp;     JETUK &copy All Rights Reserved, 2017 </span>
-    <div class="buttons" ng-click="doSomething()">
-    </div>
-</ion-footer-bar>

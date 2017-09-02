@@ -88,10 +88,10 @@ angular.module('acharyaApp', ['ionic','ngCordova',
              }
          })
              .state('app.event', {
-            url: '/browse',
+            url: '/events',
             views: {
                 'menuContent': {
-                    templateUrl: 'templates/browse.html',
+                    templateUrl: 'templates/events.html',
                     controller: 'eventController'
                 }
             }
