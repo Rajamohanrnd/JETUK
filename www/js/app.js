@@ -97,7 +97,7 @@ angular.module('acharyaApp', ['ionic','ngCordova',
             }
         })
         .state('app.discourses', {
-            url: '/',
+            url: '/discourses',
             views: {
                 'menuContent': {
                     templateUrl: 'templates/discourses.html',
@@ -498,7 +498,7 @@ angular.module('acharyaApp', ['ionic','ngCordova',
                 }
             }
         })
-        .state('app.live', {
+        /* .state('app.live', {
             url: '/browse',
             views: {
                 'menuContent': {
@@ -506,7 +506,7 @@ angular.module('acharyaApp', ['ionic','ngCordova',
                     controller: 'homeController'
                 }
             }
-        });
+        }); */
 
     // if none of the above states are matched, use this as the fallback
     $urlRouterProvider.otherwise('/app/home');

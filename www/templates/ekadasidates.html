@@ -11,20 +11,18 @@
         </ul>
     </div>
     <ion-content class="navpage aboutus">
+        <ion-refresher on-refresh="loadData(true)"></ion-refresher>
         <div class="ekadasiDates">
-        <ion-list>
-            <a href="#" class="viewall navheading">Ekadasi Dates</a>
-        </ion-list>
+            <ion-list>
+                <a href="#" class="viewall navheading">Ekadasi Dates</a>
+            </ion-list>
 
-        <ion-list class="eventList" ng-repeat="event in eventList">
-            <ion-item class="eventItem">
-              
-           <span class="img"><img src="img/Thiruman.png" style="width:24px;height:28px;" ></img></span>
-           <span>{{event.title}}</span>
-        
-            </ion-item>
-        
-        </ion-list>
+            <ion-list class="eventList" ng-repeat="event in eventList">
+                <ion-item class="eventItem">
+                    <span class="img"><img src="img/Thiruman.png" style="width:24px;height:28px;" ></img></span>
+                    <span>{{event.title}}</span>
+                </ion-item>
+            </ion-list>
         </div>
     </ion-content>
 </ion-view>

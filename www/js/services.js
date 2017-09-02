@@ -1,127 +1,96 @@
 angular.module('acharyaApp.services', ['ngCordova','ionic.service.core', 'ionic.service.push'])
-    .service('rssServiceData', function(){
-        this.staticFeedDataEvents;
+    .service('rssService', function($http, $q){
+        var storedData = {};
 
-        this.setRssFeedEvents = function(data){
-          if(data){
-            window.localStorage["eventsRss"] = JSON.stringify(data);
-          }
-          this.staticFeedDataEvents = data;
+        var setData = function(data, type){
+            if(data){
+                storedData[type] = data;
+            }
         }
 
-        this.getFeedDataEvents = function(){
-          if(window.localStorage["eventsRss"])
-             return JSON.parse(window.localStorage["eventsRss"]);
-          return this.staticFeedDataEvents;
-        }
+        var getData = function(url){
+            var deferred = $q.defer();
+            //TODO error handling
+            return $http.get("https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20rss%20where%20url%20%3D%20'"+ url +"'&format=json&callback=")
+                .then(function(response){
+                    //TODO empty response handling
+                    deferred.resolve(response.data.query.results.item);
+                    return deferred.promise;
+                })
+        };
 
-        this.staticFeedDataDates;
+        this.getEvents = function(reload){
+            if(storedData.events && !reload){
+                return storedData.events;
+            }
+            else{
+                return getData('https://www.jetuk.org/ach/jetuk-updates.xml').then(function(results){
+                    setData(results, 'events');
+                    return storedData.events;
+                });
+            }
+        };
 
-        this.setRssFeedDates = function(data){
-          if(data){
-            window.localStorage["datesRss"] = JSON.stringify(data);
-          }
-          this.staticFeedDataDates = data;
-        }
+        this.getDates = function(reload){
+            if(storedData.dates && !reload){
+                return storedData.dates;
+            }
+            else{
+                return getData('https://www.jetuk.org/ach/jetuk-ekadasidates.xml').then(function(results){
+                    setData(results, 'dates');
+                    return storedData.dates;
+                });
+            }
+        };
 
-        this.getFeedDataDates = function(){
-          if(window.localStorage["datesRss"])
-             return JSON.parse(window.localStorage["datesRss"]);
-          return this.staticFeedDataDates;
-        }
+        this.getDiscourses = function(reload){
+            if(storedData.discourses && !reload){
+                return storedData.discourses;
+            }
+            else{
+                return getData('https://www.jetuk.org/ach/jetuk-discourses.xml').then(function(results){
+                    setData(results, 'discourses');
+                    return storedData.discourses;
+                });
+            }
+        };
 
-        this.staticFeedDataDiscourses;
+        this.getVideos = function(){
+            if(storedData.videos && !reload){
+                return storedData.videos;
+            }
+            else{
+                return getData('https://www.jetuk.org/ach/jetuk-videos.xml').then(function(results){
+                    //TODO modify videos to be embed
+                    setData(results, 'videos');
+                    return storedData.videos;
+                });
+            }
+        };
 
-        this.setRssFeedDiscourses = function(data){
-          if(data){
-            window.localStorage["discourceRss"] = JSON.stringify(data);
-          }
-          this.staticFeedDataDiscourses = data;
-        }
-
-        this.getFeedDataDiscourses = function(){
-          if(window.localStorage["discourceRss"])
-             return JSON.parse(window.localStorage["discourceRss"]);
-          return this.staticFeedDataDiscourses;
-        }
-
-        this.staticFeedDataVideos;
-
-        this.setRssFeedVideos = function(data){
-          if(data){
-            window.localStorage["videosRss"] = JSON.stringify(data);
-          }
-          this.staticFeedDataVideos = data;
-        }
-
-        this.getFeedDataVideos = function(){
-          if(window.localStorage["videosRss"])
-             return JSON.parse(window.localStorage["videosRss"]);
-          return this.staticFeedDataVideos;
-        }
-
-        this.staticSlokas;
-
-        this.setStaticSlokas = function(data){
-          this.staticSlokas = data;
-        }
-
-        this.getStaticSlokas = function(){
-          return this.staticSlokas;
-        }
     })
 
 
-
-
-    .service('rssService', function($http, $q){
-        var entries;
+    .service('staticDataService', function($http, $q){
+        var data = {};
         return {
-
-            getEntries: function(url,reload) {
-                var deferred = $q.defer();
-                if(entries && !reload) {
-                    deferred.resolve(entries);
-                } else {
-					
-
-                    $http.get("https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20xml%20where%20url%20%3D%20'"+ url +"'&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys")
-                    .then(function(results) {
-                    entries = results.data.query.results;
-                    deferred.resolve(entries);
-                                
-
-                            },function error(d){
-                    console.log(d);
-                  });
-
+            getStaticSlokas: function(){
+                if(data.slokas) {
+                    return data.slokas;
                 }
-                return deferred.promise;
+                else{
+                    var deferred = $q.defer();
+                    return $http.get('lib/slokas.json').then(function(response){
+                        data.slokas = response.data;
+                        deferred.resolve(response.data);
+                        return deferred.promise;
+                    });
+                }
             }
 
         };
     })
 
-
-
-
-
-
-
-    .service('staticDataService', function(){
-        var result;
-        return{
-          getStaticSlokas: function(){
-            var d = $q.defer();
-          $http.get('lib/slokas.json').then(function(response){
-             
-            result = response.data;
-            d.resolve(result);
-          });
-          return d.promise;;
-          }
-        };
-    })
-
     .service('dummyService', function(){
+        //as a template
     })
