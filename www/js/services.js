@@ -1,4 +1,4 @@
-angular.module('acharyaApp.services', ['ngCordova','ionic.service.core', 'ionic.service.push'])
+angular.module('acharyaApp.services', [])
     .service('rssService', function($http, $q){
         var storedData = {};
 
