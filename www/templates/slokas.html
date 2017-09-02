@@ -1,16 +1,10 @@
 <ion-view view-title="About Us">
     <ion-nav-title view-title="" center>
-        <div id="hometitle">ACHARYA<img alt="logo" class="guru" height="40" src="img\AcharyaLogo.png"></div>
+        <div id="hometitle">ACHARYA<img alt="logo" class="guru" height="40" src="img/AcharyaLogo.png"></div>
     </ion-nav-title>
 
-    <div class="bar bar-subheader bar-assertive">
-        <ul class="sub_nav">
-            <li class="sub_nav"><a ui-sref="app.home" class="active">Home</a></li>
-            <li class="sub_nav"><a ui-sref="app.event">Events & Alerts</a></li>
-            <li class="sub_nav"><a href="#" ng-click="openUrl('https://jetuk.org/donations/')">Donate</a></li>
-            <li class="sub_nav"><a href="#" ng-click="openUrl('https://jetuk.org/live/')">Live</a></li>
-        </ul>
-    </div>
+    <app-menu></app-menu>
+
     <ion-content class="navpage aboutus">
         <ion-list>
             <a href="#" class="viewall navheading">Slokas</a>

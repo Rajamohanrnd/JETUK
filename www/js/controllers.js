@@ -1,103 +1,5 @@
-angular.module('starter.controllers', ['ngCordova','ionic.service.core', 'ionic.service.push',])
-.service("rssServiceData",function(){
-  this.staticFeedDataEvents;
-  this.setRssFeedEvents = function(data){
-    if(data){
-      window.localStorage["eventsRss"] = JSON.stringify(data);
-    }
-    this.staticFeedDataEvents = data;
-  }
-  this.getFeedDataEvents = function(){
-    if(window.localStorage["eventsRss"])
-       return JSON.parse(window.localStorage["eventsRss"]);
-    return this.staticFeedDataEvents;
-  }
-  this.staticFeedDataDates;
-  this.setRssFeedDates = function(data){
-    if(data){
-      window.localStorage["datesRss"] = JSON.stringify(data);
-    }
-    this.staticFeedDataDates = data;
-  }
-  this.getFeedDataDates = function(){
-    if(window.localStorage["datesRss"])
-       return JSON.parse(window.localStorage["datesRss"]);
-    return this.staticFeedDataDates;
-  }
-  this.staticFeedDataDiscourses;
-  this.setRssFeedDiscourses = function(data){
-    if(data){
-      window.localStorage["discourceRss"] = JSON.stringify(data);
-    }
-    this.staticFeedDataDiscourses = data;
-  }
-  this.getFeedDataDiscourses = function(){
-    if(window.localStorage["discourceRss"])
-       return JSON.parse(window.localStorage["discourceRss"]);
-    return this.staticFeedDataDiscourses;
-  }
-  this.staticFeedDataVideos;
-  this.setRssFeedVideos = function(data){
-    if(data){
-      window.localStorage["videosRss"] = JSON.stringify(data);
-    }
-    this.staticFeedDataVideos = data;
-  }
-  this.getFeedDataVideos = function(){
-    if(window.localStorage["videosRss"])
-       return JSON.parse(window.localStorage["videosRss"]);
-    return this.staticFeedDataVideos;
-  }
-  this.staticSlokas;
-  this.setStaticSlokas = function(data){
-    this.staticSlokas = data;
-  }
-  this.getStaticSlokas = function(){
-    return this.staticSlokas;
-  }
-})
-.factory('rssService', function($http,$q) {
-        var entries;
-        return {
-
-            getEntries: function(url,reload) {
-                var deferred = $q.defer();
-                if(entries && !reload) {
-                    deferred.resolve(entries);
-                } else {
-					
-
-                    $http.get("https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20xml%20where%20url%20%3D%20'"+ url +"'&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys")
-                    .then(function(results) {
-                    entries = results.data.query.results;
-                    deferred.resolve(entries);
-                                
-
-                            },function error(d){
-                    console.log(d);
-                  });
-
-                }
-                return deferred.promise;
-            }
-
-        };
-    })
-      .factory("staticDataService",function($http,$q){
-        var result;
-        return{
-          getStaticSlokas: function(){
-            var d = $q.defer();
-          $http.get('lib/slokas.json').then(function(response){
-             
-            result = response.data;
-            d.resolve(result);
-          });
-          return d.promise;;
-          }
-        };
-      })
-.controller('AppCtrl', function($scope, $ionicModal, $timeout,$ionicPlatform,$rootScope,$ionicPush,rssService,rssServiceData) {
+angular.module('acharyaApp.controllers', ['ngCordova','ionic.service.core', 'ionic.service.push'])
+  .controller('AppCtrl', function($scope, $ionicModal, $timeout,$ionicPlatform,$rootScope,$ionicPush,rssService) {
 
   
   // With the new view caching in Ionic, Controllers are only called
@@ -159,29 +61,24 @@ angular.module('starter.controllers', ['ngCordova','ionic.service.core', 'ionic.
     window.open(url,"_blank","location=yes");
     }
 })
-.controller("eventController", function($scope,$rootScope,rssService,rssServiceData){
 
-  $scope.$on('$ionicView.enter', function(ev) {
-    if(ev.targetScope !== $scope)
-        return;
-    rssService.getEntries('https://www.jetuk.org/ach/jetuk-updates.xml',true).then(function(entries) {
-                rssServiceData.setRssFeedEvents(entries.rss.channel)
-                $scope.eventList = rssServiceData.getFeedDataEvents().item;
-            });
-});
-  $scope.doRefresh = function(){
-    rssService.getEntries('https://www.jetuk.org/ach/jetuk-updates.xml',true).then(function(entries) {
-                rssServiceData.setRssFeedEvents(entries.rss.channel)
-                $scope.eventList = rssServiceData.getFeedDataEvents().item;
-                $scope.$broadcast('scroll.refreshComplete');
-            });
+.controller("eventController", function($scope,$rootScope,rssService){
+  var init = function(){
+    $scope.loadData();
   }
-  $scope.$watch('rssServiceData.getFeedDataEvents()',function(nval,oldVal){
-    if(rssServiceData.getFeedDataEvents()){
-      $scope.eventList = rssServiceData.getFeedDataEvents().item;
-    }
-  });
+  
+  $scope.loadData = function(reload){
+    rssService.getEvents(reload).then(function(events){
+      $scope.eventList = events;
+      $scope.$broadcast('scroll.refreshComplete');
+    });
+  }
+
+  init();
+
 })
+
+
 .controller('priestController',function($scope){
   $scope.openUrl = function(url){
     window.open(url,"_blank","location=yes");
@@ -227,25 +124,23 @@ angular.module('starter.controllers', ['ngCordova','ionic.service.core', 'ionic.
 
 
 })
-.controller("ekadasiController",function($scope,$rootScope,rssService,rssServiceData){
-  rssService.getEntries('https://www.jetuk.org/ach/jetuk-ekadasidates.xml',true).then(function(entries) {
-                rssServiceData.setRssFeedDates(entries.rss.channel)
-                $scope.eventList = rssServiceData.getFeedDataDates().item;
-            });
-  $scope.$on('$ionicView.enter', function(ev) {
-    if(ev.targetScope !== $scope)
-        return;
-    rssService.getEntries('https://www.jetuk.org/ach/jetuk-ekadasidates.xml',true).then(function(entries) {
-                rssServiceData.setRssFeedDates(entries.rss.channel)
-                $scope.eventList = rssServiceData.getFeedDataDates().item;
-            });
-});
-           $scope.$watch('rssServiceData.getFeedDataDates()',function(nval,oldVal){
-    if(rssServiceData.getFeedDataDates()){
-      $scope.eventList = rssServiceData.getFeedDataDates().item;
-    }
-  });
+
+.controller("ekadasiController",function($scope,$rootScope,rssService){
+  var init = function(){
+    $scope.loadData();
+  }
+  
+  $scope.loadData = function(reload){
+    rssService.getDates(reload).then(function(events){
+      $scope.eventList = events;
+      $scope.$broadcast('scroll.refreshComplete');
+    });
+  }
+
+  init();
+
 })
+
 .controller("videoController",function($scope,$rootScope,rssService,rssServiceData){
   rssService.getEntries('https://www.jetuk.org/ach/jetuk-videos.xml',true).then(function(entries) {
                 rssServiceData.setRssFeedVideos(entries.rss.channel)
@@ -279,61 +174,23 @@ angular.module('starter.controllers', ['ngCordova','ionic.service.core', 'ionic.
     }
   });
 })
-.controller("discoursesController",function($scope,$sce,rssService,rssServiceData){
-  
-   function trustSrc(src) {
-    return $sce.trustAsResourceUrl(src).toString();
+.controller("discoursesController",function($scope,$sce,rssService){
+
+  var init = function(){
+    $scope.loadData();
   }
   
-  rssService.getEntries('https://www.jetuk.org/ach/jetuk-discourses.xml',true).then(function(entries) {
-                rssServiceData.setRssFeedDiscourses(entries.rss.channel)
-                var discourses = rssServiceData.getFeedDataDiscourses().items;
-                for (var index = 0; index < discourses.item.length; index++) {
-                  var element = discourses.item[index];
-                  //var link = element.link.replace('watch?v=','embed/') + "?rel=0";
-                  //discourses[index].link = link;//"https://www.youtube.com/embed/W_gM4HbEkuI?rel=0";
-                }
-                $scope.discourses = discourses.item;
-                
-            });
-             
-  $scope.$on('$ionicView.enter', function(ev) {
-    if(ev.targetScope !== $scope)
-        return;
-    rssService.getEntries('https://www.jetuk.org/ach/jetuk-discourses.xml',true).then(function(entries) {
-                rssServiceData.setRssFeedDiscourses(entries.rss.channel)
-                var discourses = rssServiceData.getFeedDataDiscourses().item;
-                for (var index = 0; index < discourses.length; index++) {
-                  var element = discourses[index];
-                  var link = element.link.replace('watch?v=','embed/') + "?rel=0";
-                  discourses[index].link = link;//"https://www.youtube.com/embed/W_gM4HbEkuI?rel=0";
-                }
-                $scope.discourses = discourses;
-            });
-  });
-          $scope.$on('$ionicView.leave', function(ev) {
-          });
-          $scope.$on('$ionicNavView.enter',function(ev){
-               if(ev.targetScope !== $scope)
-        return;
-    rssService.getEntries('https://www.jetuk.org/ach/jetuk-discourses.xml',true).then(function(entries) {
-                rssServiceData.setRssFeedDiscourses(entries.rss.channel)
-                var discourses = rssServiceData.getFeedDataDiscourses().items;
-                for (var index = 0; index < discourses.item.length; index++) {
-                  var element = discourses.item[index];
-                  var link = element.link.replace('watch?v=','embed/') + "?rel=0";
-                  discourses[index].link = link;//"https://www.youtube.com/embed/W_gM4HbEkuI?rel=0";
-                }
-                $scope.discourses = discourses.item;
-            });
-          });
-  $scope.$watch('rssServiceData.getFeedDataDiscourses()',function(nval,oldVal){
-    if(rssServiceData.getFeedDataDiscourses()){
-      $scope.discourses = rssServiceData.getFeedDataDiscourses().items.item;
-      //$scope.testLink = $sce.trustAsResourceUrl($scope.discourses[0].link).toString();
-    }
-  });
+  $scope.loadData = function(reload){
+    rssService.getDiscourses(reload).then(function(discourses){
+      $scope.discourses = discourses;
+      $scope.$broadcast('scroll.refreshComplete');
+    });
+  }
+
+  init();
+
 })
+
 .controller("discourseController",function($scope,$sce,$stateParams,rssService,rssServiceData){
   $scope.title = $stateParams.key; 
   var items = rssServiceData.getFeedDataDiscourses().items.item;

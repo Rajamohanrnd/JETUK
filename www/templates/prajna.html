@@ -1,21 +1,15 @@
 <ion-view view-title="About Us">
     <ion-nav-title view-title="" center>
-        <div id="hometitle">ACHARYA<img alt="logo" class="guru" height="40" src="img\AcharyaLogo.png"></div>
+        <div id="hometitle">ACHARYA<img alt="logo" class="guru" height="40" src="img/AcharyaLogo.png"></div>
     </ion-nav-title>
 
-    <div class="bar bar-subheader bar-assertive">
-        <ul class="sub_nav">
-            <li class="sub_nav"><a ui-sref="app.home" class="active">Home</a></li>
-            <li class="sub_nav"><a ui-sref="app.event">Events & Alerts</a></li>
-            <li class="sub_nav"><a href="#" ng-click="openUrl('https://jetuk.org/donations/')">Donate</a></li>
-            <li class="sub_nav"><a href="#" ng-click="openUrl('https://jetuk.org/live/')">Live</a></li>
-        </ul>
-    </div>
+    <app-menu></app-menu>
+
     <ion-content class="navpage aboutus">
         <ion-list>
             <a href="#" class="viewall navheading">Prajna</a>
         </ion-list>
-        <img src="img\prajna.jpg " width="100%" />
+        <img src="img/prajna.jpg " width="100%" />
         <p>Vedic knowledge and culture so preciously preserved for millions of years is being lost in this modern era. We have forgotten the significance and importance of our customs and traditions. </p>
         <p>What is the goal of the human life? What should one realize in this life? What should be one’s response in our daily chores? Due to the lack of answers to these questions there is confusion in the society, leading to unrest, lack of confidence
             and disrespect for the traditional way of living. </p>
@@ -25,7 +19,7 @@
         <div style="text-align: center"><a ui-sref="app.prajnastudent"><button class="jetuk-button button2">Register as Student</button></a></div>
         <div style="text-align: center"><a ui-sref="app.prajnateacher"><button class="jetuk-button button2">Register as Teacher</button></a></div>
         <br/>
-        <img src="img\Ramanuja-Sahasrabdi-View10.jpg " width="100%" />
+        <img src="img/Ramanuja-Sahasrabdi-View10.jpg " width="100%" />
     </ion-content>
 
 </ion-view>
