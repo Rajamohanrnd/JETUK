@@ -1,2 +1,4 @@
 [0505/230640.723:ERROR:exception_snapshot_win.cc(87)] thread ID 2980 not found in process
 [0505/230640.724:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
+[0925/110510:ERROR:tcp_listen_socket.cc(76)] Could not bind socket to 127.0.0.1:6004
+[0925/110510:ERROR:node_debugger.cc(86)] Cannot start debugger server
