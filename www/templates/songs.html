@@ -29,13 +29,15 @@
             </ion-audio-track>
         <ion-list class="eventList" ng-repeat="track in tracks">
                 <div class="slokasContainer">
+                        <a href="" ng-click="playTrack({{track.index}})" class="songLink">
                 <ion-item class="discourseCard">
-                        <a href="" ng-click="playTrack({{track.index}})">
+                        
                             <span><h4>{{track.title}}</h4></span>
-                        </a>
+                        
                         
                     <!-- </div> -->
                 </ion-item>
+            </a>
                 </div>
                 <!-- <a href="#" ng-click="sendEmail()">send Email</a> -->
            

@@ -641,3 +641,9 @@ vertical-align: baseline;
 .rnd-image-btns p{
     padding-left: 35%;
 }
+.songLink:active > .discourseCard {
+    background-color: rgba(240,116,7,0.8); 
+      background-image: -webkit-linear-gradient(left, rgba(240,116,7,0.4), rgba(248, 248, 251, 0.20));
+      background-image: -moz-linear-gradient(right, rgba(240,116,7,0.4), rgba(248, 248, 251,0.2));
+      background-image: linear-gradient(to right, rgba(240,116,7,0.4), rgba(248, 248, 251,0.2)); 
+}

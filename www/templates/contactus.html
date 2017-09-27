@@ -17,26 +17,29 @@
             <a href="#" class="viewall navheading">Contact Us</a>
         </ion-list>
         <p>Jai Srimannarayana, <br/> Thank you for visiting our app. We are here to answer any questions you may have about our services towards the community. Reach out to us and we will respond as soon as we can.</p>
-        <label class="item item-input item-stacked-label">
+        <form ng-submit="submitcontactusdata()">
+            <div class="list">
+                <label class="item item-input item-stacked-label">
 <span class="input-label">Name</span>
-<input type="text" placeholder="Enter Your Name">
+<input type="text" placeholder="Enter Your Name" ng-model="contactusData.Name">
 </label>
-        <label class="item item-input item-stacked-label">
+                <label class="item item-input item-stacked-label">
 <span class="input-label">Email</span>
-<input type="text" placeholder="Enter Your Email">
+<input type="text" placeholder="Enter Your Email" ng-model="contactusData.Email">
 </label>
-        <label class="item item-input item-stacked-label">
+                <label class="item item-input item-stacked-label">
    <span class="input-label">Contact</span>
-   <input type="text" placeholder="Enter Your Contact">
+   <input type="text" placeholder="Enter Your Contact" ng-model="contactusData.Contact">
    </label>
 
-        <label class="item item-input item-stacked-label">
-   <textarea rows="4" cols="50" placeholder="Your Message"></textarea>
+                <label class="item item-input item-stacked-label">
+   <textarea rows="4" cols="50" placeholder="Your Message" ng-model="contactusData.Message"></textarea>
    </label>
-        <label class="item item-input item-stacked-label">
-   <button block="" color="primary" ion-button="" class="disable-hover button button-ios button-default button-default-ios button-block button-block-ios button-ios-primary custombtn" ng-reflect-color="primary"><span class="button-inner">Submit</span><div class="button-effect"></div></button>
+                <label class="item item-input item-stacked-label">
+   <button type="submit" color="primary" class="disable-hover button button-ios button-default button-default-ios button-block button-block-ios button-ios-primary custombtn" ng-reflect-color="primary"><span class="button-inner">Submit</span><div class="button-effect"></div></button>
    </label>
-        </div>
+            </div>
+        </form>
         <p>You can use our user-friendly search feature on our website to search any Sri Vaishnava devotional topic. If you are not able to any info about that topic, please drop us a message below and we will enquire it for you and let you know to our best
             of our efforts.<br/><b>Website :</b><a href="www.jetuk.org"> www.jetuk.org</a> <br/><b>Email :</b> <a href="mailto:info@jetuk.org?subject=Enquiry">info@jetuk.org</a><br/> <b>Contact number :</b> +44 208 248 8753</p><br/>
         <img src="img\Ramanuja-Sahasrabdi-View10.jpg " width="100%" />
