@@ -271,13 +271,17 @@ angular.module('starter.controllers', ['ngCordova', 'ionic.service.core', 'ionic
         }, 1000);
     };
 })
-.controller("homeController", function($scope, $state, $window) {
+.controller("baseController",function($scope,$window){
     $scope.openUrl = function(url) {
         $window.open(url, "_blank", "location=yes", "toolbar=yes");
     }
 })
-.controller("eventController", function($scope, $rootScope, rssService, rssServiceData) {
-
+.controller("homeController", function($scope, $state, $controller) {
+    
+    $controller('baseController', { $scope: $scope });
+})
+.controller("eventController", function($scope, $rootScope,$controller, rssService, rssServiceData) {
+    $controller('baseController', { $scope: $scope });
     $scope.$on('$ionicView.enter', function(ev) {
         if (ev.targetScope !== $scope)
             return;
@@ -299,14 +303,12 @@ angular.module('starter.controllers', ['ngCordova', 'ionic.service.core', 'ionic
         }
     });
 })
-.controller('priestController', function($scope,$window) {
-    $scope.openUrl = function(url) {
-        $window.open(url, "_blank", "location=yes", "toolbar=yes");
-    }
+.controller('priestController', function($scope,$controller) {
+    $controller('baseController', { $scope: $scope });
 })
-.controller('slokasController', function($scope, $window) {
+.controller('slokasController', function($scope, $controller) {
+    $controller('baseController', { $scope: $scope });
     var vm = this;
-    $scope.sendEmail = sendEmail;
     var slokas = [{ title: "Haryastakam", key: "HARI" },
         { title: "Krishnastakam", key: "KRISHNA" }, { title: "Adityahrdhayam", key: "AADITYA" },
         { title: "Pancha:yudha Stho:tram", key: "PANCHA" },
@@ -315,38 +317,9 @@ angular.module('starter.controllers', ['ngCordova', 'ionic.service.core', 'ionic
         { title: "Sri Saranagati Slokam", key: "SARANAGATHI" }
     ];
     $scope.slokas = slokas;
-
-    function sendEmail() {
-        // if ($window.plugins && $window.plugins.emailComposer) { //check if plugin exists
-
-        //   $window.plugins.emailComposer.showEmailComposerWithCallback(function (result) {
-        //       //console.log("Email sent successfully");
-        //     },
-
-        //     'Acharya-Beta - Test Email',        // Subject
-        //     'How are you? Nice greetings from JETUK',        // Body
-        //     ['rajamohanrnd@gmail.com'],     // To (Email to send)
-        //     'jetuk.seva@gmail.com',        // CC
-        //     null,        // BCC
-        //     true,       // isHTML
-        //     null,        // Attachments
-        //     null);       // Attachment Data
-        // }
-    }
-
-    var email = {
-        to: 'rajamohanrnd@gmail.com',
-        cc: 'jetuk.seva@gmail.com',
-        //bcc: ['john@doe.com', 'jane@doe.com'],
-
-        subject: 'Acharya-Beta - Test Email',
-        body: 'How are you? Nice greetings from JETUK',
-        isHtml: true
-    };
-
-
 })
-.controller("ekadasiController", function($scope, $rootScope, rssService, rssServiceData) {
+.controller("ekadasiController", function($scope, $rootScope,$controller, rssService, rssServiceData) {
+    $controller('baseController', { $scope: $scope });
     rssService.getEntries('https://www.jetuk.org/ach/jetuk-ekadasidates.xml', true).then(function(entries) {
         rssServiceData.setRssFeedDates(entries.rss.channel)
         $scope.eventList = rssServiceData.getFeedDataDates().item;
@@ -365,7 +338,8 @@ angular.module('starter.controllers', ['ngCordova', 'ionic.service.core', 'ionic
         }
     });
 })
-.controller("videoController", function($scope, $rootScope, rssService, rssServiceData) {
+.controller("videoController", function($scope, $rootScope,$controller, rssService, rssServiceData) {
+    $controller('baseController', { $scope: $scope });
     rssService.getEntries('https://www.jetuk.org/ach/jetuk-videos.xml', true).then(function(entries) {
         rssServiceData.setRssFeedVideos(entries.rss.channel)
         var videos = rssServiceData.getFeedDataVideos().item;
@@ -398,8 +372,8 @@ angular.module('starter.controllers', ['ngCordova', 'ionic.service.core', 'ionic
         }
     });
 })
-.controller("discoursesController", function($scope, $sce, rssService, rssServiceData) {
-
+.controller("discoursesController", function($scope, $sce, $controller, rssService, rssServiceData) {
+    $controller('baseController', { $scope: $scope });
     function trustSrc(src) {
         return $sce.trustAsResourceUrl(src).toString();
     }
@@ -461,7 +435,8 @@ angular.module('starter.controllers', ['ngCordova', 'ionic.service.core', 'ionic
         });
     }
 })
-.controller("discourseController", function($scope, $sce, $stateParams, rssService, rssServiceData) {
+.controller("discourseController", function($scope, $sce, $stateParams, $controller, rssService, rssServiceData) {
+    $controller('baseController', { $scope: $scope });
     $scope.title = $stateParams.key;
     var items = rssServiceData.getFeedDataDiscourses().items.item;
     $scope.selectedDiscourse = items.filter(function(data) {
@@ -492,15 +467,17 @@ angular.module('starter.controllers', ['ngCordova', 'ionic.service.core', 'ionic
     }
 
 })
-.controller('sbSlokasController', function($scope, staticDataService) {
+.controller('sbSlokasController', function($scope, $controller, staticDataService) {
+    $controller('baseController', { $scope: $scope });
     var vm = this;
     staticDataService.getsbStaticSlokas().then(function(data) {
         var s = data;
         $scope.slokas = data;
     });
 })
-.controller('sbIndexController', function($scope, $state, $stateParams, staticDataService) {
+.controller('sbIndexController', function($scope, $state, $stateParams, $controller, staticDataService) {
     var vm = this;
+    $controller('baseController', { $scope: $scope });
     $scope.onlanguageChange = onlanguageChange;
     staticDataService.getsbStaticSlokas().then(function(data) {
         var s = data;
@@ -552,8 +529,9 @@ angular.module('starter.controllers', ['ngCordova', 'ionic.service.core', 'ionic
         refreshText(lang);
     }
 })
-.controller('slokaController', function($scope, $state, $stateParams, staticDataService) {
+.controller('slokaController', function($scope, $state, $stateParams, $controller, staticDataService) {
     var vm = this;
+    $controller('baseController', { $scope: $scope });
     $scope.onlanguageChange = onlanguageChange;
     staticDataService.getStaticSlokas().then(function(data) {
         var s = data;
@@ -608,172 +586,167 @@ angular.module('starter.controllers', ['ngCordova', 'ionic.service.core', 'ionic
 
     //$scope.$watch(function(){return $scope.lang},refreshText);
 })
-.controller('songsController', function($scope, MediaManager) {
-
+.controller('songsController', function($scope, $controller, MediaManager) {
+    $controller('baseController', { $scope: $scope });
     $scope.tracks = [{
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2F09-adigadigo1.mp3?alt=media&token=f583d2e2-2537-4dff-aa2e-f83096cc478f', // audio file stored in device's app folder
             artist: 'Agastyar',
             title: 'Adigadigo',
             index: 0
         },
-        {
-            url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2F1%20Hari%20Hara.mp3?alt=media&token=01ec62e4-2450-4fad-b6c7-118154010eaf', // audio file stored in device's app folder
-            artist: 'Prahaladha',
-            title: 'Hari Hara',
-            index: 1
-        },
+        
         {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2F2%20Kaavave.mp3?alt=media&token=a3371728-22ed-4ed1-9661-baac5ca9b250', // audio file stored in device's app folder
             artist: 'Agastyar',
             title: 'Kaavave',
-            index: 2
+            index: 1
         },
         {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2FAcharyaSevaYatraPavanamPavitram.mp3?alt=media&token=b7153652-57c1-43dc-a716-db7d1d008228', // audio file stored in device's app folder
             artist: 'Agastyar',
             title: 'Acharya Seva Yatra Pavanam Pavitram',
-            index: 3
+            index: 2
         },
         {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2FAstangaVimana.mp3?alt=media&token=98a0e966-64ee-4da9-8398-4925f1cb8a36', // audio file stored in device's app folder
             artist: 'Agastyar',
             title: 'Astanga Vimana',
-            index: 4
+            index: 3
         },
         {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2FChudarandiJanulara.mp3?alt=media&token=fec62a69-91f3-4888-afc9-cfb01b303c96', // audio file stored in device's app folder
             artist: 'Agastyar',
             title: 'Chudarandi Janulara',
-            index: 5
+            index: 4
         },
         {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2FDhanyulamayyaNeeDarsanaBhagyam.mp3?alt=media&token=5d6f1bc4-0608-4105-9d03-d08059038c72', // audio file stored in device's app folder
             artist: 'Agastyar',
             title: 'Dhanyulamayya Nee Darsana Bhagyam',
-            index: 6
+            index: 5
         },
         {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2FGovindaAniPalukaveManasa.mp3?alt=media&token=4193ecc0-c5e4-4b8a-a4fc-e280860edf37', // audio file stored in device's app folder
             artist: 'Agastyar',
             title: 'Govinda Ani Palukave Manasa',
-            index: 7
+            index: 6
         },
         {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2FJagatguruvukiJayamJayam.mp3?alt=media&token=fa4557b9-3a9a-4a11-8009-c4c1fd430461', // audio file stored in device's app folder
             artist: 'Agastyar',
             title: 'Jagatguruvuki Jayam Jayam',
-            index: 8
+            index: 7
         },
         {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2FJayaJayaYatindra%20JayaRamanuja.mp3?alt=media&token=70ada774-c9e0-4bbf-b1ad-e37b7311446f', // audio file stored in device's app folder
             artist: 'Agastyar',
             title: 'Jaya Jaya Yatindra Jaya Ramanuja',
-            index: 9
+            index: 8
         },
         {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2FJET%20DS%20MS%2001-Sri%20Vistnotthamundadugo.mp3?alt=media&token=c0e0b3e4-4fea-45b9-958a-2459bb8bd41e', // audio file stored in device's app folder
             artist: 'Agastyar',
             title: 'Vistnotthamundadugo',
-            index: 10
+            index: 9
         },
         {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2FJET%20DS%20MS%2002-Giyyaru%20Giyyaru%20Giyyaru.mp3?alt=media&token=1db21c62-9ae3-4244-a91f-3fd80688b0ab', // audio file stored in device's app folder
             artist: 'Agastyar',
             title: 'Giyyaru Giyyaru Giyyaru',
-            index: 11
+            index: 10
         },
         {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2FJET%20DS%20MS%2003-Gopala%20Krishnudu.mp3?alt=media&token=2e9687ea-c628-45e2-b7de-105f767a4b97', // audio file stored in device's app folder
             artist: 'Agastyar',
             title: 'Gopala Krishnudu',
-            index: 12
+            index: 11
         },
         {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2FJET%20DS%20MS%2004-Guruvu%20Mata.mp3?alt=media&token=5b63bd05-d320-4f35-970c-4a322c83fed4', // audio file stored in device's app folder
             artist: 'Agastyar',
             title: 'Guruvu Mata',
-            index: 13
+            index: 12
         },
         {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2FJET%20DS%20MS%2005-Aanati%20Ramudu.mp3?alt=media&token=fd370179-22b9-4ebd-9fce-9f75f4e3b2e2', // audio file stored in device's app folder
             artist: 'Agastyar',
             title: 'Aanati Ramudu',
-            index: 14
+            index: 13
         },
         {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2FJET%20DS%20MS%2006-Yevarivayya%20Neevu.mp3?alt=media&token=ba5a1f6c-8bc8-4e47-9aac-3b315d68830e', // audio file stored in device's app folder
             artist: 'Agastyar',
             title: 'Yevarivayya Neevu',
-            index: 15
+            index: 14
         },
         {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2FJET%20DS%20MS%2007-Rama%20Rama%20Rama.mp3?alt=media&token=77fd7228-b57f-4e44-8775-f3466e76f69e', // audio file stored in device's app folder
             artist: 'Agastyar',
             title: 'Rama Rama Rama',
-            index: 16
+            index: 15
         }, {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2FJET%20DS%20MS%2008-Sri%20vishanava%20Sampradaya.mp3?alt=media&token=1dc834f2-4dff-4557-9112-a1e05af2d6c9', // audio file stored in device's app folder
             artist: 'Agastyar',
             title: 'Sri vishanava Sampradaya',
-            index: 17
+            index: 16
         },
         {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2FJyotiniVeligiddandiRandi.mp3?alt=media&token=6296c948-2f4a-4487-903f-3e0d022aa3ac', // audio file stored in device's app folder
             artist: 'Agastyar',
             title: 'Jyotini Veligiddandi Randi',
-            index: 18
+            index: 17
         },
         {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2FKshudrapedaParrihara-Hanuman.mp3?alt=media&token=efb5f272-5502-4b7f-90fa-efb3ff1590e7', // audio file stored in device's app folder
             artist: 'Agastyar',
             title: 'KshudrapedaParrihara-Hanuman',
-            index: 19
+            index: 18
         }, {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2FManavaJanmakuParamardamGeetaJyoti.mp3?alt=media&token=cf1c258c-140e-4648-9f5e-4ef1c6d2ce35', // audio file stored in device's app folder
             artist: 'Agastyar',
             title: 'Manava Janmaku Paramardam GeetaJyoti',
-            index: 20
+            index: 19
         },
         {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2FRamachandraSwami.mp3?alt=media&token=aa7cb99d-8e27-4882-ac26-82ff981b95e9', // audio file stored in device's app folder
             artist: 'Agastyar',
             title: 'Ramachandra Swami',
-            index: 21
+            index: 20
         },
         {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2FRamaRamaYanuma.mp3?alt=media&token=35589659-a394-4d19-b10b-c68d2d33afbe', // audio file stored in device's app folder
             artist: 'Agastyar',
             title: 'Rama Rama Yanuma',
-            index: 22
+            index: 21
         }, {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2FRanga%20Ranga%20Vaibhavame.mp3?alt=media&token=38cda55d-0dcc-47d5-a47a-b79e63f9f749', // audio file stored in device's app folder
             artist: 'Agastyar',
             title: 'Ranga Ranga Vaibhavame',
-            index: 23
+            index: 22
         },
         {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2FSrimannarayana.mp3?alt=media&token=3d42a717-8b99-4f97-b745-402fb34007a3', // audio file stored in device's app folder
             artist: 'Agastyar',
             title: 'Srimannarayana',
-            index: 24
+            index: 23
         },
         {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2FSriRamachandruduAlladigo.mp3?alt=media&token=f27b7de4-619a-45da-9be2-d11ce4f2782f', // audio file stored in device's app folder
             artist: 'Agastyar',
             title: 'Sri Ramachandrudu Alladigo',
-            index: 25
+            index: 24
         },
         {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2FTridandiTridandi.mp3?alt=media&token=2790e200-3237-46d5-a47f-baf5441af573', // audio file stored in device's app folder
             artist: 'Agastyar',
             title: 'Tridandi Tridandi',
-            index: 26
+            index: 25
         },
         {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2FVishwasantikaiVilasille.mp3?alt=media&token=552d5707-d146-422e-9fd5-ac8818ec3e90', // audio file stored in device's app folder
             artist: 'Agastyar',
             title: 'Vishwasantikai Vilasille',
-            index: 27
+            index: 26
         }
 
     ];
@@ -789,14 +762,10 @@ angular.module('starter.controllers', ['ngCordova', 'ionic.service.core', 'ionic
         $scope.togglePlayback = !$scope.togglePlayback; // start playback when track changes    
     };
 })
-.controller('playlistController', function($scope, $stateParams, MediaManager) {
+.controller('playlistController', function($scope, $stateParams, $controller, MediaManager) {
+    $controller('baseController', { $scope: $scope });
     $scope.dynamicTrack = {}; // we use this scope variable to dynamically assign a track
-    $scope.tracks = [{
-            url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2F1%20Hari%20Hara.mp3?alt=media&token=01ec62e4-2450-4fad-b6c7-118154010eaf', // audio file stored in device's app folder
-            artist: 'Prahaladha',
-            title: 'Hari Hara',
-            index: 0
-        },
+    $scope.tracks = [
         {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2F2%20Kaavave.mp3?alt=media&token=a3371728-22ed-4ed1-9661-baac5ca9b250', // audio file stored in device's app folder
             artist: 'Agastyar',
