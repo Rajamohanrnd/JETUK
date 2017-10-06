@@ -168,7 +168,9 @@ li {
     font-family: 'PT Sans', sans-serif;
     font-size: 13px;
 }
-
+.eventList{
+    margin-top: 20px;
+}
 .heading_title {
     color: #E03B2B;
     font-size: 20px;
@@ -269,6 +271,19 @@ li {
     font-family: 'PT Sans', sans-serif;
     font-size: 13px;
     color: #58595b;
+    overflow-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    
+}
+.video-container span {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    color: #58595b;
+    overflow-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    
 }
 
 .eventname h2 {
@@ -492,7 +507,7 @@ input#submit {
     text-align: left;
     vertical-align: middle;
     
-    width: 100%;
+    width: 97%;
       background-color: rgba(181,181,250,0.3);
       border: 1px solid rgba(135,135,146,0.7);
       margin: .2em;

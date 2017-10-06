@@ -14,18 +14,34 @@
     </div>
     <ion-content class="navpage aboutus">
         <ion-list>
-            <a href="#" class="viewall navheading">Videos</a>
+            <a href="#" class="viewall navheading">Prajna Slokas</a>
         </ion-list>
-
-        <ion-list class="eventList" ng-repeat="event in videos">
-            <ion-item class="eventItem">
-                <div>
-                <iframe ng-src="{{event.link}}" frameborder="0 " width="100%" height="200px" allowfullscreen></iframe>
-                     
-                     
-                        <span class="item-text-wrap">{{event.title}}</span>
+        <ion-audio-track track="dynamicTrack" toggle-playback="togglePlayback" ng-if="dynamicTrack">
+                <div class="list list-inset">
+                    <span><h4>{{dynamicTrack.title}}</h4></span>
+                    <div class="jet-audio-panel">
+                        <ion-audio-controls style="width:40%">
+                              <a class="button button-icon icon" ion-audio-play></a>
+                              <ion-spinner icon="ios"></ion-spinner>
+                          </ion-audio-controls>
+                      <ion-audio-progress-bar style="width:50%" track="dynamicTrack" display-time></ion-audio-progress-bar>
                     </div>
-            </ion-item>
+                </div>
+            </ion-audio-track>
+        <ion-list class="eventList" ng-repeat="track in tracks">
+                <div class="slokasContainer">
+                        <a href="" ng-click="playTrack({{track.index}})" class="songLink">
+                <ion-item class="discourseCard">
+                        
+                            <span><h4>{{track.title}}</h4></span>
+                        
+                        
+                    <!-- </div> -->
+                </ion-item>
+            </a>
+                </div>
+                <!-- <a href="#" ng-click="sendEmail()">send Email</a> -->
+           
         </ion-list>
     </ion-content>
 </ion-view>

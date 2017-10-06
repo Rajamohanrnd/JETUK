@@ -4,27 +4,27 @@
         "title": "Ashwini",
 		"url": "https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2Fsbslokas%2F01-ashwini.mp3?alt=media&token=18ea614e-8081-4894-8d55-26d8df828402",
 		"sloka" : [ { "lang":"TE", 
-			"items": [ { "text" : "విశ్వంవిష్ణుర్వష్ట్కారోభూతభవ్యభవ్త్ప్రభ ుః|" , "index" : "1" },
-            { "text" : "భూతకృత్భూతభృద్భావోభూతభతభాభూతభకవ్నుః||" , "index" : "2" },
-            { "text" : "ప్ూతభతభాప్ర్మాతభాచమ క్తా నభంప్ర్మాగతుః|" , "index" : "2" },
-            { "text" : "అవ్యయుఃప్ుర్ుష్స్తాక్షీక్షేతరఙ్ఞో೭క్షర్ఏవ్చ||" , "index" : "2" },
-            { "text" : "యోగోయోగవిద్భంనేతభప్రధభనప్ుర్ుషేశ్వర్ుః|" , "index" : "2" },
-            { "text" : "నభర్స ంహవ్ప్ుశ్శ్రీమాన్క్ేశ్వ్ుఃప్ుర్ుషో తా ముః||" , "index" : "2" },
-            { "text" : "సర్వశ్శర్వశ్శశవ్స్తస ాణ ుఃభూతభద్ిరనిధిర్వ్యయుః|" , "index" : "2" },
-            { "text" : "సంభవోభకవ్నోభరతాప్రభవ్ుఃప్రభ రీశ్వర్ుః||" , "index" : "2" }]},
+			"items": [ { "text" : "విశ్వం విష్ణు ర్వషట్కారో భూత భవ్య భవత్‌ ప్రభుః |" , "index" : "1" },
+            { "text" : "భూతకృత్‌ భూతభృ ద్భావో భూతాత్మా భూతభావనః || 1" , "index" : "2" },
+            { "text" : "పూతాత్మా పరమాత్మా చ ముక్తానాం పరమాగతిః |" , "index" : "2" },
+            { "text" : "అవ్యయః పురుష స్సాక్షీ క్షేత్రఙ్ఞో೭క్షర ఏవ చ || 2" , "index" : "2" },
+            { "text" : "యోగో యోగవిదాం నేతా ప్రధాన పురుషేశ్వరః |" , "index" : "2" },
+            { "text" : "నారసింహవపు శ్శ్రీమాన్‌ కేశవః పురుషోత్తమః || 3" , "index" : "2" },
+            { "text" : "సర్వ శ్శర్వ శ్శివ స్థ్సాణుః భూతాది ర్నిధి రవ్యయః |" , "index" : "2" },
+            { "text" : "సంభవో భావనో భర్తా ప్రభవః ప్రభు రీశ్వరః || 4" , "index" : "2" }]},
             {"lang":"EN",
             "items": [{"text":"visvam vishnur vashatka:ro: bhu:tha bhavya bhavath prabhuhu |","index":"1"},
-                {"text":"bhu:thakrud bhu:thabhrud bha:vo: bhu:tha:thma bhu:tha bha:vanaha ||","index":"2"},
+                {"text":"bhu:thakrud bhu:thabhrud bha:vo: bhu:tha:thma bhu:tha bha:vanaha ||  1","index":"2"},
                 {"text":"pu:tha:thma parama:thma: cha muktha:na:m parama:gathihi |","index":"3"},
-                {"text":"avyayah purushas sa:kshi: kshe:thrajno: akshara e:va cha ||","index":"4"},
+                {"text":"avyayah purushas sa:kshi: kshe:thrajno: akshara e:va cha ||   2","index":"4"},
                 {"text":"yo:go: yo:gavida:m ne:tha: pradha:na purushe:svaraha |","index":"5"},
-                {"text":"na:rasimhavapussri:ma:n ke:savah purusho:ththmaha || ","index":"6"},
+                {"text":"na:rasimhavapussri:ma:n ke:savah purusho:ththmaha ||  3","index":"6"},
                 {"text":"sarvas sarvas sivas stha:nuhu bhu:tha:dir nidhiravyayaha |","index":"7"},
-                {"text":"sambhavo: bha:vano: bhartha: prabhavah prabhur i:svaraha || ","index":"8"}
+                {"text":"sambhavo: bha:vano: bhartha: prabhavah prabhur i:svaraha ||  4","index":"8"}
             ]
             },
             {"lang":"TN",
-                "items":[{"text":"விஶ்வம்விஷ்ணுர்–வஶட்கார ாபூதபவ்யபவத்ப் புஃ|","index":"1"},
+                "items":[{"text":"விஶ்வம் விஷ்ணுர்–வஶட்காரோ பூதபவ்ய பவத் ப்ரபுஃ |","index":"1"},
                     {"text":"பூதக்றுத்பூதப்றுத்–பாரவாபூதாத்மாபூதபாவனஃ|| ","index":"2"},
                     {"text":"பூதாத்மாப மாத்மாசமுக்தானாம்ப மாகதிஃ|","index":"3"},
                     {"text":"அவ்யயஃபுருஷஃஸாக்ஷீக்ரஶத் ஜ்ர ாஉக்ஷ ஏவச||","index":"4"},
@@ -40,18 +40,18 @@
     "title": "Bharani",
     "url": "https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2Fsbslokas%2F02-bharani.mp3?alt=media&token=b81cdea5-5764-49ee-9d01-1b5c5290918d",
     "sloka" : [ {"lang":"TE",
-        "items":[{"text":"సవయంభూశ్శంభ రతద్ితయుఃప్ుష్ారతక్షోమహాసవనుః|"},{"text":"అనభధినిధనోధభతభవిధభతభధభతణర్ుతా ముః||"},
-            {"text":"అప్రమేయోహృషీక్ేశ్ుఃప్ద్ానభభో೭మర్ప్రభ ుః|"},{"text":"విశ్వకరతామనుసా వషతాససవిష్ఠ ుఃససవిరోధుర వ్ుః||"},
-            {"text":"అగతాహయశ్తశశ్వతుఃకృషోులోహితభక్షుఃప్రతర్దనుః"},{"text":"ప్రభూతసాికకుద్భామప్వితరంమంగళంప్ర్మ్||"},
-            {"text":"ఈశ్తనుఃప్తర ణద్ుఃప్తర ణోజ్ేయష్ఠ ుఃశ్రాష్ఠ ుఃప్రజ్ాప్తుః|"},{"text":"హిర్ణయగరోాభూగరోామాధవోమధుసూద్నుః||","index":"1"}
+        "items":[{"text":"స్వయంభూ శ్శంభు రాదిత్యః పుష్క రాక్షో మహాస్వనః |"},{"text":"అనాధినిధనో ధాతా విధాతా ధాతు రుత్తమః || 5"},
+            {"text":"అప్రమేయో హృషీకేశః పద్మనాభో೭మరప్రభుః |"},{"text":"విశ్వకర్మా మనుస్త్వష్టా స్థవిష్ఠః స్థవిరో ధ్రువః || 6"},
+            {"text":"అగ్రాహ్య శ్శాశ్వతః కృష్ణో లోహితాక్షః ప్రతర్దనః |"},{"text":"ప్రభూత స్త్రికకుద్ధామ పవిత్రం మంగళం పరమ్‌ || 7"},
+            {"text":"ఈశానః ప్రాణదః ప్రాణో జ్యేష్ఠః శ్రేష్ఠః ప్రజాపతిః |"},{"text":"హిరణ్యగర్భో భూగర్భో మాధవో మధుసూదనః || 8","index":"1"}
         ]
 
     },{"lang":"EN",
         "items":[
-            {"text":"svayambhu:s sambhur a:dithyah pushkara:ksho: maha:svanaha |"},{"text":"ana:di nidhano: dha:tha: vidha:tha: dha:thur uththamaha ||"},
-            {"text":"aprame:yo: hrushi:ke:sah padmana:bho: amaraprabhuhu |"},{"text":"visvakarma: manus thvashta: sthavishtas sthaviro: dhruvaha ||"},
-            {"text":"agra:hyas sa:svathah krushno: Io:hitha:kshah prathardanaha |"},{"text":"prabhu:thas thrikakubdha:ma pavithram mangalam param ||"},
-            {"text":"I:sa:nah pra:nadah pra:no: jye:shtas sre:shtah praja:pathihi |"},{"text":"hiranyagarbho: bhu:garbho: ma:dhavo: madhusu:danaha ||","index":"1"}
+            {"text":"svayambhu:s sambhur a:dithyah pushkara:ksho: maha:svanaha |"},{"text":"ana:di nidhano: dha:tha: vidha:tha: dha:thur uththamaha ||  5"},
+            {"text":"aprame:yo: hrushi:ke:sah padmana:bho: amaraprabhuhu |"},{"text":"visvakarma: manus thvashta: sthavishtas sthaviro: dhruvaha ||  6"},
+            {"text":"agra:hyas sa:svathah krushno: Io:hitha:kshah prathardanaha |"},{"text":"prabhu:thas thrikakubdha:ma pavithram mangalam param ||  7"},
+            {"text":"I:sa:nah pra:nadah pra:no: jye:shtas sre:shtah praja:pathihi |"},{"text":"hiranyagarbho: bhu:garbho: ma:dhavo: madhusu:danaha ||  8","index":"1"}
         ]},{
             "lang":"TN",
             "items":[
@@ -67,22 +67,22 @@
     "title": "Krittika",
     "url": "https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2Fsbslokas%2F03-krithika.mp3?alt=media&token=70039111-130e-40bc-b050-a95e4c981d2d",
     "sloka" : [ {"lang":"TE",
-        "items":[{"text":"ఈశ్వరోవికామీధన్వవమేధభవీవికాముఃకాముః|"},{"text":"అనుతా మోద్ురతధర్షుఃకృతఙ్ోుఃకృతరతతావతన్||"},
-            {"text":"సురేశ్శ్శర్ణంశ్ర్ావిశ్వరేతభుఃప్రజ్ాభవ్ుః|"},{"text":"అహసాంవ్తారోవతయళుఃప్రతయయసార్వద్ర్శనుః||"},
-            {"text":"అజ్సారేశ్వర్స ాద్ాుఃస ద్ిాసారతవద్ిర్చుయతుః|"},{"text":"వ్ృషతకప ర్మేయాతభాసర్వయోగవినిసాృతుః||"},
-            {"text":"వ్సుర్వసుమనభసాతయుఃసమాతభాసమ్మాతసాముః|"},{"text":"అమోఘుఃప్ుండరీక్తక్షోవ్ృష్కరతావ్ృషతకృతుః||","index":"1"}
+        "items":[{"text":"ఈశ్వరో విక్రమీ ధన్వీ మేధావీ విక్రమః క్రమః |"},{"text":"అనుత్తమో దురాధర్షః కృతఙ్ఞః కృతి రాత్మవాన్‌ ||  9"},
+            {"text":"సురేశ శ్శరణం శర్మ విశ్వరేతాః ప్రజాభవః |"},{"text":"అహ స్సంవత్సరో వ్యాళః ప్రత్యయ స్సర్వదర్శనః ||  10"},
+            {"text":"అజ స్సరేశ్వర స్సిద్ధః సిద్ధి స్సర్వాది రచ్యుతః |"},{"text":"వృషాకపి రమేయాత్మా సర్వయోగ వినిస్సృతః ||  11"},
+            {"text":"వసు ర్వసుమనా స్సత్యః సమాత్మా సమ్మిత స్సమః |"},{"text":"అమోఘః పుండరీకాక్షో వృషకర్మా వృషాకృతిః ||  12","index":"1"}
         ]
 
     },{"lang":"EN",
         "items":[
             {"text":"I:svaro: vikrami: dhanvi: me:dha: vi: vikramah kramaha |"},
-            {"text":"anuththamo: dura:dharshaha kruthajnah kruthir a:thmava:n ||"},
+            {"text":"anuththamo: dura:dharshaha kruthajnah kruthir a:thmava:n ||  9"},
             {"text":"sure:sas saranam sarma visvare:tha:h praja: bhavaha |"},
-            {"text":"ahas samvathsaro: vya:laha prathyayas sarva darsanaha ||"},
+            {"text":"ahas samvathsaro: vya:laha prathyayas sarva darsanaha ||  10"},
             {"text":"ajas sarve: svaras siddhas siddhis sarva:dir achyuthaha |"},
-            {"text":"vrusha:kapir ame:ya:thma: sarvayo:ga vinissruthaha ||"},
+            {"text":"vrusha:kapir ame:ya:thma: sarvayo:ga vinissruthaha ||  11"},
             {"text":"vasur vasumana:s sathyas sama:thma: sammithas samaha |"},
-            {"text":"amo:ghah pundari:ka:ksho: vrushakarma: vrusha:kruthihi ||","index":"1"}
+            {"text":"amo:ghah pundari:ka:ksho: vrushakarma: vrusha:kruthihi ||  12","index":"1"}
         ]},{
             "lang":"TN",
             "items":[
@@ -98,22 +98,22 @@
     "title": "Rohini",
     "url": "https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2Fsbslokas%2F04-rohini.mp3?alt=media&token=7488589b-3bd3-406c-aae4-6a8f65f1026d",
     "sloka" : [ {"lang":"TE",
-        "items":[{"text":"రుద్రో బహుశిరా బభ్రుః విశ్వయోని శ్శుచిశ్రవాః |"},{"text":" అమృత శ్శాశ్వతః స్థాణుః వరారోహో మహాతపాః ||"},
-            {"text":" సర్వగ సర్వవి ద్భానుః విష్వక్సేనో జనార్ధనః |"},{"text":" వేదో వేదవి దవ్యంగో వేదాంగో వేదవిత్‌ కవిః ||"},
-            {"text":"లోకాధ్యక్ష స్సురాధ్యక్షో ధర్మాధ్యక్షః కృతాకృతః |"},{"text":" చతురాత్మా చతుర్వ్యూహః చతుర్దంష్ట్ర శ్చతుర్భుజః ||"},
-            {"text":" భ్రాజిష్ణు ర్భోజనం భోక్తా సహిష్ణు ర్జగదాదిజః |"},{"text":" అనఘో విజయో జేతా విశ్వయోనిః పునర్వసుః ||","index":"1"}
+        "items":[{"text":"రుద్రో బహుశిరా బభ్రుః విశ్వయోని శ్శుచిశ్రవాః |"},{"text":" అమృత శ్శాశ్వతః స్థాణుః వరారోహో మహాతపాః ||  13"},
+            {"text":" సర్వగ సర్వవి ద్భానుః విష్వక్సేనో జనార్ధనః |"},{"text":" వేదో వేదవి దవ్యంగో వేదాంగో వేదవిత్‌ కవిః ||  14"},
+            {"text":"లోకాధ్యక్ష స్సురాధ్యక్షో ధర్మాధ్యక్షః కృతాకృతః |"},{"text":" చతురాత్మా చతుర్వ్యూహః చతుర్దంష్ట్ర శ్చతుర్భుజః ||  15"},
+            {"text":" భ్రాజిష్ణు ర్భోజనం భోక్తా సహిష్ణు ర్జగదాదిజః |"},{"text":" అనఘో విజయో జేతా విశ్వయోనిః పునర్వసుః || 16","index":"1"}
         ]
 
     },{"lang":"EN",
         "items":[
             {"text":"rudro: bahusira: babhruhu visvayo:nis suchissrava:ha |"},
-            {"text":"amruthas sa:svathas stha:nuhu vara:ro:ho: maha:thapa:ha ||"},
+            {"text":"amruthas sa:svathas stha:nuhu vara:ro:ho: maha:thapa:ha ||  13"},
             {"text":"sarvagas sarvavid bha:nuhu vishvakse:no: jana:rdanaha |"},
-            {"text":"ve:do: ve:david avyango: ve:da:ngo: ve:davith kavihi ||"},
+            {"text":"ve:do: ve:david avyango: ve:da:ngo: ve:davith kavihi ||  14"},
             {"text":"lo:ka:dhyakshas sura:dhyaksho: dharma:dhyakshah krutha:kruthaha |"},
-            {"text":"chathura:thma: chathurvyu:has chathur damshtras chathurbhujaha ||"},
+            {"text":"chathura:thma: chathurvyu:has chathur damshtras chathurbhujaha ||  15"},
             {"text":"bhra:jishnur bho:janam bho:ktha: sahishnur jagada:dijaha |"},
-            {"text":"anagho: vijayo: je:tha: visvayo:nih punarvasuhu ||","index":"1"}
+            {"text":"anagho: vijayo: je:tha: visvayo:nih punarvasuhu ||  16","index":"1"}
         ]},{
             "lang":"TN",
             "items":[
@@ -133,22 +133,22 @@
     "title": "Mrigasira",
     "url": "https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2Fsbslokas%2F05-mrigashira.mp3?alt=media&token=0bc1d57c-6410-46db-9759-ad8bda9a7e14",
     "sloka" : [ {"lang":"TE",
-        "items":[{"text":"ఉపేంద్రో వామనః ప్రాంశుః అమోఘ శ్శుచి రూర్జితః |"},{"text":"అతీంద్ర స్సంగ్రహ స్సర్గో ధృతాత్మా నియమో యమః ||"},
-            {"text":"ేద్యో వైద్య స్సదాయోగీ వీరహా మాధవో మధుః |"},{"text":"అతీంద్రియో మహామాయో మహోత్సాహో మహాబలః ||"},
-            {"text":"మహాబుద్ధి ర్మహావీర్యో మహాశక్తి ర్మహాద్యుతిః |"},{"text":"అనిర్ద్యేశ్యవపు శ్శ్రీమాన్‌ అమేయాత్మా మహాద్రిధృత్‌ ||"},
-            {"text":" మహేష్వాసో మహీభర్తా శ్రీనివాస స్సతాంగతిః |"},{"text":"అనిరుద్ధ స్సురానందో గోవిందో గోవిదాం పతిః ||","index":"1"}
+        "items":[{"text":"ఉపేంద్రో వామనః ప్రాంశుః అమోఘ శ్శుచి రూర్జితః |"},{"text":"అతీంద్ర స్సంగ్రహ స్సర్గో ధృతాత్మా నియమో యమః ||  17"},
+            {"text":"ేద్యో వైద్య స్సదాయోగీ వీరహా మాధవో మధుః |"},{"text":"అతీంద్రియో మహామాయో మహోత్సాహో మహాబలః ||  18"},
+            {"text":"మహాబుద్ధి ర్మహావీర్యో మహాశక్తి ర్మహాద్యుతిః |"},{"text":"అనిర్ద్యేశ్యవపు శ్శ్రీమాన్‌ అమేయాత్మా మహాద్రిధృత్‌ ||  19"},
+            {"text":" మహేష్వాసో మహీభర్తా శ్రీనివాస స్సతాంగతిః |"},{"text":"అనిరుద్ధ స్సురానందో గోవిందో గోవిదాం పతిః ||  20","index":"1"}
         ]
 
     },{"lang":"EN",
         "items":[
             {"text":"upe:ndro: va:manah pra:msuhu amo:ghas suchir u:rjithaha |"},
-            {"text":"athi:ndras sangrahas sargo: dhrutha:thma: niyamo: yamaha ||"},
+            {"text":"athi:ndras sangrahas sargo: dhrutha:thma: niyamo: yamaha ||  17"},
             {"text":"ve:dyo: vaidyas sada:yo:gi: vi:raha: ma:dhavo: madhuhu |"},
-            {"text":"athi:ndriyo: maha:ma:yo: maho:thsa:ho: maha:balaha ||"},
+            {"text":"athi:ndriyo: maha:ma:yo: maho:thsa:ho: maha:balaha ||  18"},
             {"text":"maha:buddhir maha:vi:ryo: maha:sakthir maha:dyuthihi |"},
-            {"text":"anirde:syavapus sri:ma:n ame:ya:thma: maha:dridhruth ||"},
+            {"text":"anirde:syavapus sri:ma:n ame:ya:thma: maha:dridhruth ||  19"},
             {"text":"mahe:shva:so: mahi:bhartha: sri:niva:sas satha:m gathihi |"},
-            {"text":"aniruddhas sura:nando: go:vindo: go:vida:m pathihi |","index":"1"}
+            {"text":"aniruddhas sura:nando: go:vindo: go:vida:m pathihi ||  20","index":"1"}
         ]},{
             "lang":"TN",
             "items":[
@@ -168,23 +168,22 @@
     "title": "Arudra",
     "url": "https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2Fsbslokas%2F06-Aadra.mp3?alt=media&token=2b1b9995-0068-4ad7-9e80-7a4f620be157",
     "sloka" : [ {"lang":"TE",
-        "items":[{"text":"మరీచి ర్దమనో హంసః సుపర్ణో భుజగోత్తమః |"},{"text":"హిరణ్యనాభ స్సుతపాః పద్మనాభః ప్రజాపతిః ||"},
-            {"text":"అమృత్యు స్సర్వదృక్‌ సింహః సంధాతా సంధిమాన్‌ స్ధిరః |"},
-            {"text":"అజో దుర్మర్షణ శ్శాస్తా విశ్రుతాత్మా సురారిహా ||"},{"text":"గురు ర్గురుతమో ధామ సత్య స్సత్య పరాక్రమః |"},
-            {"text":"నిమిషో೭నిమిష స్స్రగ్వీ వాచస్పతి రుదారధీః ||"},{"text":"అగ్రణీః గ్రామణీ శ్శ్రీమాన్‌ న్యాయో నేతా సమీరణః |"},
-            {"text":"సహస్రమూర్దా విశ్వాత్మా సహస్రాక్ష స్సహస్రపాత్‌ ||","index":"1"}
+        "items":[{"text":"మరీచి ర్దమనో హంసః సుపర్ణో భుజగోత్తమః |"},{"text":"హిరణ్యనాభ స్సుతపాః పద్మనాభః ప్రజాపతిః ||   21"},
+            {"text":"అమృత్యు స్సర్వదృక్‌ సింహః సంధాతా సంధిమాన్‌ స్ధిరః |"},{"text":"అజో దుర్మర్షణ శ్శాస్తా విశ్రుతాత్మా సురారిహా ||  22"},
+			{"text":"గురు ర్గురుతమో ధామ సత్య స్సత్య పరాక్రమః |"},{"text":"నిమిషో೭నిమిష స్స్రగ్వీ వాచస్పతి రుదారధీః ||  23"},
+			{"text":"అగ్రణీః గ్రామణీ శ్శ్రీమాన్‌ న్యాయో నేతా సమీరణః |"},{"text":"సహస్రమూర్దా విశ్వాత్మా సహస్రాక్ష స్సహస్రపాత్‌ ||  24","index":"1"}
         ]
 
     },{"lang":"EN",
         "items":[
             {"text":"mari:chir damano: hamsaha suparno: bhujago:ththamaha |"},
-            {"text":"hiranyana:bhas suthapa:h padmana:bhah praja:pathihi ||"},
+            {"text":"hiranyana:bhas suthapa:h padmana:bhah praja:pathihi ||  21"},
             {"text":"amruthyus sarvadruk simhaha sandha:tha: sandhima:n sthiraha |"},
-            {"text":"ajo: durmarshanas sa:stha: visrutha:thma: sura:riha: ||"},
+            {"text":"ajo: durmarshanas sa:stha: visrutha:thma: sura:riha: ||  22"},
             {"text":"gurur guruthamo: dha:ma sathyas sathya para:kramaha |"},
-            {"text":"nimisho: animishas sragvi: va:chaspathir uda:radhi:hi ||"},
+            {"text":"nimisho: animishas sragvi: va:chaspathir uda:radhi:hi ||  23"},
             {"text":"agrani:r gramani:s sri:ma:n nya:yo: ne:tha: sami:ranaha |"},
-            {"text":"sahasra mu:rdha: visva:thma: sahasra:kshas sahasra pa:th ||","index":"1"}
+            {"text":"sahasra mu:rdha: visva:thma: sahasra:kshas sahasra pa:th ||  24","index":"1"}
         ]},{
             "lang":"TN",
             "items":[
@@ -204,22 +203,22 @@
     "title": "Punarvasu",
     "url": "https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2Fsbslokas%2F07-Punarvasu.mp3?alt=media&token=c2979cbc-f036-404c-ba3d-4a0d8af3d4f9",
     "sloka" : [ {"lang":"TE",
-        "items":[{"text":"ఆవర్తనో నివృత్తాత్మా సంవృత స్సంప్రమర్దనః |"},{"text":"అహ స్సంవర్తకో వహ్నిః అనిలో ధరణీధరః ||"},
-            {"text":"సుప్రసాదః ప్రసన్నాత్మా విశ్వ సృడ్ విస్వభుగ్ విభుః |"},{"text":"సత్కర్తా సత్కృత స్సాధుః జహ్ను ర్నారాయణో నరః ||"},
-            {"text":"అసంఖ్యేయో೭ప్రమేయాత్మా విశిష్ట శ్శిష్టకృ చ్ఛుచిః |"},{"text":"సిద్ధార్ధః సిద్ధ సంకల్పః సిద్ధిద స్సిద్ధసాధనః ||"},
-            {"text":"వృషాహీ వృషభో విష్ణుః వృషపర్వా వృషోదరః |"},{"text":"వర్ధనో వర్ధమానశ్చ వివిక్త శ్శ్రుతిసాగరః ||","index":"1"}
+        "items":[{"text":"ఆవర్తనో నివృత్తాత్మా సంవృత స్సంప్రమర్దనః |"},{"text":"అహ స్సంవర్తకో వహ్నిః అనిలో ధరణీధరః ||   25"},
+            {"text":"సుప్రసాదః ప్రసన్నాత్మా విశ్వ సృడ్ విస్వభుగ్ విభుః |"},{"text":"సత్కర్తా సత్కృత స్సాధుః జహ్ను ర్నారాయణో నరః ||  26"},
+            {"text":"అసంఖ్యేయో೭ప్రమేయాత్మా విశిష్ట శ్శిష్టకృ చ్ఛుచిః |"},{"text":"సిద్ధార్ధః సిద్ధ సంకల్పః సిద్ధిద స్సిద్ధసాధనః ||  27"},
+            {"text":"వృషాహీ వృషభో విష్ణుః వృషపర్వా వృషోదరః |"},{"text":"వర్ధనో వర్ధమానశ్చ వివిక్త శ్శ్రుతిసాగరః ||   28","index":"1"}
         ]
 
     },{"lang":"EN",
         "items":[
             {"text":"a:varthano: nivruththa:thma: samvruthas sampra mardanaha |"},
-            {"text":"ahas samvarthako: vanhir anilo: dharani:dharaha ||"},
+            {"text":"ahas samvarthako: vanhir anilo: dharani:dharaha ||  25"},
             {"text":"suprasa:dah prasanna:thma: visvasruk visvabhug vibhuhu |"},
-            {"text":"sathkartha: sathkruthas sa:dhuhu janhur na:ra:yano: naraha ||"},
+            {"text":"sathkartha: sathkruthas sa:dhuhu janhur na:ra:yano: naraha ||  26"},
             {"text":"asankhye:yo: aprame:ya:thma: visishtas sishtakruch chuchihi |"},
-            {"text":"siddha:rthas siddha sankalpaha siddhidas siddhi sa:dhanaha ||"},
+            {"text":"siddha:rthas siddha sankalpaha siddhidas siddhi sa:dhanaha ||  27"},
             {"text":"vrusha:hi: vrishabho: vishnuhu vrusha parva: vrusho:daraha |"},
-            {"text":"vardhano: vardha ma:nascha vivikthas sruthi sa:garaha ||","index":"1"}
+            {"text":"vardhano: vardha ma:nascha vivikthas sruthi sa:garaha ||  28","index":"1"}
         ]},{
             "lang":"TN",
             "items":[
@@ -239,22 +238,22 @@
     "title": "Pushyam",
     "url": "https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2Fsbslokas%2F07-Punarvasu.mp3?alt=media&token=c2979cbc-f036-404c-ba3d-4a0d8af3d4f9",
     "sloka" : [ {"lang":"TE",
-        "items":[{"text":"సుభుజో దుర్ధరో వాగ్మీ మహేంద్రో వసుదో వసుః |"},{"text":"నైకరూపో బృహద్రూపః శిపివిష్టః ప్రకాశనః ||"},
-            {"text":"ఓజస్తేజో ద్యుతిధరః ప్రకాశాత్మా ప్రతాపనః |"},{"text":"ఋద్ధ స్స్పష్టాక్షరో మంత్రః చంద్రాశు ర్భాస్కరద్యుతిః ||"},
-            {"text":"అమృతాంశూద్భవో భానుః శశబిందు స్సురేశ్వరః |"},{"text":"ఔషధం జగత స్సేతుః సత్యధర్మ పరాక్రమః ||"},
-            {"text":"భూతభవ్య భవన్నాథః పవనః పావనో೭నలః |"},{"text":"కామహ కామకృత్‌ కాన్తః కామః కామప్రదః ప్రభుః ||","index":"1"}
+        "items":[{"text":"సుభుజో దుర్ధరో వాగ్మీ మహేంద్రో వసుదో వసుః |"},{"text":"నైకరూపో బృహద్రూపః శిపివిష్టః ప్రకాశనః ||   29"},
+            {"text":"ఓజస్తేజో ద్యుతిధరః ప్రకాశాత్మా ప్రతాపనః |"},{"text":"ఋద్ధ స్స్పష్టాక్షరో మంత్రః చంద్రాశు ర్భాస్కరద్యుతిః ||  30"},
+            {"text":"అమృతాంశూద్భవో భానుః శశబిందు స్సురేశ్వరః |"},{"text":"ఔషధం జగత స్సేతుః సత్యధర్మ పరాక్రమః ||  31"},
+            {"text":"భూతభవ్య భవన్నాథః పవనః పావనో೭నలః |"},{"text":"కామహ కామకృత్‌ కాన్తః కామః కామప్రదః ప్రభుః ||  32","index":"1"}
         ]
 
     },{"lang":"EN",
         "items":[
             {"text":"subhujo: durdharo: va:gmi: mahe:ndro: vasudo: vasuhu |"},
-            {"text":"naikaru:po: bruhad ru:paha sipivishtah praka:sanaha ||"},
+            {"text":"naikaru:po: bruhad ru:paha sipivishtah praka:sanaha ||  29"},
             {"text":"o:jas the:jo: dyuthi dharah praka:sa:thma pratha:panaha |"},
-            {"text":"ruddhas spashta:ksharo: manthraha chandra:msur bha:skara dyuthihi ||"},
+            {"text":"ruddhas spashta:ksharo: manthraha chandra:msur bha:skara dyuthihi ||  30"},
             {"text":"amrutha:m su:dhbhavo: bha:nuhu sasibindus sure:svaraha |"},
-            {"text":"aushadham jagathas se:thuhu sathya dharma para:kramaha ||"},
+            {"text":"aushadham jagathas se:thuhu sathya dharma para:kramaha ||  31"},
             {"text":"bhu:tha bhavya bhavan na:tthaha pavanah pa:vano: analaha |"},
-            {"text":"ka:maha: ka:makruth ka:nthaha ka:mah ka:mapradah prabhuhu ||","index":"1"}
+            {"text":"ka:maha: ka:makruth ka:nthaha ka:mah ka:mapradah prabhuhu ||  32","index":"1"}
         ]},{
             "lang":"TN",
             "items":[
@@ -274,22 +273,22 @@
     "title": "Ashlesha",
     "url": "https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2Fsbslokas%2F09-Ashlesha.mp3?alt=media&token=ddab8216-949f-4aec-ac65-264d8ab6b99a",
     "sloka" : [ {"lang":"TE",
-        "items":[{"text":"యుగాదికృ ద్యుగావర్తో నైకమాయో మహాశనః |"},{"text":"అదృశ్యో೭వ్యక్తరూపశ్చ సహస్రజిదనన్తజిత్‌ ||"},
-            {"text":"ఇష్టో విశిష్ట శ్శిష్టేష్టః శిఖండీ నహుషో వృషః |"},{"text":"క్రోధహా క్రోధకృత్‌ కర్తా విశ్వబాహు ర్మహీధరః ||"},
-            {"text":"అచ్యుతః ప్రథితః ప్రాణః ప్రాణదో వాసవానుజః |"},{"text":"అపాంనిధి రధిష్ఠానం అప్రమత్తః ప్రతిష్ఠితః ||"},
-            {"text":"స్కందః స్కందధరో ధుర్యో వరదో వాయువాహనః |"},{"text":"వాసుదేవో బృహద్భానుః ఆదిదేవః పురన్దరః ||","index":"1"}
+        "items":[{"text":"యుగాదికృ ద్యుగావర్తో నైకమాయో మహాశనః |"},{"text":"అదృశ్యో೭వ్యక్తరూపశ్చ సహస్రజిదనన్తజిత్‌ ||  33"},
+            {"text":"ఇష్టో విశిష్ట శ్శిష్టేష్టః శిఖండీ నహుషో వృషః |"},{"text":"క్రోధహా క్రోధకృత్‌ కర్తా విశ్వబాహు ర్మహీధరః ||   34"},
+            {"text":"అచ్యుతః ప్రథితః ప్రాణః ప్రాణదో వాసవానుజః |"},{"text":"అపాంనిధి రధిష్ఠానం అప్రమత్తః ప్రతిష్ఠితః ||   35"},
+            {"text":"స్కందః స్కందధరో ధుర్యో వరదో వాయువాహనః |"},{"text":"వాసుదేవో బృహద్భానుః ఆదిదేవః పురన్దరః ||  36","index":"1"}
         ]
 
     },{"lang":"EN",
         "items":[
             {"text":"yuga:dikrud yuga:vartho: naikama:yo: maha:sanaha |"},
-            {"text":"adrusyo: vyaktharu:pascha sahasrajid ananthajith ||"},
+            {"text":"adrusyo: vyaktharu:pascha sahasrajid ananthajith ||  33"},
             {"text":"ishto: avisishtas sishte:shtah sikhandi: nahusho: vrushaha |"},
-            {"text":"kro:dhaha: kro:dha kruth kartha: visvaba:hur mahi:dharaha ||"},
+            {"text":"kro:dhaha: kro:dha kruth kartha: visvaba:hur mahi:dharaha ||  34"},
             {"text":"achyuthah prathithah pra:naha pra:nado: va:sava:nujaha |"},
-            {"text":"apa:mnidhir adhishta:nam apramaththah prathishtithaha ||"},
+            {"text":"apa:mnidhir adhishta:nam apramaththah prathishtithaha ||  35"},
             {"text":"skandas skandadharo: dhuryo: varado: va:yu va:hanaha |"},
-            {"text":"va:sude:vo bruhad bha:nuhu a:dide:vah purandaraha ||","index":"1"}
+            {"text":"va:sude:vo bruhad bha:nuhu a:dide:vah purandaraha ||  36","index":"1"}
         ]},{
             "lang":"TN",
             "items":[
@@ -309,22 +308,22 @@
     "title": "Makha",
     "url": "https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2Fsbslokas%2F10-Makha.mp3?alt=media&token=583bce68-1b9f-4a3e-ba98-3166806f06f0",
     "sloka" : [ {"lang":"TE",
-        "items":[{"text":"అశోక స్తారణ స్తారః శూర శ్శౌరి ర్జనేశ్వరః |"},{"text":"అనుకూల శ్శతావర్తః పద్మీ పద్మ నిభేక్షణః ||"},
-            {"text":"పద్మనాభో೭రవిందాక్షః పద్మగర్భః శరీరభృత్‌ |"},{"text":"మహర్ధి ఋద్ధో వృద్ధాత్మా మహాక్షో గరుడధ్వజః ||"},
-            {"text":"అతుల శ్శరభో భీమః సమయజ్ఞో హవిర్హరిః |"},{"text":"సర్వ లక్షణ లక్షణ్యో లక్ష్మీవాన్‌ సమితింజయః ||"},
-            {"text":" విక్షరో రోహితో మార్గో హేతు ర్దామోదర స్సహః |"},{"text":"మహీధరో మహాభాగో వేగవా నమితాశనః ||","index":"1"}
+        "items":[{"text":"అశోక స్తారణ స్తారః శూర శ్శౌరి ర్జనేశ్వరః |"},{"text":"అనుకూల శ్శతావర్తః పద్మీ పద్మ నిభేక్షణః ||  37"},
+            {"text":"పద్మనాభో೭రవిందాక్షః పద్మగర్భః శరీరభృత్‌ |"},{"text":"మహర్ధి ఋద్ధో వృద్ధాత్మా మహాక్షో గరుడధ్వజః ||   38"},
+            {"text":"అతుల శ్శరభో భీమః సమయజ్ఞో హవిర్హరిః |"},{"text":"సర్వ లక్షణ లక్షణ్యో లక్ష్మీవాన్‌ సమితింజయః ||   39"},
+            {"text":" విక్షరో రోహితో మార్గో హేతు ర్దామోదర స్సహః |"},{"text":"మహీధరో మహాభాగో వేగవా నమితాశనః ||   40","index":"1"}
         ]
 
     },{"lang":"EN",
         "items":[
             {"text":"aso:kas tha:ranas tha:raha su:ras saurir jane:svaraha |"},
-            {"text":"anuku:las satha:varthah padmi: padma nibhe:kshanaha ||"},
+            {"text":"anuku:las satha:varthah padmi: padma nibhe:kshanaha ||  37"},
             {"text":"padma na:bho: aravinda:kshah padma garbhas sari:rabhruth |"},
-            {"text":"mahardhir ruddho: vruddha:thma maha:ksho: garuda dhvajaha ||"},
+            {"text":"mahardhir ruddho: vruddha:thma maha:ksho: garuda dhvajaha ||  38"},
             {"text":"athulas sarabho: bhi:maha samayajno: havir harihi |"},
-            {"text":"sarva lakshana lakshanyo: lakshmi:va:n samithinjayaha ||"},
+            {"text":"sarva lakshana lakshanyo: lakshmi:va:n samithinjayaha ||  39"},
             {"text":"viksharo: ro:hitho: ma:rgo: he:thur da:mo:daras sahaha |"},
-            {"text":"mahi:dharo: maha:bha:go: ve:gava:n amitha:sanaha ||","index":"1"}
+            {"text":"mahi:dharo: maha:bha:go: ve:gava:n amitha:sanaha ||  40","index":"1"}
         ]},{
             "lang":"TN",
             "items":[
@@ -344,22 +343,22 @@
     "title": "Pubba (Poorva Phalguni)",
     "url": "https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2Fsbslokas%2F11-PurvaPhalguni.mp3?alt=media&token=d382682d-2db2-4bd2-a846-9f765b174272",
     "sloka" : [ {"lang":"TE",
-        "items":[{"text":"ఉద్భవః క్షోభణో దేవః శ్రీగర్భః పరమేశ్వరః |"},{"text":"కరణం కారణం కర్తా వికర్తా గహనో గుహః ||"},
-            {"text":"వ్యవసాయో వ్యవస్థానః సంస్థానః స్థానదో ధ్రువః |"},{"text":"పరర్ధిః పరమస్పష్టః తుష్టః పుష్ట శ్శుభేక్షణః ||"},
-            {"text":"రామో విరామో విరజోమార్గో నేయో నయో నయః |"},{"text":"వీర శ్శక్తిమతాం శ్రేష్ఠో ధర్మో ధర్మవి దుత్తమః ||"},
-            {"text":"వైకుఠః పురుషః ప్రాణః ప్రాణదః ప్రణవః పృథుః |"},{"text":"హిరణ్యగర్భ శ్శత్రుఘ్నో వ్యాప్తో వాయు రధోక్షజః ||","index":"1"}
+        "items":[{"text":"ఉద్భవః క్షోభణో దేవః శ్రీగర్భః పరమేశ్వరః |"},{"text":"కరణం కారణం కర్తా వికర్తా గహనో గుహః ||   41"},
+            {"text":"వ్యవసాయో వ్యవస్థానః సంస్థానః స్థానదో ధ్రువః |"},{"text":"పరర్ధిః పరమస్పష్టః తుష్టః పుష్ట శ్శుభేక్షణః ||  42"},
+            {"text":"రామో విరామో విరజోమార్గో నేయో నయో నయః |"},{"text":"వీర శ్శక్తిమతాం శ్రేష్ఠో ధర్మో ధర్మవి దుత్తమః ||   43"},
+            {"text":"వైకుఠః పురుషః ప్రాణః ప్రాణదః ప్రణవః పృథుః |"},{"text":"హిరణ్యగర్భ శ్శత్రుఘ్నో వ్యాప్తో వాయు రధోక్షజః ||  44","index":"1"}
         ]
 
     },{"lang":"EN",
         "items":[
             {"text":"udbhavah ksho:bhano: de:vaha sri:garbhah parame:svaraha |"},
-            {"text":"karanam ka:ranam kartha vikartha: gahano: guhaha ||"},
+            {"text":"karanam ka:ranam kartha vikartha: gahano: guhaha ||  41"},
             {"text":"vyavasa:yo: vyavastha:naha samstha:nas stha:nado: dhruvaha |"},
-            {"text":"parardhih paramas spashtaha thushtah pushtas subhe:kshanaha ||"},
+            {"text":"parardhih paramas spashtaha thushtah pushtas subhe:kshanaha ||  42"},
             {"text":"ra:mo: vira:mo: virajo: ma:rgo: ne:yo: nayo: anayaha |"},
-            {"text":"vi:ras sakthi matha:m sre:shto: dharmo: dharma viduththamaha ||"},
+            {"text":"vi:ras sakthi matha:m sre:shto: dharmo: dharma viduththamaha ||  43"},
             {"text":"vaikuntah purushah pra:naha pra:nadah pranavah pruthuhu |"},
-            {"text":"hiranya garbhas sathrughno: vya:ptho: va:yur adho:kshajaha ||","index":"1"}
+            {"text":"hiranya garbhas sathrughno: vya:ptho: va:yur adho:kshajaha ||  44","index":"1"}
         ]},{
             "lang":"TN",
             "items":[
@@ -380,21 +379,21 @@
     "url": "",
     "sloka" : [ {
         "lang":"TE",
-        "items":[{"text":"ఋతు సుదర్సనః కాలః పరమేష్ఠీ పరిగ్రహః |"},{"text":"ఉగ్ర సంవత్సరో దక్షో విశ్రామో విశ్వదక్షిణః ||"},
-            {"text":"విస్తారః స్థావరః స్థాణుః ప్రమాణం బీజమవ్యయమ్‌ |"},{"text":"అర్థో೭నర్థో మహాకోశో మహాభోగో మహాధనః ||"},
-            {"text":"అనిర్విణ్ణ స్థవిష్ఠో భూః ధర్మయూపో మహామఖః |"},{"text":"నక్షత్రనేమి ర్నక్షత్రీ క్షమః క్షామ స్సమీహనః ||"},
-            {"text":"యజ్ఞ ఇజ్యో మహేజ్యశ్చ క్రతు స్సత్రం సతాంగతిః |"},{"text":"సర్వదర్సీ నివృత్తాత్మా సర్వజ్ఞో జ్ఞానముత్తమమ్‌ ||","index":"1"}
+        "items":[{"text":"ఋతు సుదర్సనః కాలః పరమేష్ఠీ పరిగ్రహః |"},{"text":"ఉగ్ర సంవత్సరో దక్షో విశ్రామో విశ్వదక్షిణః ||  45"},
+            {"text":"విస్తారః స్థావరః స్థాణుః ప్రమాణం బీజమవ్యయమ్‌ |"},{"text":"అర్థో೭నర్థో మహాకోశో మహాభోగో మహాధనః ||   46"},
+            {"text":"అనిర్విణ్ణ స్థవిష్ఠో భూః ధర్మయూపో మహామఖః |"},{"text":"నక్షత్రనేమి ర్నక్షత్రీ క్షమః క్షామ స్సమీహనః ||   47"},
+            {"text":"యజ్ఞ ఇజ్యో మహేజ్యశ్చ క్రతు స్సత్రం సతాంగతిః |"},{"text":"సర్వదర్సీ నివృత్తాత్మా సర్వజ్ఞో జ్ఞానముత్తమమ్‌ ||   48","index":"1"}
         ]},{
             "lang":"EN",
         "items":[
             {"text":"ruthus sudarsanah ka:laha parame:shti: parigrahaha |"},
-            {"text":"ugras samvathsaro: daksho: visra:mo: visva dakshinaha ||"},
+            {"text":"ugras samvathsaro: daksho: visra:mo: visva dakshinaha ||  45"},
             {"text":"vistha:ras stha:vara stha:nuh prama:nam bi:jam avyayam |"},
-            {"text":"artho: :nartho: maha:ko:so: maha:bho:go: maha:dhanaha ||"},
+            {"text":"artho: :nartho: maha:ko:so: maha:bho:go: maha:dhanaha ||  46"},
             {"text":"anirvinnas sthahvishto: bhu:hu dharma yu:po: maha: makhaha |"},
-            {"text":"nakshathra ne:mir nakshathri: kshamaha ksha:mas sami:hanaha ||"},
+            {"text":"nakshathra ne:mir nakshathri: kshamaha ksha:mas sami:hanaha ||  47"},
             {"text":"yajna ijyo: mahe:jyascha krathus sathram satha:m gathihi |"},
-            {"text":"sarvadarsi: nivruththa:thma: sarvajno: jna:nam uththamam ||","index":"1"}
+            {"text":"sarvadarsi: nivruththa:thma: sarvajno: jna:nam uththamam ||  48","index":"1"}
         ]},{
             "lang":"TN",
             "items":[
@@ -415,21 +414,21 @@
     "url": "https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2Fsbslokas%2F13-Hasta.mp3?alt=media&token=678ef253-94f0-4c62-8be0-35988e93b553",
     "sloka" : [ {
         "lang":"TE",
-        "items":[{"text":"సువ్రత స్సుముఖ స్సూక్ష్మః సుఘొషః సుఖద స్సుహృత్‌ |"},{"text":"మనోహరో జితక్రోధో వీరబాహు ర్విదారణః ||"},
-            {"text":"స్వాపనః స్వవశో వ్యాపీ నైకాత్మా నైకకర్మకృత్‌ |"},{"text":"వత్సరో వత్సలో వత్సీ రత్నగర్భో ధనేశ్వరః ||"},
-            {"text":"ధర్మగుప్ ధర్మకృత్‌ ధర్మీ సదక్షర మసత్‌ క్షరమ్‌ |"},{"text":"అవిజ్ఞాతా సహస్రాంశుః విధాతా కృతలక్షణః ||"},
-            {"text":"గభస్తినేమి స్సత్త్వస్థః సింహో భూతమహేశ్వరః |"},{"text":"ఆదిదేవో మహాదేవో దేవేశో దేవభృత్‌ గురుః ||","index":"1"}
+        "items":[{"text":"సువ్రత స్సుముఖ స్సూక్ష్మః సుఘొషః సుఖద స్సుహృత్‌ |"},{"text":"మనోహరో జితక్రోధో వీరబాహు ర్విదారణః ||  49"},
+            {"text":"స్వాపనః స్వవశో వ్యాపీ నైకాత్మా నైకకర్మకృత్‌ |"},{"text":"వత్సరో వత్సలో వత్సీ రత్నగర్భో ధనేశ్వరః ||   50"},
+            {"text":"ధర్మగుప్ ధర్మకృత్‌ ధర్మీ సదక్షర మసత్‌ క్షరమ్‌ |"},{"text":"అవిజ్ఞాతా సహస్రాంశుః విధాతా కృతలక్షణః ||   51"},
+            {"text":"గభస్తినేమి స్సత్త్వస్థః సింహో భూతమహేశ్వరః |"},{"text":"ఆదిదేవో మహాదేవో దేవేశో దేవభృత్‌ గురుః ||   52","index":"1"}
         ]},{
             "lang":"EN",
         "items":[
             {"text":"suvrathas sumukhas su:kshmaha sugho:shas sukhadas suhruth |"},
-            {"text":"mano:haro: jithakro:dho: vi:raba:hur vida:ranaha ||"},
+            {"text":"mano:haro: jithakro:dho: vi:raba:hur vida:ranaha ||  49"},
             {"text":"sva:panas svavaso: vya:pi: naika:thma: naika karmakruth |"},
-            {"text":"vathsaro: vathsalo: vathsi: rathna garbho: dhane:svaraha ||"},
+            {"text":"vathsaro: vathsalo: vathsi: rathna garbho: dhane:svaraha ||  50"},
             {"text":"dharmagub dharmakrud dharmi: sad-aksharam-asath-ksharam |"},
-            {"text":"avijna:tha: sahasra:msuhu vidha:tha: krutha lakshanaha ||"},
+            {"text":"avijna:tha: sahasra:msuhu vidha:tha: krutha lakshanaha ||  51"},
             {"text":"gabhasthi ne:mis sathvasthaha simho: bhu:tha mahe:svaraha |"},
-            {"text":"a:dide:vo: maha:de:vo: de:ve:so: de:vabhrud guruhu ||","index":"1"}
+            {"text":"a:dide:vo: maha:de:vo: de:ve:so: de:vabhrud guruhu ||  52","index":"1"}
         ]},{
             "lang":"TN",
             "items":[
@@ -450,21 +449,21 @@
     "url": "https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2Fsbslokas%2F14-Chitta.mp3?alt=media&token=db3a6c4b-e0b3-438c-ad81-ac3fca76876e",
     "sloka" : [ {
         "lang":"TE",
-        "items":[{"text":"ఉత్తరో గోపతి ర్గోప్తా జ్ఞానగమ్యః పురాతనః |"},{"text":"శరీరభూతభృ ద్భోక్తా కపీంద్రో భూరిదక్షిణః ||"},
-            {"text":"సోమపో೭మృతప స్సోమః పురుజిత్‌ పురుసత్తమః |"},{"text":"వినయో జయ స్సత్యసంధో దాశార్హ స్సాత్వతాంపతిః ||"},
-            {"text":"జీవో వినయితా సాక్షీ ముకుందో೭మిత విక్రమః |"},{"text":"అంభో నిధి రనంతాత్మా మహోదధిశయో೭న్తకః ||"},
-            {"text":"అజో మహార్హః స్వాభావ్యో జితామిత్రః ప్రమోదనః |"},{"text":"ఆనన్దో నన్దనో నన్దః సత్యధర్మా త్రివిక్రమః ||","index":"1"}
+        "items":[{"text":"ఉత్తరో గోపతి ర్గోప్తా జ్ఞానగమ్యః పురాతనః |"},{"text":"శరీరభూతభృ ద్భోక్తా కపీంద్రో భూరిదక్షిణః ||   53"},
+            {"text":"సోమపో೭మృతప స్సోమః పురుజిత్‌ పురుసత్తమః |"},{"text":"వినయో జయ స్సత్యసంధో దాశార్హ స్సాత్వతాంపతిః ||  54"},
+            {"text":"జీవో వినయితా సాక్షీ ముకుందో೭మిత విక్రమః |"},{"text":"అంభో నిధి రనంతాత్మా మహోదధిశయో೭న్తకః ||  55"},
+            {"text":"అజో మహార్హః స్వాభావ్యో జితామిత్రః ప్రమోదనః |"},{"text":"ఆనన్దో నన్దనో నన్దః సత్యధర్మా త్రివిక్రమః ||   56","index":"1"}
         ]},{
             "lang":"EN",
         "items":[
             {"text":"uththaro: go:pathir go:ptha: jna:na gamyah pura:thanaha |"},
-            {"text":"sari:ra bhu:tha bhrud bho:ktha: kapi:ndro: bhu:ri dakshinaha ||"},
+            {"text":"sari:ra bhu:tha bhrud bho:ktha: kapi:ndro: bhu:ri dakshinaha ||  53"},
             {"text":"so:mapo: amruthapas so:maha purujith puru saththamaha |"},
-            {"text":"vinayo: jayas sathya sandho: da:sa:rhas sa:thvatha:m pathihi ||"},
+            {"text":"vinayo: jayas sathya sandho: da:sa:rhas sa:thvatha:m pathihi ||  54"},
             {"text":"ji:vo: vinayitha: sa:kshi: mukundo: :mitha vikramaha |"},
-            {"text":"ambho:nidhir anantha:thma: maho:dadhi sayo::nthakaha ||"},
+            {"text":"ambho:nidhir anantha:thma: maho:dadhi sayo::nthakaha ||  55"},
             {"text":"ajo: maha:rhas sva:bha:vyo: jitha:mithrah pramo:danaha |"},
-            {"text":"a:nando: nandano: nandaha sathya dharma: thrivikramaha ||","index":"1"}
+            {"text":"a:nando: nandano: nandaha sathya dharma: thrivikramaha ||  56","index":"1"}
         ]},{
             "lang":"TN",
             "items":[
@@ -485,21 +484,21 @@
     "url": "https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2Fsbslokas%2F15-Swati.mp3?alt=media&token=c507cea9-f025-452e-9183-a898b13c28a2",
     "sloka" : [ {
         "lang":"TE",
-        "items":[{"text":"మహర్షిః కపిలాచార్యః కృతజ్ఞో మేదినీపతిః |"},{"text":"త్రిపద స్త్రిదశాధ్యక్షః మహాశృంగః కృతాంతకృత్‌ ||"},
-            {"text":"మహావరాహో గోవిందః సుషేణః కనకాంగదీ |"},{"text":"గుహ్యో గభీరో గహనో గుప్త శ్చక్ర గదాధరః ||"},
-            {"text":"వేధాః స్స్వాంగో೭జితః కృష్ణో దృఢ స్సంకర్షణో೭చ్యుతః |"},{"text":"వరుణో వారుణో వృక్షః పుష్కరాక్షో మహామనాః ||"},
-            {"text":"భగవాన్‌ భగహా నందీ వనమాలీ హలాయుధః |"},{"text":"ఆదిత్యో జ్యోతిరాదిత్యః సహిష్ణు ర్గతిసత్తమః ||","index":"1"}
+        "items":[{"text":"మహర్షిః కపిలాచార్యః కృతజ్ఞో మేదినీపతిః |"},{"text":"త్రిపద స్త్రిదశాధ్యక్షః మహాశృంగః కృతాంతకృత్‌ ||  57"},
+            {"text":"మహావరాహో గోవిందః సుషేణః కనకాంగదీ |"},{"text":"గుహ్యో గభీరో గహనో గుప్త శ్చక్ర గదాధరః ||  58"},
+            {"text":"వేధాః స్స్వాంగో೭జితః కృష్ణో దృఢ స్సంకర్షణో೭చ్యుతః |"},{"text":"వరుణో వారుణో వృక్షః పుష్కరాక్షో మహామనాః ||   59"},
+            {"text":"భగవాన్‌ భగహా నందీ వనమాలీ హలాయుధః |"},{"text":"ఆదిత్యో జ్యోతిరాదిత్యః సహిష్ణు ర్గతిసత్తమః ||   60","index":"1"}
         ]},{
             "lang":"EN",
         "items":[
             {"text":"maharshih kapila:cha:ryaha kruthajno: me:dini:pathihi |"},
-            {"text":"thripadas thridasa:dhyakshaha maha:srungah krutha:ntha kruth ||"},
+            {"text":"thripadas thridasa:dhyakshaha maha:srungah krutha:ntha kruth || 57"},
             {"text":"maha:vara:ho: go:vindaha sushe:nah kanaka:ngadi: |"},
-            {"text":"guhyo: gabhi:ro: gahano: gupthas chakra gada: dharaha ||"},
+            {"text":"guhyo: gabhi:ro: gahano: gupthas chakra gada: dharaha ||  58"},
             {"text":"ve:dha:s sva:ngo::jithah krushno: drudas sankarshano::chyuthaha |"},
-            {"text":"varuno: va:runo: vrukshah pushkara:ksho: maha: mana:ha ||"},
+            {"text":"varuno: va:runo: vrukshah pushkara:ksho: maha: mana:ha ||  59"},
             {"text":"bhagava:n bhagaha: nandi: vanama:li: hala:yudhaha |"},
-            {"text":"a:dithyo: jyothir a:dithyaha sahishnur gathi saththamaha ||","index":"1"}
+            {"text":"a:dithyo: jyothir a:dithyaha sahishnur gathi saththamaha ||  60","index":"1"}
         ]},{
             "lang":"TN",
             "items":[
@@ -520,19 +519,20 @@
     "url": "https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2Fsbslokas%2F16-Vishakha.mp3?alt=media&token=725f9120-01b2-4cb4-a657-3e160df72b1d",
     "sloka" : [ {
         "lang":"TE",
-        "items":[{"text":"సుధన్వా ఖండపరశుః దారుణో ద్రవిణప్రదః |"},{"text":"దివిస్పృక్‌ సర్వ దృక్‌ వ్యాసో వాచస్పతి రయోనిజః ||"},
-            {"text":"త్రిసామా సామగస్సామ నిర్వాణం భేషజం భిషక్‌ |"},{"text":"సన్యాసకృ చ్ఛమ శ్శాంతో నిష్ఠాశాంతిః పరాయణః ||"},
-            {"text":"శుభాంగ శ్శాంతిద స్స్రష్టా కుముదః కువలేశయః |"},{"text":"గోహితో గోపతి ర్గోప్తా వృషభాక్షో వృషప్రియః ||"},
-            {"text":"అనివర్తీ నివృత్తాత్మా సంక్షేప్తా క్షేమకృ చ్ఛివః |"},{"text":"శ్రీవత్సవక్షాః శ్రీవాసః శ్రీపతిః శ్రీమతాం వరః ||","index":"1"}
+        "items":[{"text":"సుధన్వా ఖండపరశుః దారుణో ద్రవిణప్రదః |"},{"text":"దివిస్పృక్‌ సర్వ దృక్‌ వ్యాసో వాచస్పతి రయోనిజః ||  61"},
+            {"text":"త్రిసామా సామగస్సామ నిర్వాణం భేషజం భిషక్‌ |"},{"text":"సన్యాసకృ చ్ఛమ శ్శాంతో నిష్ఠాశాంతిః పరాయణః ||  62"},
+            {"text":"శుభాంగ శ్శాంతిద స్స్రష్టా కుముదః కువలేశయః |"},{"text":"గోహితో గోపతి ర్గోప్తా వృషభాక్షో వృషప్రియః ||  63"},
+            {"text":"అనివర్తీ నివృత్తాత్మా సంక్షేప్తా క్షేమకృ చ్ఛివః |"},{"text":"శ్రీవత్సవక్షాః శ్రీవాసః శ్రీపతిః శ్రీమతాం వరః ||  64","index":"1"}
         ]},{
             "lang":"EN",
         "items":[
-            {"text":"sudhanva: khanda parasuhu da:runo: dravina pradaha |"},{"text":"divispruk sarvadrug vya:so: va:chaspathir ayo:nijaha ||"},
-            {"text":"thrisa:ma: sa:magas sa:ma nirva:nam bhe:shajam bhishak |"},{"text":"sannya:sakruch chamas sa:ntho: nishta: sa:nthih para:yanaha ||"},
+            {"text":"sudhanva: khanda parasuhu da:runo: dravina pradaha |"},
+			{"text":"divispruk sarvadrug vya:so: va:chaspathir ayo:nijaha ||  61"},
+            {"text":"thrisa:ma: sa:magas sa:ma nirva:nam bhe:shajam bhishak |"},{"text":"sannya:sakruch chamas sa:ntho: nishta: sa:nthih para:yanaha ||  62"},
             {"text":"    subha:ngas sa:nthidas srashta: kumudah kuvale:sayaha |"},
-            {"text":"go:hitho: go:pathir go:ptha: vrushabha:ksho: vrusha priyaha ||"},
+            {"text":"go:hitho: go:pathir go:ptha: vrushabha:ksho: vrusha priyaha ||  63"},
             {"text":"anivarthi: nivruththa:thma: sankshe:ptha: kshe:makruch chivaha |"},
-            {"text":"sri:vathsa vaksha:s sri:va:saha sri:pathis sri:matha:m varaha ||","index":"1"}
+            {"text":"sri:vathsa vaksha:s sri:va:saha sri:pathis sri:matha:m varaha ||  64","index":"1"}
         ]},{
             "lang":"TN",
             "items":[
@@ -553,21 +553,21 @@
     "url": "https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2Fsbslokas%2F17-Anuraada.mp3?alt=media&token=9a3ccd62-57e0-4320-8d49-d40ec5375ba5",
     "sloka" : [ {
         "lang":"TE",
-        "items":[{"text":"శ్రీద శ్శ్రీశః శ్రీనివాసః శ్రీనిధి శ్శ్రీవిభావనః |"},{"text":"శ్రీధర శ్శ్రీకర శ్శ్రేయః శ్రీమాన్‌ లోకత్రయాశ్రయః ||"},
-            {"text":"స్వక్ష స్వంగ శ్శతానందో నంది ర్జ్యోతి ర్గణేశ్వరః |"},{"text":"విజితాత్మా విధేయాత్మా సత్కీర్తి శ్ఛిన్న సంశయః ||"},
-            {"text":"ఉదీర్ణ స్సర్వతశ్చక్షుః అనీశ శ్శాశ్వతః స్థిరః |"},{"text":"భూశయో భూషణో భూతిః విశోక శ్శోకనాశనః ||"},
-            {"text":"అర్చిష్మా నర్చితః కుంభో విశుద్ధాత్మా విశోధనః |"},{"text":"అనిరుద్ధో೭ప్రతిరథః ప్రద్యుమ్నో೭మితవిక్రమః ||","index":"1"}
+        "items":[{"text":"శ్రీద శ్శ్రీశః శ్రీనివాసః శ్రీనిధి శ్శ్రీవిభావనః |"},{"text":"శ్రీధర శ్శ్రీకర శ్శ్రేయః శ్రీమాన్‌ లోకత్రయాశ్రయః ||  65"},
+            {"text":"స్వక్ష స్వంగ శ్శతానందో నంది ర్జ్యోతి ర్గణేశ్వరః |"},{"text":"విజితాత్మా విధేయాత్మా సత్కీర్తి శ్ఛిన్న సంశయః ||  66"},
+            {"text":"ఉదీర్ణ స్సర్వతశ్చక్షుః అనీశ శ్శాశ్వతః స్థిరః |"},{"text":"భూశయో భూషణో భూతిః విశోక శ్శోకనాశనః ||  67"},
+            {"text":"అర్చిష్మా నర్చితః కుంభో విశుద్ధాత్మా విశోధనః |"},{"text":"అనిరుద్ధో೭ప్రతిరథః ప్రద్యుమ్నో೭మితవిక్రమః ||  68","index":"1"}
         ]},{
             "lang":"EN",
         "items":[
             {"text":"sri:das sri:sas sri:niva:saha sri:nidhis sri:vibha: vanaha |"},
-            {"text":"sri:dharas sri:karas sre:yaha sri:ma:n lo:ka thraya:srayaha ||"},
+            {"text":"sri:dharas sri:karas sre:yaha sri:ma:n lo:ka thraya:srayaha ||  65"},
             {"text":"svakshas svangas satha:nando: nandir jyothir gane:svaraha |"},
-            {"text":"vijitha:thma: vidhe:ya:thma: sathki:rthischinna samsayaha ||"},
+            {"text":"vijitha:thma: vidhe:ya:thma: sathki:rthischinna samsayaha ||  66"},
             {"text":"udi:rnas sarvathas chakshuhu ani:sas sa:svatha sthiraha |"},
-            {"text":"bhu:sayo: bhu:shano: bhu:thihi viso:kas so:ka na:sanaha ||"},
+            {"text":"bhu:sayo: bhu:shano: bhu:thihi viso:kas so:ka na:sanaha ||  67"},
             {"text":"archishma:n archithah kumbho: visuddha:thma: viso:dhanaha |"},
-            {"text":"aniruddho::prathi rathaha pradyumno::mitha vikramaha ||","index":"1"}
+            {"text":"aniruddho::prathi rathaha pradyumno::mitha vikramaha ||  68","index":"1"}
         ]},{
             "lang":"TN",
             "items":[
@@ -588,11 +588,21 @@
     "url": "https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2Fsbslokas%2F18-Jyeshtaa.mp3?alt=media&token=f26acadf-be98-4fe0-a076-38e308a6452c",
     "sloka" : [ {
         "lang":"TE",
-        "items":[{"text":"కాలనేమి నిహాశౌరిః శూర శ్శూరజనేశ్వరః |"},{"text":"త్రిలోకాత్మా త్రిలోకేశః కేశవః కేశిహా హరిః ||"},{"text":"కామదేవః కామపాలః కామీ కాంతః కృతాగమః |"},{"text":"అనిర్దేశ్యవపు ర్విష్ణుః వీరో೭నంతో ధనంజయః ||"},{"text":"బ్రహ్మణ్యో బ్రహ్మకృత్‌ బ్రహ్మా బ్రహ్మ బ్రహ్మవివర్ధనః |"},{"text":"బ్రహ్మవిద్ బ్రాహ్మణో బ్రహ్మీ బ్రహ్మజ్ఞో బ్రాహ్మణప్రియః ||"},{"text":"మహాక్రమో మహాకర్మా మహాతేజా మహోరగః |"},{"text":"మహాక్రతు ర్మహాయజ్వా మహాయజ్ఞో మహాహవిః ||","index":"1"}
+        "items":[{"text":"కాలనేమి నిహాశౌరిః శూర శ్శూరజనేశ్వరః |"},{"text":"త్రిలోకాత్మా త్రిలోకేశః కేశవః కేశిహా హరిః ||  69"},
+		{"text":"కామదేవః కామపాలః కామీ కాంతః కృతాగమః |"},{"text":"అనిర్దేశ్యవపు ర్విష్ణుః వీరో೭నంతో ధనంజయః ||  70"},
+		{"text":"బ్రహ్మణ్యో బ్రహ్మకృత్‌ బ్రహ్మా బ్రహ్మ బ్రహ్మవివర్ధనః |"},{"text":"బ్రహ్మవిద్ బ్రాహ్మణో బ్రహ్మీ బ్రహ్మజ్ఞో బ్రాహ్మణప్రియః ||  71"},
+		{"text":"మహాక్రమో మహాకర్మా మహాతేజా మహోరగః |"},{"text":"మహాక్రతు ర్మహాయజ్వా మహాయజ్ఞో మహాహవిః ||  72","index":"1"}
         ]},{
             "lang":"EN",
         "items":[
-            {"text":"ka:lane:miniha: saurihi su:ras su:rajane:svaraha |"},{"text":"thrilo:ka:thma: thrilo:ke:saha ke:savah ke:siha: harihi ||"},{"text":"ka:ma de:vah ka:ma pa:lah ka:mi: ka:nthah krutha:gamaha |"},{"text":"anirde:syavapur vishnuhu vi:ro::nantho: dhananjayaha ||"},{"text":"bramhanyo: bramhakrud bramha: bramha brahma vivardhanaha |"},{"text":"bramhavid bra:mhano: bramhi: bramhajno: bra:mhana priyaha ||"},{"text":"maha:kramo: maha:karma: maha:the:ja: maho:ragaha |"},{"text":"maha:krathur maha:yajva: maha:yajno: maha:havihi ||","index":"1"}
+            {"text":"ka:lane:miniha: saurihi su:ras su:rajane:svaraha |"},
+			{"text":"thrilo:ka:thma: thrilo:ke:saha ke:savah ke:siha: harihi ||  69"},
+			{"text":"ka:ma de:vah ka:ma pa:lah ka:mi: ka:nthah krutha:gamaha |"},
+			{"text":"anirde:syavapur vishnuhu vi:ro::nantho: dhananjayaha ||  70"},
+			{"text":"bramhanyo: bramhakrud bramha: bramha brahma vivardhanaha |"},
+			{"text":"bramhavid bra:mhano: bramhi: bramhajno: bra:mhana priyaha || 71"},
+			{"text":"maha:kramo: maha:karma: maha:the:ja: maho:ragaha |"},
+			{"text":"maha:krathur maha:yajva: maha:yajno: maha:havihi ||  72","index":"1"}
         ]},{
             "lang":"TN",
             "items":[
@@ -608,20 +618,21 @@
     "url": "https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2Fsbslokas%2F19-Moola.mp3?alt=media&token=abd66dd5-2bc2-4c51-82ad-31d65be2854c",
     "sloka" : [ {
         "lang":"TE",
-        "items":[{"text":"స్తవ్య స్స్తవప్రియ స్త్సోత్రం స్తుత స్త్సోతా రణప్రియః |"},
-            {"text":"పూర్ణః పూరయితా పుణ్యః పుణ్యకీర్తి రనామయః ||"},{"text":"మనోజవ స్తీర్థకరో వసురేతా వసుప్రదః |"},
-            {"text":"వసుప్రదో వాసుదేవో వసు ర్వసుమనా హవిః ||"},{"text":"సద్గతి స్సత్కృతి స్సత్తా సద్భూతి స్సత్పరాయణః |"},
-            {"text":"శూరసేనో యదుశ్రేష్ఠః సన్నివాస స్సుయామునః ||"},{"text":"భూతావాసో వాసుదేవః సర్వాసు నిలయో೭నలః |"},
-            {"text":"దర్పహా దర్పదో దృప్తో దుర్ధరో೭ థాపరాజితః ||","index":"1"}
+        "items":[{"text":"స్తవ్య స్స్తవప్రియ స్త్సోత్రం స్తుత స్త్సోతా రణప్రియః |"},{"text":"పూర్ణః పూరయితా పుణ్యః పుణ్యకీర్తి రనామయః ||  73"},
+			{"text":"మనోజవ స్తీర్థకరో వసురేతా వసుప్రదః |"},{"text":"వసుప్రదో వాసుదేవో వసు ర్వసుమనా హవిః ||  74"},
+			{"text":"సద్గతి స్సత్కృతి స్సత్తా సద్భూతి స్సత్పరాయణః |"}, {"text":"శూరసేనో యదుశ్రేష్ఠః సన్నివాస స్సుయామునః ||  75"},
+			{"text":"భూతావాసో వాసుదేవః సర్వాసు నిలయో೭నలః |"}, {"text":"దర్పహా దర్పదో దృప్తో దుర్ధరో೭ థాపరాజితః ||  76","index":"1"}
         ]},{
             "lang":"EN",
         "items":[
             {"text":"sthavyas sthavapriyas stho:thram sthuthas stho:tha: ranapriyaha |"},
-            {"text":"pu:rnah pu:rayitha: punyah punyaki:rthir ana:mayaha ||"},{"text":"mano:javas thi:rthakaro: vasure:tha: vasu pradaha |"},
-            {"text":"vasuprado: va:sude:vo: vasur vasumana: havihi ||"},
+            {"text":"pu:rnah pu:rayitha: punyah punyaki:rthir ana:mayaha ||  73"},
+			{"text":"mano:javas thi:rthakaro: vasure:tha: vasu pradaha |"},
+            {"text":"vasuprado: va:sude:vo: vasur vasumana: havihi ||  74"},
             {"text":"sadgathis sathkruthis saththa: sadbhu:this sathpara:yanaha |"},
-            {"text":"su:rase:no: yadusre:shtaha sanniva:sas suya:munaha ||"},{"text":"bhu:tha:va:so: va:sudevaha sarva:sunilayo: :nalaha |"},
-            {"text":"darpaha: darpado: druptho: durdharo::tha::para:jithaha ||","index":"1"}
+            {"text":"su:rase:no: yadusre:shtaha sanniva:sas suya:munaha ||  75"},
+			{"text":"bhu:tha:va:so: va:sudevaha sarva:sunilayo: :nalaha |"},
+            {"text":"darpaha: darpado: druptho: durdharo::tha::para:jithaha ||  76","index":"1"}
         ]},{
             "lang":"TN",
             "items":[
@@ -641,17 +652,21 @@
     "url": "https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2Fsbslokas%2F20-Purvaashaada.mp3?alt=media&token=02c595e1-97f9-4233-af98-28053fbbbab3",
     "sloka" : [ {
         "lang":"TE",
-        "items":[{"text":"విశ్వమూర్తి ర్మహామూర్తిః దీప్తమూర్తి రమూర్తిమాన్‌ |"},{"text":"అనేకమూర్తి రవ్యక్తః శతమూర్తి శ్శతాననః ||"},{"text":"ఎకో నైక స్సవః కః కిం యత్తత్పద మనుత్తమమ్‌ |"},{"text":"లోకబంధు ర్లోకనాథో మాధవో భక్తవత్సలః ||     78             సువర్ణ వర్ణో హేమాంగో వరాంగ శ్చంద నాంగదీ |"},{"text":"వీరహా విషమ శ్శూన్యో ఘృతాశీ రచల శ్చలః ||   79                  అమానీ మానదో మాన్యో లోకస్వామీ త్రిలోకధృత్‌ |"},{"text":"సుమేధా మేధజో ధన్యః సత్యమేధా ధరాధరః ||    80","index":"1"}
+        "items":[{"text":"విశ్వమూర్తి ర్మహామూర్తిః దీప్తమూర్తి రమూర్తిమాన్‌ |"},{"text":"అనేకమూర్తి రవ్యక్తః శతమూర్తి శ్శతాననః ||  77"},
+		{"text":"ఎకో నైక స్సవః కః కిం యత్తత్పద మనుత్తమమ్‌ |"},{"text":"లోకబంధు ర్లోకనాథో మాధవో భక్తవత్సలః || 78"},
+		{"text":"సువర్ణ వర్ణో హేమాంగో వరాంగ శ్చంద నాంగదీ |"},{"text":"బవీరహా విషమ శ్శూన్యో ఘృతాశీ రచల శ్చలః ||  79"},
+		{"text":"అమానీ మానదో మాన్యో లోకస్వామీ త్రిలోకధృత్‌ |"},{"text":"సుమేధా మేధజో ధన్యః సత్యమేధా ధరాధరః ||  80","index":"1"}
         ]},{
             "lang":"EN",
         "items":[
-            {"text":"visva mu:rthir maha: mu:rthihi di:ptha mu:rthir amu:rthima:n |"},{"text":"ane:ka mu:rthir avyakthaha satha mu:rthis satha:nanaha ||"},
+            {"text":"visva mu:rthir maha: mu:rthihi di:ptha mu:rthir amu:rthima:n |"},
+			{"text":"ane:ka mu:rthir avyakthaha satha mu:rthis satha:nanaha ||  77"},
             {"text":"e:ko: naikas sa vah kah kim yath thath padam anuththamam |"},
-            {"text":"lo:ka bandhur lo:kana:tho: ma:dhavo: bhaktha vathsalaha ||"},
+            {"text":"lo:ka bandhur lo:kana:tho: ma:dhavo: bhaktha vathsalaha ||  78"},
             {"text":"suvarnavarno: he:ma:ngo: vara:ngas chandana:ngadi: |"},
-            {"text":"vi:raha: vishamas su:nyo: ghrutha:si:r achalas chalaha ||"},
+            {"text":"vi:raha: vishamas su:nyo: ghrutha:si:r achalas chalaha ||  79"},
             {"text":"ama:ni: ma:nado: ma:nyo: lo:ka sva:mi: thrilo:ka dhruth |"},
-            {"text":"sume:dha: me:dhajo: dhanyaha sathya me:dha: dhara:dharaha ||","index":"1"}
+            {"text":"sume:dha: me:dhajo: dhanyaha sathya me:dha: dhara:dharaha ||  80","index":"1"}
         ]},{
             "lang":"TN",
             "items":[
@@ -668,21 +683,21 @@
     "url": "https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2Fsbslokas%2F21-Uttaraashaada.mp3?alt=media&token=0820933b-7864-4a1d-98de-6098585ebec8",
     "sloka" : [ {
         "lang":"TE",
-        "items":[{"text":"తేజో వృషో ద్యుతిధరః సర్వశస్త్ర భృతాం వరః |"},{"text":"ప్రగ్రహో నిగ్రహో వ్యగ్రో నైకశృంగో గదాగ్రజః ||"},
-            {"text":"చతుర్మూర్తి శ్చతుర్బాహుః చతుర్వ్యూహశ్చతుర్గతిః |"},{"text":"చతురాత్మా చతుర్భావః చతుర్వేదవి దేకపాత్‌ ||"},
-            {"text":"సమావర్తో నివృత్తాత్మా దుర్జయో దురతిక్రమః |"},{"text":"దుర్లభో దుర్గమో దుర్గో దురావాసో దురారిహా ||"},
-            {"text":"శుభాంగో లోకసారంగః సుతన్తు స్తన్తువర్ధనః |"},{"text":"ఇంద్రకర్మా మహాకర్మా కృతకర్మా కృతాగమః ||","index":"1"}
+        "items":[{"text":"తేజో వృషో ద్యుతిధరః సర్వశస్త్ర భృతాం వరః |"},{"text":"ప్రగ్రహో నిగ్రహో వ్యగ్రో నైకశృంగో గదాగ్రజః ||  81"},
+            {"text":"చతుర్మూర్తి శ్చతుర్బాహుః చతుర్వ్యూహశ్చతుర్గతిః |"},{"text":"చతురాత్మా చతుర్భావః చతుర్వేదవి దేకపాత్‌ ||   82"},
+            {"text":"సమావర్తో నివృత్తాత్మా దుర్జయో దురతిక్రమః |"},{"text":"దుర్లభో దుర్గమో దుర్గో దురావాసో దురారిహా ||  83"},
+            {"text":"శుభాంగో లోకసారంగః సుతన్తు స్తన్తువర్ధనః | "},{"text":"ఇంద్రకర్మా మహాకర్మా కృతకర్మా కృతాగమః ||  84","index":"1"}
         ]},{
             "lang":"EN",
         "items":[
             {"text":"the:jo:vrusho: dyuthidharaha sarva-sasthra-bhrutha:m-varaha |"},
-            {"text":"pragraho: nigraho: vyagro: naikasrungo: gada:grajaha ||"},
+            {"text":"pragraho: nigraho: vyagro: naikasrungo: gada:grajaha ||  81"},
             {"text":"chathur mu:rthis chathur ba:huhu chathur vyu:has chathur gathihi |"},
-            {"text":"chathur a:thma: chathur bha:vaha chathur-ve:david-e:kapa:th ||"},
+            {"text":"chathur a:thma: chathur bha:vaha chathur-ve:david-e:kapa:th ||  82"},
             {"text":"sama:vartho: nivruththa:thma: durjayo: durathi-kramaha |"},
-            {"text":"durlabho: durgamo: durgo: dura:va:so: dura:riha: ||"},
+            {"text":"durlabho: durgamo: durgo: dura:va:so: dura:riha: ||  83"},
             {"text":"subha:ngo: lo:kasa:rangaha suthanthus thanthu-vardhanaha |"},
-            {"text":"indra karma: maha: karma: krutha karma: krutha:gamaha ||","index":"1"}
+            {"text":"indra karma: maha: karma: krutha karma: krutha:gamaha ||  84","index":"1"}
         ]},{
             "lang":"TN",
             "items":[
@@ -701,17 +716,19 @@
     "url": "https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2Fsbslokas%2F22-Sravanaa.mp3?alt=media&token=4320f10f-3282-4387-9f69-f82a60fd6ff8",
     "sloka" : [ {
         "lang":"TE",
-        "items":[{"text":"ఉద్భవ స్సుందర స్సుందో రత్ననాభ స్సులోచనః |"},{"text":"అర్కో వాజసని శ్శృంగీ జయంతః సర్వవిజ్జయీ ||"},
-            {"text":"సువర్ణ బిందు రక్షోభ్యః సర్వవాగీశ్వరేశ్వరః |"},{"text":"మహాహృదో మహాగర్తో మహాభూతో మహానిధిః ||"},{"text":"కుముదః కున్దరః కుందః పర్జన్యః పావనో೭నిలః |"},
-            {"text":"అమృతాశో೭మృతవపుః సర్వజ్ఞః సర్వతోముఖః ||"},{"text":"సులభ స్సువ్రత స్సిద్ధః శత్రుజి చ్ఛత్రుతాపనః |"},
-            {"text":"న్యగ్రోధోదుమ్బరో೭శ్వత్థః చాణూరాంధ్ర నిషూదనః ||","index":"1"}
+        "items":[{"text":"ఉద్భవ స్సుందర స్సుందో రత్ననాభ స్సులోచనః |"},{"text":"అర్కో వాజసని శ్శృంగీ జయంతః సర్వవిజ్జయీ ||  85"},
+            {"text":"సువర్ణ బిందు రక్షోభ్యః సర్వవాగీశ్వరేశ్వరః |"},{"text":"మహాహృదో మహాగర్తో మహాభూతో మహానిధిః ||  86"},
+			{"text":"కుముదః కున్దరః కుందః పర్జన్యః పావనో೭నిలః |"}, {"text":"అమృతాశో೭మృతవపుః సర్వజ్ఞః సర్వతోముఖః ||  87"},
+			{"text":"సులభ స్సువ్రత స్సిద్ధః శత్రుజి చ్ఛత్రుతాపనః |"}, {"text":"న్యగ్రోధోదుమ్బరో೭శ్వత్థః చాణూరాంధ్ర నిషూదనః ||   88","index":"1"}
         ]},{
             "lang":"EN",
         "items":[
-            {"text":"udbhavas sundaras sundo: rathna na:bhas sulo:chanaha |"},{"text":"arko: va:jasanis srungi: jayanthas sarva vijjayi: ||"},
-            {"text":"suvarna bindur aksho:bhyaha sarva-va:gi:sva re:svaraha |"},{"text":"maha:hrado: maha:gartho: maha:bhu:tho: maha:nidhihi ||"},
-            {"text":"kumudah kundarah kundah parjanyah pa:vano::nilaha |"},{"text":"amrutha:so::mrutha vapuhu sarvajnas sarvatho: mukhaha ||"},
-            {"text":"sulabhas suvrathas siddhaha sathru-jicchathru-tha:panaha |"},{"text":"nyagro:dho: dumbaro: : svatthaha cha:nu:ra:ndhra-nishu:danaha ||","index":"1"}
+            {"text":"udbhavas sundaras sundo: rathna na:bhas sulo:chanaha |"},
+			{"text":"arko: va:jasanis srungi: jayanthas sarva vijjayi: ||  85"},
+            {"text":"suvarna bindur aksho:bhyaha sarva-va:gi:sva re:svaraha |"},{"text":"maha:hrado: maha:gartho: maha:bhu:tho: maha:nidhihi ||  86"},
+            {"text":"kumudah kundarah kundah parjanyah pa:vano::nilaha |"},{"text":"amrutha:so::mrutha vapuhu sarvajnas sarvatho: mukhaha ||  87"},
+            {"text":"sulabhas suvrathas siddhaha sathru-jicchathru-tha:panaha |"},
+			{"text":"nyagro:dho: dumbaro: : svatthaha cha:nu:ra:ndhra-nishu:danaha ||  88","index":"1"}
         ]},{
             "lang":"TN",
             "items":[
@@ -732,21 +749,21 @@
     "url": "https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2Fsbslokas%2F23-Dhanistaa.mp3?alt=media&token=ff806677-b41d-4828-969a-d436babc4399",
     "sloka" : [ {
         "lang":"TE",
-        "items":[{"text":"సహస్రార్చి స్సప్తజిహ్వః సప్తైథా స్సప్తవాహనః |"},{"text":"అమూర్తి రనఘో೭ చింత్యో భయకృత్ భయనాశనః ||"},
-            {"text":"అణుర్ బృహత్ కృశః స్థూలో గుణభృ న్నిర్గుణో మహాన్‌ |"},{"text":"అధృత స్స్వధృత స్స్వాస్థ్యః ప్రాగ్వంశో వంశ వర్ధనః ||"},
-            {"text":"భారభృత్‌ కథితో యోగీ యోగీశ స్సర్వ కామదః |"},{"text":"ఆశ్రమ శ్శ్రమణః క్షామః సుపర్ణో వాయు వాహనః ||"},
-            {"text":"ధనుర్ధరో ధనుర్వేదో దండో దమయితా೭ దమః |"},{"text":"అపరాజిత స్సర్వసహో నియంతా నియమో యమః ||","index":"1"}
+        "items":[{"text":"సహస్రార్చి స్సప్తజిహ్వః సప్తైథా స్సప్తవాహనః |"},{"text":"అమూర్తి రనఘో೭ చింత్యో భయకృత్ భయనాశనః ||  89"},
+            {"text":"అణుర్ బృహత్ కృశః స్థూలో గుణభృ న్నిర్గుణో మహాన్‌ |"},{"text":"అధృత స్స్వధృత స్స్వాస్థ్యః ప్రాగ్వంశో వంశ వర్ధనః ||  90"},
+            {"text":"భారభృత్‌ కథితో యోగీ యోగీశ స్సర్వ కామదః |"},{"text":"ఆశ్రమ శ్శ్రమణః క్షామః సుపర్ణో వాయు వాహనః ||  91"},
+            {"text":"ధనుర్ధరో ధనుర్వేదో దండో దమయితా೭ దమః |"},{"text":"అపరాజిత స్సర్వసహో నియంతా నియమో యమః ||   92","index":"1"}
         ]},{
             "lang":"EN",
         "items":[
             {"text":"sahasra:rchis sapthajihvaha sapthaidha:s saptha-va:hanaha |"},
-            {"text":"amu:rthir anagho::chinthyo: bhayakruth bhaya na:sanaha ||"},
+            {"text":"amu:rthir anagho::chinthyo: bhayakruth bhaya na:sanaha ||  89"},
             {"text":"anur bruhath krusas sthu:lo: gunabhrun nirguno: maha:n |"},
-            {"text":"adhruthas svadhruthas sva:sthyaha pra:gvamso: vamsa-vardhanaha ||"},
+            {"text":"adhruthas svadhruthas sva:sthyaha pra:gvamso: vamsa-vardhanaha ||  90"},
             {"text":"bha:ra bhruth kathitho: yo:gi: yo:gi:sas sarva-ka:madaha |"},
-            {"text":"a:sramas sramanah ksha:maha suparno: va:yu-va:hanaha ||"},
+            {"text":"a:sramas sramanah ksha:maha suparno: va:yu-va:hanaha ||  91"},
             {"text":"dhanur dharo: dhanur ve:do: dando: damayitha::damaha |"},
-            {"text":"apara:jithas sarvasaho: niyantha: niyamo: yamaha ||","index":"1"}
+            {"text":"apara:jithas sarvasaho: niyantha: niyamo: yamaha ||  92","index":"1"}
         ]},{
             "lang":"TN",
             "items":[
@@ -767,20 +784,21 @@
     "url": "https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2Fsbslokas%2F24-Shatabhishaa.mp3?alt=media&token=2b63ac72-afc2-4370-a339-a4fd496e0b22",
     "sloka" : [ {
         "lang":"TE",
-        "items":[{"text":"సత్త్వవాన్‌ సాత్విక స్సత్యః సత్యధర్మ పరాయణః |"},{"text":"అభిప్రాయః ప్రియార్హోర్హః ప్రియకృత్‌ ప్రీతివర్ధనః ||"},
-            {"text":"విహాయసగతి ర్జ్యోతిః సురుచి ర్హుతభు గ్విభుః |"},{"text":"రవి ర్విరోచన స్సూర్యః సవితా రవి లోచనః ||"},
-            {"text":"అనంత హుతభుగ్భోక్తా సుఖదో నైకదో೭గ్రజః |"},{"text":"అనిర్విణ్ణ స్సదామర్షీ లోకాధిష్ఠాన మధ్బుతః ||"},
-            {"text":"సనాత్ సనాతనతమః కపిలః కపి రవ్యయః |"},{"text":"స్వస్తిద స్వస్తికృత్‌ స్వస్తి స్వస్తిభుక్‌ స్వస్తిదక్షిణః ||","index":"1"}
+        "items":[{"text":"సత్త్వవాన్‌ సాత్విక స్సత్యః సత్యధర్మ పరాయణః |"},{"text":"అభిప్రాయః ప్రియార్హోర్హః ప్రియకృత్‌ ప్రీతివర్ధనః ||  93"},
+            {"text":"విహాయసగతి ర్జ్యోతిః సురుచి ర్హుతభు గ్విభుః |"},{"text":"రవి ర్విరోచన స్సూర్యః సవితా రవి లోచనః ||   94"},
+            {"text":"అనంత హుతభుగ్భోక్తా సుఖదో నైకదో೭గ్రజః |"},{"text":"అనిర్విణ్ణ స్సదామర్షీ లోకాధిష్ఠాన మధ్బుతః ||   95"},
+            {"text":"సనాత్ సనాతనతమః కపిలః కపి రవ్యయః |"},{"text":"స్వస్తిద స్వస్తికృత్‌ స్వస్తి స్వస్తిభుక్‌ స్వస్తిదక్షిణః ||   96","index":"1"}
         ]},{
             "lang":"EN",
         "items":[
-            {"text":"sathvava:n sa:thvikas sathyaha sathya-dharma-para:yanaha |"},{"text":"abhipra:yah priya:rho::rhaha priyakruth pri:thi-vardhanaha ||"},
+            {"text":"sathvava:n sa:thvikas sathyaha sathya-dharma-para:yanaha |"},
+			{"text":"abhipra:yah priya:rho::rhaha priyakruth pri:thi-vardhanaha ||  93"},
             {"text":"viha:yasagathir jyo:thihi suruchir huthabhug-vibhuhu |"},
-            {"text":"ravir vilo:chanas su:ryaha savitha: ravilo:chanaha ||"},
+            {"text":"ravir vilo:chanas su:ryaha savitha: ravilo:chanaha ||  94"},
             {"text":"anantha hutha-bhug bho:ktha: sukhado: naikado: :grajaha |"},
-            {"text":"anirvinnas sada:marshi: lo:ka:dhishta:nam adbhuthaha ||"},
+            {"text":"anirvinnas sada:marshi: lo:ka:dhishta:nam adbhuthaha ||  95"},
             {"text":"sana:th sana:thana-thamaha kapilah kapir avyayaha |"},
-            {"text":"svasthidas svasthi kruth svasthi svasthi bhuk svasthi-dakshinaha ||","index":"1"}
+            {"text":"svasthidas svasthi kruth svasthi svasthi bhuk svasthi-dakshinaha ||  96","index":"1"}
         ]},{
             "lang":"TN",
             "items":[
@@ -801,17 +819,21 @@
     "url": "https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2Fsbslokas%2F25-Purvaabhaadra.mp3?alt=media&token=2896b77d-97fd-40d9-870a-5df597b49d3c",
     "sloka" : [ {
         "lang":"TE",
-        "items":[{"text":"అరౌద్రః కుండలీ చక్రీ విక్రమ్యూర్జిత శాసనః |"},{"text":"శబ్దాతిగ శ్శబ్దసహః శిశిర శ్శర్వరీకరః ||"},
-            {"text":"అక్రూరః పేశలో దక్షో దక్షిణః క్షమిణాం వరః |"},{"text":"విద్వత్తమో వీతభయః పుణ్యశ్రవణ కీర్తనః ||"},
-            {"text":"ఉత్తారణో దుష్కృతిహా పుణ్యో దుస్స్వప్న నాశనః |"},{"text":"వీరహా రక్షణ స్సంతో జీవనః పర్యవస్ధితః ||"},
-            {"text":"అనంత రూపో೭నంతశ్రీః జితమన్యు ర్భయాపహః |"},{"text":"చతురశ్రో గభీరాత్మా విదిశో వ్యాదిశో దిశః ||","index":"1"}
+        "items":[{"text":"అరౌద్రః కుండలీ చక్రీ విక్రమ్యూర్జిత శాసనః |"},{"text":"శబ్దాతిగ శ్శబ్దసహః శిశిర శ్శర్వరీకరః ||  97"},
+            {"text":"అక్రూరః పేశలో దక్షో దక్షిణః క్షమిణాం వరః |"},{"text":"విద్వత్తమో వీతభయః పుణ్యశ్రవణ కీర్తనః ||  98"},
+            {"text":"ఉత్తారణో దుష్కృతిహా పుణ్యో దుస్స్వప్న నాశనః |"},{"text":"వీరహా రక్షణ స్సంతో జీవనః పర్యవస్ధితః ||  99"},
+            {"text":"అనంత రూపో೭నంతశ్రీః జితమన్యు ర్భయాపహః |"},{"text":"చతురశ్రో గభీరాత్మా విదిశో వ్యాదిశో దిశః ||  100","index":"1"}
         ]},{
             "lang":"EN",
         "items":[
-            {"text":"araudrah kundali: chakri: vikramyu:rjitha-sa:sanaha l"},{"text":"sabda:thigas sabda-sahaha sisirassarvari:karaha ||"},
-            {"text":"akru:rah pe:salo: daksho: dakshinaha kshamina:m-varaha |"},{"text":"vidvaththamo: vi:thabhayaha punyas sravana-ki:rthanaha ||"},
-            {"text":"uththa:rano: dushkruthiha: punyo: dussvapna-na:sanaha |"},{"text":"vi:raha: rakshanas santho: ji:vanah paryavasthithaha ||"},
-            {"text":"anantharu:po::nanthasri:hi jithamanyur bhaya:pahaha |"},{"text":"chathurasro: gabhi:ra:thma: vidiso: vya:diso: disaha ||","index":"1"}
+            {"text":"araudrah kundali: chakri: vikramyu:rjitha-sa:sanaha l"},
+			{"text":"sabda:thigas sabda-sahaha sisirassarvari:karaha ||  97"},
+            {"text":"akru:rah pe:salo: daksho: dakshinaha kshamina:m-varaha |"},
+			{"text":"vidvaththamo: vi:thabhayaha punyas sravana-ki:rthanaha ||  98"},
+            {"text":"uththa:rano: dushkruthiha: punyo: dussvapna-na:sanaha |"},
+			{"text":"vi:raha: rakshanas santho: ji:vanah paryavasthithaha ||  99"},
+            {"text":"anantharu:po::nanthasri:hi jithamanyur bhaya:pahaha |"},
+			{"text":"chathurasro: gabhi:ra:thma: vidiso: vya:diso: disaha ||  100","index":"1"}
         ]},{
             "lang":"TN",
             "items":[
@@ -820,7 +842,8 @@
                 {"text":"அக்ரூரஃ பேஶலோ தக்ஷோ தக்ஷிணஃ, க்ஷமிணாம் வரஃ |"},
                 {"text":"வித்வத்தமோ வீதபயஃ புண்யஶ்ரவண கீர்தனஃ ||"},
                 {"text":"உத்தாரணோ துஷ்க்றுதிஹா புண்யோ துஃஸ்வப்னனாஶனஃ |"},
-                {"text":"வீரஹா ரக்ஷணஃ ஸம்தோ ஜீவனஃ பர்யவஸ்திதஃ ||"},{"text":"அனம்தரூப‌உனம்த ஶ்ரீர்–ஜிதமன்யுர்–பயாபஹஃ |"},
+                {"text":"வீரஹா ரக்ஷணஃ ஸம்தோ ஜீவனஃ பர்யவஸ்திதஃ ||"},
+				{"text":"அனம்தரூப‌உனம்த ஶ்ரீர்–ஜிதமன்யுர்–பயாபஹஃ |"},
                 {"text":"சதுரஶ்ரோ கபீராத்மா விதிஶோ வ்யாதிஶோ திஶஃ ||","index":"1"}
             ]
         }]
@@ -831,21 +854,21 @@
     "url": "https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2Fsbslokas%2F26-Uttaraabhaadra.mp3?alt=media&token=ea7d1371-8ef7-4725-96d0-b2d6e4fb0850",
     "sloka" : [ {
         "lang":"TE",
-        "items":[{"text":"అనాది ర్భూర్భువో లక్ష్మీః సువీరో రుచిరాంగదః |"},{"text":"జననో జన జన్మాదిః భీమో భీమపరాక్రమః ||"},
-            {"text":"ఆధార నిలయో ధాతా పుష్పహాసః ప్రజాగరః |"},{"text":"ఊర్ధ్వగ సత్పథాచారః ప్రాణదః ప్రణవః పణః ||"},
-            {"text":"ప్రమాణం ప్రాణనిలయః ప్రాణధృత్‌ ప్రాణ జీవనః |"},{"text":"తత్వం తత్వవి దేకాత్మా జన్మమృత్యు జరాతిగః ||"},
-            {"text":"భూర్భువ స్స్వస్తరుస్తారః సవితా ప్రపితామహః |"},{"text":"యజ్ఞో యజ్ఞపతి ర్యజ్వా యజ్ఞాంగో యజ్ఞవాహనః ||","index":"1"}
+        "items":[{"text":"అనాది ర్భూర్భువో లక్ష్మీః సువీరో రుచిరాంగదః |"},{"text":"జననో జన జన్మాదిః భీమో భీమపరాక్రమః ||  101"},
+            {"text":"ఆధార నిలయో ధాతా పుష్పహాసః ప్రజాగరః |"},{"text":"ఊర్ధ్వగ సత్పథాచారః ప్రాణదః ప్రణవః పణః ||   102"},
+            {"text":"ప్రమాణం ప్రాణనిలయః ప్రాణధృత్‌ ప్రాణ జీవనః |"},{"text":"తత్వం తత్వవి దేకాత్మా జన్మమృత్యు జరాతిగః ||   103"},
+            {"text":"భూర్భువ స్స్వస్తరుస్తారః సవితా ప్రపితామహః |"},{"text":"యజ్ఞో యజ్ఞపతి ర్యజ్వా యజ్ఞాంగో యజ్ఞవాహనః ||  104","index":"1"}
         ]},{
             "lang":"EN",
         "items":[
             {"text":"ana:dir bhu:rbhuvo: lakshmi:hi suvi:ro: ruchira:ngadaha |"},
-            {"text":"janano: jana janma:dihi bhi:mo: bhi:ma-para:kramaha ||"},
+            {"text":"janano: jana janma:dihi bhi:mo: bhi:ma-para:kramaha ||  101"},
             {"text":"a:dha:ranilayo: dha:tha: pushpa ha:sah praja:garaha |"},
-            {"text":"u:rdhvagas sathpatha:cha:rah pra:nadah pranavah panaha ||"},
+            {"text":"u:rdhvagas sathpatha:cha:rah pra:nadah pranavah panaha ||  102"},
             {"text":"prama:nam pra:nanilayaha pra:nadhruth pra:naji:vanaha |"},
-            {"text":"thathvam thathvavid e:ka:thma: janma-mruthyu-jara:thigaha ||"},
+            {"text":"thathvam thathvavid e:ka:thma: janma-mruthyu-jara:thigaha ||   103"},
             {"text":"bhu:rbhuva-svastharus tha:raha savitha: prapitha:mahaha |"},
-            {"text":"yajno: yajnapathir yajva: yajna:ngo: yajna-va:hanaha ||","index":"1"}
+            {"text":"yajno: yajnapathir yajva: yajna:ngo: yajna-va:hanaha ||  104","index":"1"}
         ]},{
             "lang":"TN",
             "items":[
@@ -862,21 +885,21 @@
     "url": "https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2Fsbslokas%2F27-Revati.mp3?alt=media&token=f19c775c-9cbf-4d07-a42a-822673498c58",
     "sloka" : [ {
         "lang":"TE",
-        "items":[{"text":"యజ్ఞభృత్‌ యజ్ఞకృత్‌ యజ్ఞీ యజ్ఞభుక్‌ యజ్ఞసాధనః |"},{"text":"యజ్ఞాంతకృత్‌ యజ్ఞ గుహ్యం అన్న మన్నాద ఏవచ ||"},
-            {"text":"ఆత్మయోని స్స్వయం జాతో వైఖాన స్సామగాయనః |"},{"text":"దేవకీ నందన స్స్రష్టా క్షీతీశః పాపనాశనః ||"},
-            {"text":"శంఖభృత్‌ నందకీ చక్రీ శార్‌ఙ్గధన్వా గదాధరః |"},{"text":"రథాంగపాణి రక్షోభ్యః సర్వ ప్రహరణాయుధః || (2 times)"},
-            {"text":"వనమాలీ గదీ శార్ ఙ్గీ శంఖీ చక్రీ చ నందకీ |"},{"text":"శ్రీమాన్నారాయణో విష్ణుః వాసుదేవో೭భిరక్షతు || (2 times)","index":"1"}
+        "items":[{"text":"యజ్ఞభృత్‌ యజ్ఞకృత్‌ యజ్ఞీ యజ్ఞభుక్‌ యజ్ఞసాధనః |"},{"text":"యజ్ఞాంతకృత్‌ యజ్ఞ గుహ్యం అన్న మన్నాద ఏవచ ||  105"},
+            {"text":"ఆత్మయోని స్స్వయం జాతో వైఖాన స్సామగాయనః |"},{"text":"దేవకీ నందన స్స్రష్టా క్షీతీశః పాపనాశనః ||  106"},
+            {"text":"శంఖభృత్‌ నందకీ చక్రీ శార్‌ఙ్గధన్వా గదాధరః |"},{"text":"రథాంగపాణి రక్షోభ్యః సర్వ ప్రహరణాయుధః || (2 times) 107"},
+            {"text":"వనమాలీ గదీ శార్ ఙ్గీ శంఖీ చక్రీ చ నందకీ |"},{"text":"శ్రీమాన్నారాయణో విష్ణుః వాసుదేవో೭భిరక్షతు || (2 times) 108","index":"1"}
         ]},{
             "lang":"EN",
         "items":[
             {"text":"yajna bhruth yajna kruth yajni: yajna bhuk yajna-sa:dhanaha |"},
-            {"text":"yajna:ntha krud yajna guhyam annam anna:da e:va cha ||"},
+            {"text":"yajna:ntha krud yajna guhyam annam anna:da e:va cha ||  105"},
             {"text":"a:thma yo:nis svayam ja:tho: vaikha:nas sa:ma ga:yanaha |"},
-            {"text":"de:vaki: nandanas srashta: kshithi:sah pa:pana:sanaha ||"},
+            {"text":"de:vaki: nandanas srashta: kshithi:sah pa:pana:sanaha ||  106"},
             {"text":"sankha bhrun nandaki: chakri: sa:rnga dhanva: gada:dharaha |"},
-            {"text":"ratha:ngapa:nir aksho:bhyaha sarva-praharana:yudhaha || (2 times)"},
+            {"text":"ratha:ngapa:nir aksho:bhyaha sarva-praharana:yudhaha || (2 times)  107"},
             {"text":"vanama:li: gadi: sa:rngi: sankhi: chakri: cha nandaki: |"},
-            {"text":"sri:ma:n na:ra:yano: vishnuhu va:sude:vo::bhi rakshathu || (2 times)","index":"1"}
+            {"text":"sri:ma:n na:ra:yano: vishnuhu va:sude:vo::bhi rakshathu || (2 times)  108","index":"1"}
         ]},{
             "lang":"TN",
             "items":[

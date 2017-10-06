@@ -62,7 +62,7 @@ angular.module('starter', ['ionic','ngCordova',
             views: {
                 'menuContent': {
                     templateUrl: 'templates/home.html',
-                    controller: 'homeController'
+                    controller: 'homeStartController'
                 }
             }
         })
@@ -90,6 +90,15 @@ angular.module('starter', ['ionic','ngCordova',
                  'menuContent': {
                     templateUrl: 'templates/sloka.html',
                     controller: 'slokaController'
+                 }
+             }
+         })
+         .state('app.prajnaSloka', {
+            url: '/prajnaSloka',
+             views: {
+                 'menuContent': {
+                    templateUrl: 'templates/prajnaSloka.html',
+                    controller: 'prajnaSlokaController'
                  }
              }
          })

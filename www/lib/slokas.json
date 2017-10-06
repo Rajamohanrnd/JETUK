@@ -1,7 +1,7 @@
 [
       {
         "key":"HARI",
-        "title": "Hari Ashtakam",
+        "title": "Hari Ashtakam New",
         "artist":"Prahaladha",
         "url":"https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2FHH%20PS%2002%20Haryastakam%20Sloka.mp3?alt=media&token=e2aa8304-ffd6-4f9d-8eb3-b4c997a7a987",
         "sloka":[{"lang":"en",
@@ -187,7 +187,7 @@
       },
     {
         "key":"AADITYA",
-        "title": "Adityahrdhayam",
+        "title": "Adityahrudayam",
         "artist":"Agastyar",
         "url":"https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2FAdityaHrudayam.mp3?alt=media&token=cb451176-0668-49ee-a9f6-3d89873b0190",
         "sloka":[{"lang":"en",
@@ -463,6 +463,258 @@
 		{"text":"అఖిల జగన్మాతరం, అస్మన్మాతరం, అశరణ్య శరణ్యాం,","index":"1"},
 		{"text":"అనన్య శరణః శరణమహం ప్రపద్యే.","index":"1"}
          ]}] 
+        },
+        {
+          "key":"Parathvaadi",
+        "title": "Parathvaadi Panchakam",
+        "artist":"Bhagavad Ramanuja",
+        "url":"https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2FHH%20PS%2007%20Parathvaadi%20Panchakam%20Sloka.mp3?alt=media&token=90f71b86-7dae-4364-9942-6ebf73c7885f",
+        "sloka":[
+          {"lang":"en",
+         "items": [
+           
+                ]},
+                {"lang":"te","items":[
+                   
+         ]}]
+        },
+        {
+          "key":"CharamaSlokams",
+        "title": "Charama Slokams",
+        "artist":"Bhagavad Ramanuja",
+        "url":"https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2FHH%20PS%2010%20Charama%20Slokams%20Guruparampara%20Sloka.mp3?alt=media&token=1623bcde-950e-4b7a-ae09-435c2f985738",
+        "sloka":[
+          {"lang":"en",
+         "items": [
+           
+                ]},
+                {"lang":"te","items":[
+                   
+         ]}]
+        },
+        {
+          "key":"HayagriivaSthoothram",
+        "title": "Hayagriiva Sthoothram",
+        "artist":"Bhagavad Ramanuja",
+        "url":"https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2FHH%20PS%2011%20Hayagriiva%20Sthoothram%20Sloka.mp3?alt=media&token=651821ad-352b-464b-b4ce-84bef5f54522",
+        "sloka":[
+          {"lang":"en",
+         "items": [
+           
+                ]},
+                {"lang":"te","items":[
+                   
+         ]}]
+        },
+        {
+          "key":"AshtaslokiSloka",
+        "title": "Ashtasloki Sloka",
+        "artist":"Bhagavad Ramanuja",
+        "url":"https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2FHH%20PS%2012%20Ashtasloki%20Sloka.mp3?alt=media&token=08a12f54-4f7b-43db-8e0b-b3d765b9f630",
+        "sloka":[
+          {"lang":"en",
+         "items": [
+           
+                ]},
+                {"lang":"te","items":[
+                   
+         ]}]
+        },
+        {
+          "key":"NarayaanaAnuvaakam",
+        "title": "Narayaana Anuvaakam",
+        "artist":"Bhagavad Ramanuja",
+        "url":"https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2FHH%20PS%2013%20Narayaana%20Anuvaakam%20Sloka.mp3?alt=media&token=cbc2788f-8f4e-4cda-83be-d362a4bfd0c1",
+        "sloka":[
+          {"lang":"en",
+         "items": [
+           
+                ]},
+                {"lang":"te","items":[
+                   
+         ]}]
+        },
+        {
+          "key":"KaanthaChathuslooki",
+        "title": "Kaantha Chathuslooki",
+        "artist":"Bhagavad Ramanuja",
+        "url":"https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2FHH%20PS%2014%20Kaantha%20Chathuslooki%20Sloka.mp3?alt=media&token=18c07758-ef33-4e20-a147-466e4cc60be0",
+        "sloka":[
+          {"lang":"en",
+         "items": [
+           
+                ]},
+                {"lang":"te","items":[
+                   
+         ]}]
+        },
+        {
+          "key":"GodaChathuslooki",
+        "title": "Goda Chathuslooki",
+        "artist":"Bhagavad Ramanuja",
+        "url":"https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2FHH%20PS%2015%20Goda%20Chathuslooki%20Sloka.mp3?alt=media&token=bf43ae41-6002-435b-b8a9-a793e4902f14",
+        "sloka":[
+          {"lang":"en",
+         "items": [
+           
+                ]},
+                {"lang":"te","items":[
+                   
+         ]}]
+        },
+        {
+          "key":"DhaatiPanchakam",
+        "title": "Dhaati Panchakam",
+        "artist":"Bhagavad Ramanuja",
+        "url":"https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2FHH%20PS%2016%20Dhaati%20Panchakam%20Sloka.mp3?alt=media&token=69a80018-47d8-4b08-92fd-6f806efb9a50",
+        "sloka":[
+          {"lang":"en",
+         "items": [
+           
+                ]},
+                {"lang":"te","items":[
+                   
+         ]}]
+        },
+        {
+          "key":"RanganaathaSthoothram",
+        "title": "Ranganaatha Sthoothram",
+        "artist":"Bhagavad Ramanuja",
+        "url":"https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2FHH%20PS%2017%20Ranganaatha%20Sthoothram%20Sloka.mp3?alt=media&token=3b8b4999-fd3a-4451-8c8e-120162f866c9",
+        "sloka":[
+          {"lang":"en",
+         "items": [
+           
+                ]},
+                {"lang":"te","items":[
+                   
+         ]}]
+        },
+        {
+          "key":"Sudarsanaashtakam",
+        "title": "Sudarsanaashtakam",
+        "artist":"Bhagavad Ramanuja",
+        "url":"https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2FHH%20PS%2018%20Sudarsanaashtakam%20Sloka.mp3?alt=media&token=e9482b2b-ea84-48e6-a697-9b8ef075c2c7",
+        "sloka":[
+          {"lang":"en",
+         "items": [
+           
+                ]},
+                {"lang":"te","items":[
+                   
+         ]}]
+        },
+        {
+          "key":"Paraankusaasthakam",
+        "title": "Paraankusaasthakam",
+        "artist":"Bhagavad Ramanuja",
+        "url":"https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2FHH%20PS%2019%20Paraankusaasthakam%20Sloka.mp3?alt=media&token=2b0e268e-7c8a-4108-bde5-0d373bae1d79",
+        "sloka":[
+          {"lang":"en",
+         "items": [
+           
+                ]},
+                {"lang":"te","items":[
+                   
+         ]}]
+        },
+        {
+          "key":"Deevaraajaashtakam",
+        "title": "Deevaraajaashtakam",
+        "artist":"Bhagavad Ramanuja",
+        "url":"https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2FHH%20PS%2020%20Deevaraajaashtakam%20Sloka.mp3?alt=media&token=5573e6be-6dac-4f42-ac34-7b66953471f4",
+        "sloka":[
+          {"lang":"en",
+         "items": [
+           
+                ]},
+                {"lang":"te","items":[
+                   
+         ]}]
+        },
+        {
+          "key":"Sankshepa_Ramayan",
+        "title": "Sankshepa Ramayan",
+        "artist":"Bhagavad Ramanuja",
+        "url":"https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2FHH_Sankshepa_Ramayan_Full.mp3?alt=media&token=c4ff65b9-3f01-4689-b772-4889915fc4da",
+        "sloka":[
+          {"lang":"en",
+         "items": [
+           
+                ]},
+                {"lang":"te","items":[
+                   
+         ]}]
+        },
+        {
+          "key":"SVSN_Chanting",
+        "title": "SVSN Chanting",
+        "artist":"Bhagavad Ramanuja",
+        "url":"https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2FHH_Sankshepa_Ramayan_Full.mp3?alt=media&token=c4ff65b9-3f01-4689-b772-4889915fc4da",
+        "sloka":[
+          {"lang":"en",
+         "items": [
+           
+                ]},
+                {"lang":"te","items":[
+                   
+         ]}]
+        },
+        {
+          "key":"SriDasavataraStotrams",
+        "title": "Sri Dasavatara Stotrams",
+        "artist":"Bhagavad Ramanuja",
+        "url":"https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2FSriDasavataraStotrams.mp3?alt=media&token=dd9a3c79-8a33-480d-9447-0b1f3b6178bf",
+        "sloka":[
+          {"lang":"en",
+         "items": [
+           
+                ]},
+                {"lang":"te","items":[
+                   
+         ]}]
+        },
+        {
+          "key":"Thirupalliyelicchi",
+        "title": "Thirupalliyelicchi",
+        "artist":"Bhagavad Ramanuja",
+        "url":"https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2FThirupalliyelicchi.mp3?alt=media&token=1db8d6cb-2e13-46f6-be62-25df2c0149e6",
+        "sloka":[
+          {"lang":"en",
+         "items": [
+           
+                ]},
+                {"lang":"te","items":[
+                   
+         ]}]
+        },
+        {
+          "key":"Thiruppallandu",
+        "title": "Thiruppallandu",
+        "artist":"Bhagavad Ramanuja",
+        "url":"https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2FThiruppallandu.mp3?alt=media&token=e0270903-faa1-4d86-98bd-705a3ae85192",
+        "sloka":[
+          {"lang":"en",
+         "items": [
+           
+                ]},
+                {"lang":"te","items":[
+                   
+         ]}]
+        },
+        {
+          "key":"Thiruppavai",
+        "title": "Thiruppavai",
+        "artist":"Bhagavad Ramanuja",
+        "url":"https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/slokas%2FThiruppavai.mp3?alt=media&token=e9a65f34-29bd-48f3-8e3c-ee4a563e2d05",
+        "sloka":[
+          {"lang":"en",
+         "items": [
+           
+                ]},
+                {"lang":"te","items":[
+                   
+         ]}]
         }
 
     ]

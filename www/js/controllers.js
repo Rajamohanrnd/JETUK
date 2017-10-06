@@ -103,6 +103,15 @@ angular.module('starter.controllers', ['ngCordova', 'ionic.service.core', 'ionic
                 d.resolve(result);
             });
             return d.promise;;
+        },
+        getPrajnaSlokas: function() {
+            var d = $q.defer();
+            $http.get('lib/prajnaSlokas.json').then(function(response) {
+
+                result = response.data;
+                d.resolve(result);
+            });
+            return d.promise;;
         }
     };
 })
@@ -273,12 +282,40 @@ angular.module('starter.controllers', ['ngCordova', 'ionic.service.core', 'ionic
 })
 .controller("baseController",function($scope,$window){
     $scope.openUrl = function(url) {
-        $window.open(url, "_blank", "location=yes", "toolbar=yes");
+        $window.open(url, "_system", "location=no", "toolbar=yes");
+        $window.event.preventDefault();
     }
 })
 .controller("homeController", function($scope, $state, $controller) {
     
     $controller('baseController', { $scope: $scope });
+})
+.controller("homeStartController", function($scope, $state, $controller,$ionicSideMenuDelegate) {
+    
+    $controller('baseController', { $scope: $scope });
+    $scope.$on('$ionicView.beforeEnter', function (e, data) {
+        if (data.enableBack) {
+            $ionicSideMenuDelegate.canDragContent(false)
+        } else {
+            $scope.$root.showMenuIcon = false;
+        }
+    });
+    $scope.$on('$ionicView.enter', function(e,data){
+        if (data.enableBack) {
+            $scope.$root.showMenuIcon = true;
+            $ionicSideMenuDelegate.canDragContent(false)
+        } else {
+            $scope.$root.showMenuIcon = false;
+        }
+      });
+      $scope.$on('$ionicView.afterEnter', function(e,data){
+        if (data.enableBack) {
+            $scope.$root.showMenuIcon = true;
+            $ionicSideMenuDelegate.canDragContent(false)
+        } else {
+            $scope.$root.showMenuIcon = false;
+        }
+      });
 })
 .controller("eventController", function($scope, $rootScope,$controller, rssService, rssServiceData) {
     $controller('baseController', { $scope: $scope });
@@ -290,13 +327,13 @@ angular.module('starter.controllers', ['ngCordova', 'ionic.service.core', 'ionic
             $scope.eventList = rssServiceData.getFeedDataEvents().item;
         });
     });
-    $scope.doRefresh = function() {
-        rssService.getEntries('https://www.jetuk.org/ach/jetuk-updates.xml', true).then(function(entries) {
-            rssServiceData.setRssFeedEvents(entries.rss.channel)
-            $scope.eventList = rssServiceData.getFeedDataEvents().item;
-            $scope.$broadcast('scroll.refreshComplete');
-        });
-    }
+    // $scope.doRefresh = function() {
+    //     rssService.getEntries('https://www.jetuk.org/ach/jetuk-updates.xml', true).then(function(entries) {
+    //         rssServiceData.setRssFeedEvents(entries.rss.channel)
+    //         $scope.eventList = rssServiceData.getFeedDataEvents().item;
+    //         $scope.$broadcast('scroll.refreshComplete');
+    //     });
+    // }
     $scope.$watch('rssServiceData.getFeedDataEvents()', function(nval, oldVal) {
         if (rssServiceData.getFeedDataEvents()) {
             $scope.eventList = rssServiceData.getFeedDataEvents().item;
@@ -306,9 +343,14 @@ angular.module('starter.controllers', ['ngCordova', 'ionic.service.core', 'ionic
 .controller('priestController', function($scope,$controller) {
     $controller('baseController', { $scope: $scope });
 })
-.controller('slokasController', function($scope, $controller) {
+.controller('slokasController', function($scope, $controller,staticDataService) {
     $controller('baseController', { $scope: $scope });
     var vm = this;
+    staticDataService.getStaticSlokas().then(function(data) {
+        var s = data;
+        //setData(s);
+        $scope.slokas = s;
+    });
     var slokas = [{ title: "Haryastakam", key: "HARI" },
         { title: "Krishnastakam", key: "KRISHNA" }, { title: "Adityahrdhayam", key: "AADITYA" },
         { title: "Pancha:yudha Stho:tram", key: "PANCHA" },
@@ -316,7 +358,7 @@ angular.module('starter.controllers', ['ngCordova', 'ionic.service.core', 'ionic
         { title: "Slokadwayam or Gajendramokshamu", key: "SLOKADVAYAM" },
         { title: "Sri Saranagati Slokam", key: "SARANAGATHI" }
     ];
-    $scope.slokas = slokas;
+    
 })
 .controller("ekadasiController", function($scope, $rootScope,$controller, rssService, rssServiceData) {
     $controller('baseController', { $scope: $scope });
@@ -586,6 +628,25 @@ angular.module('starter.controllers', ['ngCordova', 'ionic.service.core', 'ionic
 
     //$scope.$watch(function(){return $scope.lang},refreshText);
 })
+.controller('prajnaSlokaController', function($scope, $controller, MediaManager,staticDataService) {
+    $controller('baseController', { $scope: $scope });
+    staticDataService.getPrajnaSlokas().then(function(data) {
+        var s = data;
+        $scope.tracks = data;
+        $scope.dynamicTrack = $scope.tracks[0];
+    });
+    
+    $scope.stopPlayback = function() {
+        MediaManager.stop(); // will stop any audio currently playing
+    };
+
+    $scope.playTrack = function(index) {
+
+        $scope.dynamicTrack = $scope.tracks[index]; // assign one track
+
+        $scope.togglePlayback = !$scope.togglePlayback; // start playback when track changes    
+    };
+})
 .controller('songsController', function($scope, $controller, MediaManager) {
     $controller('baseController', { $scope: $scope });
     $scope.tracks = [{
@@ -595,12 +656,7 @@ angular.module('starter.controllers', ['ngCordova', 'ionic.service.core', 'ionic
             index: 0
         },
         
-        {
-            url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2F2%20Kaavave.mp3?alt=media&token=a3371728-22ed-4ed1-9661-baac5ca9b250', // audio file stored in device's app folder
-            artist: 'Agastyar',
-            title: 'Kaavave',
-            index: 1
-        },
+       
         {
             url: 'https://firebasestorage.googleapis.com/v0/b/acharya-6bf2a.appspot.com/o/songs%2FAcharyaSevaYatraPavanamPavitram.mp3?alt=media&token=b7153652-57c1-43dc-a716-db7d1d008228', // audio file stored in device's app folder
             artist: 'Agastyar',
