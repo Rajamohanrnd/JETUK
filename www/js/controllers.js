@@ -120,6 +120,8 @@ angular.module('starter.controllers', ['ngCordova', 'ionic.service.core', 'ionic
     $scope.contactusData = {};
     $scope.prajanaTeacherData = {};
     $scope.prajanaStudentData = {};
+    $scope.feedbackData = {};
+    $scope.shareData = {};
 
     $scope.submitPrajnaStudentData = function() {
 
@@ -127,14 +129,14 @@ angular.module('starter.controllers', ['ngCordova', 'ionic.service.core', 'ionic
             FromEmailAddress: $scope.prajanaStudentData.Email,
             ToEmailAddress: "info@jetuk.org",
             Subject: "Acharya - Prajna Student - Registration",
-            Body: "<p><h5>Name:" + $scope.prajanaStudentData.Name + "</h5><h5>Email:" + $scope.prajanaStudentData.Email + "</h5><h5>Contact:" + $scope.prajanaStudentData.Contact + "</h5><h5>Address:</h5>" + $scope.prajanaStudentData.Address + "<h5>ChildName:" + $scope.prajanaStudentData.ChildName + "</h5><h5>ChildAge:" + $scope.prajanaStudentData.Age + "</p>"
+            Body: "<p><h5>Name:" + $scope.prajanaStudentData.Name + "</h5><h5>Email:" + $scope.prajanaStudentData.Email + "</h5><h5>Contact:" + $scope.prajanaStudentData.Contact + "</h5><h5>Address:" + $scope.prajanaStudentData.FullAddress + "</h5><h5>PostCode:" + $scope.prajanaStudentData.PostCode + "</h5><h5>ChildName:" + $scope.prajanaStudentData.StudentName + "</h5><h5>ChildAge:" + $scope.prajanaStudentData.StudentAge + "</p>"
         });
 
         var _sendPrajanStudentThanksMailtoRequestor = JSON.stringify({
             FromEmailAddress: "info@jetuk.org",
             ToEmailAddress: $scope.prajanaStudentData.Email,
-            Subject: "Thank you for registering for Prajana Student for " + $scope.prajanaStudentData.ChildName,
-            Body: "<p><h4>Jai Srimannarayana!!</h4></br></br><h5>Namaste " + $scope.prajanaStudentData.Name + " ji," + "</h5></br>" + "Thank you for registering for Prajna Teacher/Student. Our volunteer from JETUK will contact you shortly. For any questions please reach out to info@jetuk.org.Thank you once again and acharya's managalashasanams(blessings) to your family." + " </br>" + "Regards," + " </br><b>Team JetUK</b> " + " </p>"
+            Subject: "Thank you for registering for Prajana Student - " + $scope.prajanaStudentData.StudentName,
+            Body: "<p><h4>Jai Srimannarayana!!</h4><h4>Namaste " + $scope.prajanaStudentData.Name + " ji," + "</h4>" + "Thank you for registering for Prajna Student. Our volunteer from JETUK will contact you shortly. For any questions please reach out to info@jetuk.org. Thank you once again and acharya's managalashasanams(blessings) to your family." + "<h5></h5>" + "Regards," + "<h5></h5><b>Team JETUK</b>" + "</p>"
         });
 
         $http.post("http://jetuk-org.azurewebsites.net/api/SendEmail/post", _sendPrajanStudentRegistrationMailtoJetUK).
@@ -142,7 +144,7 @@ angular.module('starter.controllers', ['ngCordova', 'ionic.service.core', 'ionic
 
             $http.post("http://jetuk-org.azurewebsites.net/api/SendEmail/post", _sendPrajanStudentThanksMailtoRequestor).
             success(function(data, status, headers, config) {
-                $state.go('app.home');
+                $state.go('app.thankyou');
             }).
             error(function(data, status, headers, config) {
                 // called asynchronously if an error occurs
@@ -162,14 +164,16 @@ angular.module('starter.controllers', ['ngCordova', 'ionic.service.core', 'ionic
             FromEmailAddress: $scope.prajanaTeacherData.Email,
             ToEmailAddress: "info@jetuk.org" + ";" + $scope.prajanaStudentData.Email,
             Subject: "Acharya - Prajna Teacher - Registration",
-            Body: "<p><h5>Name:" + $scope.prajanaTeacherData.Name + "</h5></br><h5>Email:" + $scope.prajanaTeacherData.Email + "</h5></br><h5>Contact:" + $scope.prajanaTeacherData.Contact + "</h5></br><h5>Full Address:</h5>" + $scope.prajanaTeacherData.FullAddress + "</p>"
+            Body: "<p><h5>Name:" + $scope.prajanaTeacherData.Name + "</h5><h5>Email:" + $scope.prajanaTeacherData.Email + "</h5><h5>Contact:" + $scope.prajanaTeacherData.Contact + "</h5><h5>Full Address:" + $scope.prajanaTeacherData.FullAddress + "</h5><h5>Postcode:" + $scope.prajanaTeacherData.PostCode + "</h5></p>"
+
         });
 
         var _sendPrajanTeacherThanksMailtoRequestor = JSON.stringify({
             FromEmailAddress: "info@jetuk.org",
             ToEmailAddress: $scope.prajanaTeacherData.Email,
             Subject: "Thank you for registering for Prajna Teacher",
-            Body: "<p><h4>Jai Srimannarayana!!</h4></br></br><h5>Namaste " + $scope.prajanaTeacherData.Name + " ji," + "</h5></br>" + "Thank you for registering for Prajna Teacher/Student. Our volunteer from JETUK will contact you shortly. For any questions please reach out to info@jetuk.org. Thank you once again and acharya's managalashasanams(blessings) to your family." + "</br></br>" + "Regards," + "</br><b>Team JetUK</b>" + "</p>"
+            Body: "<p><h4>Jai Srimannarayana!!</h4><h4>Namaste " + $scope.prajanaTeacherData.Name + " ji," + "</h4>" + "Thank you for registering for Prajna Teacher. Our volunteer from JETUK will contact you shortly. For any questions please reach out to info@jetuk.org. Thank you once again and acharya's managalashasanams(blessings) to your family." + "<h5></h5>" + "Regards," + "<h5></h5><b>Team JETUK</b>" + "</p>"
+
         });
 
         $http.post("http://jetuk-org.azurewebsites.net/api/SendEmail/post", _sendPrajanTeacherRegistrationMailtoJetUK).
@@ -177,7 +181,7 @@ angular.module('starter.controllers', ['ngCordova', 'ionic.service.core', 'ionic
 
             $http.post("http://jetuk-org.azurewebsites.net/api/SendEmail/post", _sendPrajanTeacherThanksMailtoRequestor).
             success(function(data, status, headers, config) {
-                $state.go('app.home');
+                $state.go('app.thankyou');
             }).
             error(function(data, status, headers, config) {
                 // called asynchronously if an error occurs
@@ -198,14 +202,14 @@ angular.module('starter.controllers', ['ngCordova', 'ionic.service.core', 'ionic
             FromEmailAddress: $scope.contactusData.Email,
             ToEmailAddress: "info@jetuk.org",
             Subject: "Acharya Contact Us page enquiry",
-            Body: "<p><h5>Name:" + $scope.contactusData.Name + "</h5></br><h5>Email:" + $scope.contactusData.Email + "</h5></br><h5>Contact:" + $scope.contactusData.Contact + "</h5></br><h5>Message:</h5>" + $scope.contactusData.Message + "</p>"
+            Body: "<p><h7>Name:" + $scope.contactusData.Name + "</h7>" + "<h5></h5>" + "<h7>Email:" + $scope.contactusData.Email + "</h7><h5></h5><h7> Contact: " + $scope.contactusData.Contact + "</h7><h5></h5><h7>Message:" + $scope.contactusData.Message + "</h7></p>"
         });
 
         var _sendThanksMailtoRequestor = JSON.stringify({
             FromEmailAddress: "info@jetuk.org",
             ToEmailAddress: $scope.contactusData.Email,
-            Subject: "Thanks for contacting JETUK group",
-            Body: "<p><h4>Jai Srimannarayana!!</h4></br></br><h5>Namaste " + $scope.contactusData.Name + "," + "</h5></br>" + "Our team member will contact you soon shortly." + "</br></br>" + "Regards," + "</br><b>Team JetUK</b>" + "</p>"
+            Subject: "Thanks for contacting JETUK",
+            Body: "<p><h4>Jai Srimannarayana!!</h4><h5></h5><h5>Namaste " + $scope.contactusData.Name + "," + "</h5><h5></h5>" + "Our team member will contact you soon." + "<h5></h5>" + "<p><h7>Name:" + $scope.contactusData.Name + "</h7>" + "<h5></h5>" + "<h7>Email:" + $scope.contactusData.Email + "</h7><h5></h5><h7> Contact: " + $scope.contactusData.Contact + "</h7><h5></h5><h7>Message:" + $scope.contactusData.Message + "</h7></p>" + "<h5></h5>" + "Regards," + "<h5></h5><b>Team JETUK</b>" + "</p>"
         });
 
         $http.post("http://jetuk-org.azurewebsites.net/api/SendEmail/post", _sendRequestMailtoJetUK).
@@ -213,7 +217,7 @@ angular.module('starter.controllers', ['ngCordova', 'ionic.service.core', 'ionic
 
             $http.post("http://jetuk-org.azurewebsites.net/api/SendEmail/post", _sendThanksMailtoRequestor).
             success(function(data, status, headers, config) {
-                $state.go('app.home');
+                $state.go('app.thankyou');
             }).
             error(function(data, status, headers, config) {
                 // called asynchronously if an error occurs
@@ -226,6 +230,76 @@ angular.module('starter.controllers', ['ngCordova', 'ionic.service.core', 'ionic
             // or server returns response with an error status.
         });
     };
+
+    $scope.submitFeedbackdata = function() {
+        
+            var _sendRequestMailtoJetUK = JSON.stringify({
+                FromEmailAddress: $scope.feedbackData.Email,
+                ToEmailAddress: "info@jetuk.org",
+                Subject: "Acharya Feedback page enquiry",
+                Body: "<p><h7>Name:" + $scope.feedbackData.Name + "</h7>" + "<h5></h5>" + "<h7>Email:" + $scope.feedbackData.Email + "</h7><h5></h5><h7> Contact: " + $scope.feedbackData.Contact + "</h7><h5></h5><h7>Message:" + $scope.feedbackData.Message + "</h7></p>"
+            });
+
+            var _sendThanksMailtoRequestor = JSON.stringify({
+                FromEmailAddress: "info@jetuk.org",
+                ToEmailAddress: $scope.feedbackData.Email,
+                Subject: "Thanks for providing the feedback",
+                Body: "<p><h4>Jai Srimannarayana!!</h4><h5></h5><h5>Namaste " + $scope.feedbackData.Name + "," + "</h5><h5></h5>" + "We really appreciate your Feedback.Our team member will contact you shortly." + "<h5></h5><h5></h5>" + "Regards," + "<h5></h5><b>Team JETUK</b>" + "</p>"
+            });
+
+            $http.post("http://jetuk-org.azurewebsites.net/api/SendEmail/post", _sendRequestMailtoJetUK).
+            success(function(data, status, headers, config) {
+
+                $http.post("http://jetuk-org.azurewebsites.net/api/SendEmail/post", _sendThanksMailtoRequestor).
+                success(function(data, status, headers, config) {
+                    $state.go('app.thankyou');
+                }).
+                error(function(data, status, headers, config) {
+                    // called asynchronously if an error occurs
+                    // or server returns response with an error status.
+                });
+
+            }).
+            error(function(data, status, headers, config) {
+                // called asynchronously if an error occurs
+                // or server returns response with an error status.
+            });
+        };
+        
+        $scope.submitSharedata = function() {
+
+            var _sendRequestMailtoJetUK = JSON.stringify({
+                FromEmailAddress: $scope.shareData.FromEmail,
+                ToEmailAddress: $scope.shareData.ToEmail,
+                Subject: "Acharya App",
+                Body: "<p>I just downloaded ACHARYA on my smart phone.<h5></h5> This is an one stop shop app for all needs of multilingual Discourses, offline functionality, Download feature of Devotional Audios and Slokas recitation, Videos, Ekadasi reminders, Calendar, and many other useful things to learn about our tradition. ACHARYA is available for iPhone, Android and Widows phone and more over it's FREE of cost.<h5></h5> You can get it now from htts://jetuk.org/ACHARYA. Or else you can reach on info@jetuk.org</p>"
+            });
+
+            var _sendThanksMailtoRequestor = JSON.stringify({
+                FromEmailAddress: "info@jetuk.org",
+                ToEmailAddress: $scope.shareData.FromEmail,
+                Subject: "Thanks for sharing ACHARYA app",
+                Body: "Thank you for sharing ACHARYA app and acharya's managalashasanams(blessings) to your family."
+            });
+
+            $http.post("http://jetuk-org.azurewebsites.net/api/SendEmail/post", _sendRequestMailtoJetUK).
+            success(function(data, status, headers, config) {
+
+                $http.post("http://jetuk-org.azurewebsites.net/api/SendEmail/post", _sendThanksMailtoRequestor).
+                success(function(data, status, headers, config) {
+                    $state.go('app.thankyou');
+                }).
+                error(function(data, status, headers, config) {
+                    // called asynchronously if an error occurs
+                    // or server returns response with an error status.
+                });
+
+            }).
+            error(function(data, status, headers, config) {
+                // called asynchronously if an error occurs
+                // or server returns response with an error status.
+            });
+        };
     // With the new view caching in Ionic, Controllers are only called
     // when they are recreated or on app start, instead of every page change.
     // To listen for when this page is active (for example, to refresh data),
