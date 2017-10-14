@@ -1,0 +1,51 @@
+<ion-view view-title="About Us">
+    <ion-nav-title view-title="" center>
+        <div id="hometitle">ACHARYA<img alt="logo" class="guru" height="40" src="img\AcharyaLogo.png"></div>
+
+    </ion-nav-title>
+
+    <div class="bar bar-subheader bar-assertive">
+        <ul class="sub_nav">
+            <li class="sub_nav"><a ui-sref="app.home" class="active">Home</a></li>
+            <li class="sub_nav"><a ui-sref="app.event">Events & Alerts</a></li>
+            <li class="sub_nav"><a href="#" ng-click="openUrl('https://jetuk.org/donations/')">Donate</a></li>
+            <li class="sub_nav"><a href="#" ng-click="openUrl('https://jetuk.org/live/')">Live</a></li>
+        </ul>
+    </div>
+    <ion-content class="navpage aboutus">
+        <ion-list>
+            <a href="#" class="viewall navheading">Share ACHARYA App</a>
+        </ion-list>
+        <p>Jai Srimannarayana, <br/> Thank you for sharing our app and taking part in divine service.</p>
+        <form name="formShare" ng-submit="submitSharedata()" novalidate>
+            <div class="list">
+
+                <label class="item item-input item-stacked-label">
+                        <label class="required">*</label><span class="input-label">From Email</span>
+                <input type="Email" required name="FromEmail" placeholder="Enter From Email" ng-model="shareData.FromEmail">
+                </label>
+                <div ng-show="formShare.FromEmail.$invalid && !formShare.FromEmail.$pristine" class="help-block required">Please Enter Valid From Email</div>
+
+                <label class="item item-input item-stacked-label">
+                        <label class="required">*</label><span class="input-label">To Email</span>
+                <input type="Email" required name="ToEmail" placeholder="Enter To Email" ng-model="shareData.ToEmail">
+                </label>
+                <div ng-show="formShare.ToEmail.$invalid && !formShare.ToEmail.$pristine" class="help-block required">Please Enter Valid To Email</div>
+
+            </div>
+            <button type="submit" color="primary" ng-disabled="formShare.$invalid" class="disable-hover button button-ios button-default button-default-ios button-block button-block-ios button-ios-primary custombtn" ng-reflect-color="primary"><span class="button-inner">Submit</span><div class="button-effect"></div></button>
+        </form>
+        <p>You can use our user-friendly search feature on our website to search any Sri Vaishnava devotional topic. If you are not able to any info about that topic, please drop us a message below and we will enquire it for you and let you know to our best
+            of our efforts.<br/><b>Website :</b><a href="#" ng-click="openUrl('http://www.jetuk.org')"> www.jetuk.org</a> <br/><b>Email :</b> <a href="mailto:info@jetuk.org?subject=Enquiry">info@jetuk.org</a><br/> <b>Contact number :</b> +44 208 248 8753</p><br/>
+        <img src="img\Ramanuja-Sahasrabdi-View10.jpg " width="100%" />
+    </ion-content>
+
+</ion-view>
+<ion-footer-bar align-title="center " class="bar-dark ">
+    <div class="buttons ">
+    </div>
+    <a class="shareemail" ui-sref="app.share">Share</a>
+    <span style="padding-top: 5px;">&nbsp;     JETUK &copy All Rights Reserved, 2017 </span>
+    <div class="buttons" ng-click="doSomething()">
+    </div>
+</ion-footer-bar>

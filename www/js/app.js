@@ -256,54 +256,6 @@ angular.module('starter', ['ionic','ngCordova',
                 }
             }
         })
-
-    .state('app.search', {
-        url: '/search',
-        views: {
-            'menuContent': {
-                templateUrl: 'templates/search.html',
-                controller: 'homeController'
-            }
-        }
-    })
-
-    // .state('app.browse', {
-    //         url: '/browse',
-    //         views: {
-    //             'menuContent': {
-    //                 templateUrl: 'templates/browse.html',
-    //                 controller: 'homeController'
-    //             }
-    //         }
-    //     })
-    //     .state('app.english', {
-    //         url: '/browse',
-    //         views: {
-    //             'menuContent': {
-    //                 templateUrl: 'templates/english.html',
-    //                 controller: 'homeController'
-    //             }
-    //         }
-    //     })
-    //     .state('app.Tamil', {
-    //         url: '/browse',
-    //         views: {
-    //             'menuContent': {
-    //                 templateUrl: 'templates/Tamil.html',
-    //                 controller: 'homeController'
-    //             }
-    //         }
-    //     })
-    //     .state('app.Telugu', {
-    //         url: '/browse',
-    //         views: {
-    //             'menuContent': {
-    //                 templateUrl: 'templates/Telugu.html',
-    //                 controller: 'homeController'
-    //             }
-    //         }
-    //     })
-       
         .state('app.more', {
             url: '/more',
             views: {
@@ -542,6 +494,24 @@ angular.module('starter', ['ionic','ngCordova',
             views: {
                 'menuContent': {
                     templateUrl: 'templates/nethravidyalayadegreehyderabad.html',
+                    controller: 'homeController'
+                }
+            }
+        })
+        .state('app.share', {
+            url: '/share',
+            views: {
+                'menuContent': {
+                    templateUrl: 'templates/share.html',
+                    controller:"shareController"
+                }
+            }
+        })
+        .state('app.thankyou', {
+            url: '/thankyou',
+            views: {
+                'menuContent': {
+                    templateUrl: 'templates/thankyou.html',
                     controller: 'homeController'
                 }
             }
