@@ -17,34 +17,55 @@
             <a href="#" class="viewall navheading">Prajna Student Registration</a>
         </ion-list>
         <p>Thank you for your interest in registering for Prajna student. Prajna makes our life a joyful voyage.</p>
-        <form ng-submit="submitPrajnaStudentData()">
-            <label class="item item-input item-stacked-label" <span class="input-label">Parent's Name</span>
-<input type="text" placeholder="Enter Parent's Name"  ng-model="prajanaStudentData.Name">
-</label>
-            <label class="item item-input item-stacked-label">
-<span class="input-label">Parent's Email</span>
-<input type="email" placeholder="Enter Parent's Email" ng-model="prajanaStudentData.Email">
-</label>
-            <label class="item item-input item-stacked-label">
-   <span class="input-label">Contact</span>
-   <input type="number" placeholder="Enter Your Contact" ng-model="prajanaStudentData.Contact"> 
-   </label>
-            <label class="item item-input item-stacked-label">
-   <span class="input-label">Full Address</span>
-     <textarea rows="4" cols="50" placeholder="Enter Address" ng-model="prajanaStudentData.Address"></textarea>
-   </label>
-            <label class="item item-input item-stacked-label">
-<span class="input-label">Child Name</span>
-<input type="text" placeholder="Enter Child Name" ng-model="prajanaStudentData.ChildName">
-</label>
-            <label class="item item-input item-stacked-label">
-   <span class="input-label">Child Age</span>
-   <input type="number" placeholder="Enter Child Age" ng-model="prajanaStudentData.Age">
-   </label>
-            <label class="item item-input item-stacked-label">
-   <button block="" color="primary" ion-button="" class="disable-hover button button-ios button-default button-default-ios button-block button-block-ios button-ios-primary custombtn" ng-reflect-color="primary"><span class="button-inner">Submit</span><div class="button-effect"></div></button>
-   </label>
-        </form>
+        <form name="formPrajanaStudent" ng-submit="submitPrajnaStudentData()" novalidate>
+                <div class="list">
+                    <label class="item item-input item-stacked-label" ng-class="{ 'has-error' : formPrajanaStudent.Name.$invalid && !formPrajanaStudent.Name.$pristine }">
+                        <label class="required">*</label><span class="input-label">Primary Contact Name</span>
+                    <input type="text" name="Name" required placeholder="Enter Primary Contact Name" ng-model="prajanaStudentData.Name">
+                    </label>
+                    <div ng-show="formPrajanaStudent.Name.$invalid && !formPrajanaStudent.Name.$pristine" class="help-block required">Please Enter Primary Contact Name</div>
+    
+                    <label class="item item-input item-stacked-label" ng-class="{ 'has-error' : formPrajanaStudent.Email.$invalid && !formPrajanaStudent.Email.$pristine }">
+                        <label class="required">*</label><span class="input-label">Primary Contact Email</span>
+                    <input type="email" name="Email" required placeholder="Enter Primary Contact Email" ng-model="prajanaStudentData.Email">
+                    </label>
+                    <div ng-show="formPrajanaStudent.Email.$invalid && !formPrajanaStudent.Email.$pristine" class="help-block required">Please Enter Valid Email</div>
+    
+                    <label class="item item-input item-stacked-label" ng-class="{ 'has-error' : formPrajanaStudent.Contact.$invalid && !formPrajanaStudent.Contact.$pristine }">
+                        <label class="required">*</label><span class="input-label">Contact</span>
+                    <input type="number" required name="Contact" placeholder="Enter Your Contact Number" ng-model="prajanaStudentData.Contact">
+                    </label>
+                    <div ng-show="formPrajanaStudent.Contact.$invalid && !formPrajanaStudent.Contact.$pristine" class="help-block required">Please Enter Contact Number</div>
+    
+                    <label class="item item-input item-stacked-label" ng-class="{ 'has-error' : formPrajanaStudent.FullAddress.$invalid && !formPrajanaStudent.FullAddress.$pristine }">
+                    <label class="required">*</label><span class="input-label">Full Address</span>
+                    <textarea rows="4" required name="FullAddress" cols="50" placeholder="Enter Address" ng-model="prajanaStudentData.FullAddress"></textarea>
+                    </label>
+                    <div ng-show="formPrajanaStudent.FullAddress.$invalid && !formPrajanaStudent.FullAddress.$pristine" class="help-block required">Please Enter FullAddress</div>
+    
+                    <label class="item item-input item-stacked-label" ng-class="{ 'has-error' : formPrajanaStudent.PostCode.$invalid && !formPrajanaStudent.PostCode.$pristine }">
+                            <label class="required">*</label><span class="input-label">Postcode</span>
+                    <input type="text" name="PostCode" required placeholder="Enter PostCode" ng-model="prajanaStudentData.PostCode">
+                    </label>
+                    <div ng-show="formPrajanaStudent.PostCode.$invalid && !formPrajanaStudent.PostCode.$pristine" class="help-block required">Please Enter Postcode</div>
+    
+    
+                    <label class="item item-input item-stacked-label" ng-class="{ 'has-error' : formPrajanaStudent.StudentName.$invalid && !formPrajanaStudent.StudentName.$pristine }">
+                    <label class="required">*</label><span class="input-label">Student Name</span>
+                    <input type="text" name="StudentName" required placeholder="Enter Student Name" ng-model="prajanaStudentData.StudentName">
+                    </label>
+                    <div ng-show="formPrajanaStudent.StudentName.$invalid && !formPrajanaStudent.StudentName.$pristine" class="help-block required">Please Enter Student Name</div>
+    
+                    <label class="item item-input item-stacked-label" ng-class="{ 'has-error' : formPrajanaStudent.StudentAge.$invalid && !formPrajanaStudent.StudentAge.$pristine }">
+                        <label class="required">*</label><span class="input-label">Student Age</span>
+                    <input type="number" ng-min="4" name="StudentAge" required placeholder="Enter Student Age" ng-model="prajanaStudentData.StudentAge">
+                    </label>
+                    <div ng-show="formPrajanaStudent.StudentAge.$invalid && !formPrajanaStudent.StudentAge.$pristine && !formPrajanaStudent.StudentAge.$error.min" class="help-block required">Please Enter Student Age</div>
+                    <div ng-show="formPrajanaStudent.StudentAge.$invalid && !formPrajanaStudent.StudentAge.$pristine" class="help-block required">Student age should be 4 or more</div>
+    
+                </div>
+                <button type="submit" block="" color="primary" ion-button="" ng-disabled="formPrajanaStudent.$invalid" class="disable-hover button button-ios button-default button-default-ios button-block button-block-ios button-ios-primary custombtn" ng-reflect-color="primary"><span class="button-inner">Submit</span><div class="button-effect"></div></button>
+            </form>
         </div>
         <img src="img\Ramanuja-Sahasrabdi-View10.jpg " width="100%" />
     </ion-content>
@@ -52,11 +73,7 @@
 <ion-footer-bar align-title="center " class="bar-dark ">
     <div class="buttons ">
     </div>
-    <a class="shareemail " href="mailto:info@jetuk.org?subject=ACHARYA - JETUK&body=Namaste,%0A I just downloaded ACHARYA
-         on my smart phone.%0A This is an one stop shop app for all needs of multilingual Discourses, offline functionality,
-         Download feature of Devotional Audios and Slokas recitation, Videos, Ekadasi reminders, Calendar, and many other
-         useful things to learn about our tradition.%0A ACHARYA is available for iPhone, Android and Widows phone and more
-         over it 's FREE of cost.%0A You can get it now from htts://jetuk.org/ACHARYA. Or else you can reach on info@jetuk.org">Share</a>
+    <a class="shareemail " ui-sref="app.share">Share</a>
     <span style="padding-top: 5px;">&nbsp;     JETUK &copy All Rights Reserved, 2017 </span>
     <div class="buttons" ng-click="doSomething()">
     </div>
