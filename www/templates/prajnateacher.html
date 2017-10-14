@@ -15,29 +15,42 @@
             <a href="#" class="viewall navheading">Prajna Teacher Registration</a>
         </ion-list>
         <p>Thank you for your interest in registering for Prajna teacher. We really THANK YOU for your support and take part in the mission of transforming good knowledge into action. Prajna is a part of Jeeyar Educational Trust (JET) and was established
-            to promote moral values and to share our culture and heritage. Prajna makes our life a joyful voyage.</p>
-        <form ng-submit="submitprajnateacherdata()">
-            <label class="item item-input item-stacked-label">
-<span class="input-label">Your Name</span>
-<input type="text" placeholder="Enter Your Name" ng-model="prajanaTeacherData.Name">
-</label>
-            <label class="item item-input item-stacked-label">
-<span class="input-label">Your Email</span>
-<input type="email" placeholder="Enter Your Email" ng-model="prajanaTeacherData.Email">
-</label>
-            <label class="item item-input item-stacked-label">
-   <span class="input-label">Contact Number</span>
-   <input type="number" placeholder="Enter Your Contact" ng-model="prajanaTeacherData.Contact"> 
-   </label>
-            <label class="item item-input item-stacked-label">
-   <span class="input-label">Full Address</span>
-   <textarea rows="4" cols="50" placeholder="Enter Full Address" ng-model="prajanaTeacherData.FullAddress"></textarea>
-   </label>
-            <label class="item item-input item-stacked-label">
-   <button block="" color="primary" ion-button="" class="disable-hover button button-ios button-default button-default-ios button-block button-block-ios button-ios-primary custombtn" ng-reflect-color="primary"><span class="button-inner">Submit</span>
-   <div class="button-effect"></div></button>
-   </label>
-        </form>
+                to promote moral values and to share our culture and heritage. Prajna makes our life a joyful voyage.</p>
+            <form name="formPrajanaTeacher" ng-submit="submitprajnateacherdata()" novalidate>
+                <div class="list">
+                    <label class="item item-input item-stacked-label" ng-class="{ 'has-error' : formPrajanaTeacher.Name.$invalid && !formPrajanaTeacher.Name.$pristine }">
+                        <label class="required">*</label><span class="input-label">Your Name</span>
+                    <input type="text" name="Name" required placeholder="Enter Your Name" ng-model="prajanaTeacherData.Name">
+                    </label>
+                    <div ng-show="formPrajanaTeacher.Name.$invalid && !formPrajanaTeacher.Name.$pristine" class="help-block required">Please Enter Name</div>
+    
+                    <label class="item item-input item-stacked-label" ng-class="{ 'has-error' : formPrajanaTeacher.Email.$invalid && !formPrajanaTeacher.Email.$pristine }">
+                            <label class="required">*</label><span class="input-label">Your Email</span>
+                    <input type="email" name="Email" required placeholder="Enter Your Email" ng-model="prajanaTeacherData.Email">
+                    </label>
+                    <div ng-show="formPrajanaTeacher.Email.$invalid && !formPrajanaTeacher.Email.$pristine" class="help-block required">Please Enter Valid Email</div>
+    
+                    <label class="item item-input item-stacked-label" ng-class="{ 'has-error' : formPrajanaTeacher.Contact.$invalid && !formPrajanaTeacher.Contact.$pristine }">
+                            <label class="required">*</label><span class="input-label">Contact Number</span>
+                    <input type="number" required name="Contact" placeholder="Enter Your Contact" ng-model="prajanaTeacherData.Contact">
+                    </label>
+                    <div ng-show="formPrajanaTeacher.Contact.$invalid && !formPrajanaTeacher.Contact.$pristine" class="help-block required">Please Enter Contact Number</div>
+    
+                    <label class="item item-input item-stacked-label" ng-class="{ 'has-error' : formPrajanaTeacher.FullAddress.$invalid && !formPrajanaTeacher.FullAddress.$pristine }">
+                            <label class="required">*</label><span class="input-label">Full Address</span>
+                    <textarea rows="4" cols="50" required name="FullAddress" placeholder="Enter Full Address" ng-model="prajanaTeacherData.FullAddress"></textarea>
+                    </label>
+                    <div ng-show="formPrajanaTeacher.FullAddress.$invalid && !formPrajanaTeacher.FullAddress.$pristine" class="help-block required">Please Enter FullAddress</div>
+    
+                    <label class="item item-input item-stacked-label" ng-class="{ 'has-error' : formPrajanaTeacher.PostCode.$invalid && !formPrajanaTeacher.PostCode.$pristine }">
+                        <label class="required">*</label><span class="input-label">Postcode</span>
+                    <input type="text" name="PostCode" required placeholder="Enter PostCode" ng-model="prajanaTeacherData.PostCode">
+                    </label>
+                    <div ng-show="formPrajanaTeacher.PostCode.$invalid && !formPrajanaTeacher.PostCode.$pristine" class="help-block required">Please Enter Postcode</div>
+    
+                </div>
+                <button block="" color="primary" ion-button="" ng-disabled="formPrajanaTeacher.$invalid" class="disable-hover button button-ios button-default button-default-ios button-block button-block-ios button-ios-primary custombtn" ng-reflect-color="primary"><span class="button-inner">Submit</span><div class="button-effect"></div></button>
+            </form>
         <br/>
         <img src="img\Ramanuja-Sahasrabdi-View10.jpg" width="100%" />
     </ion-content>
@@ -45,11 +58,7 @@
 <ion-footer-bar align-title="center " class="bar-dark ">
     <div class="buttons ">
     </div>
-    <a class="shareemail " href="mailto:info@jetuk.org?subject=ACHARYA - JETUK&body=Namaste,%0A I just downloaded ACHARYA
-         on my smart phone.%0A This is an one stop shop app for all needs of multilingual Discourses, offline functionality,
-         Download feature of Devotional Audios and Slokas recitation, Videos, Ekadasi reminders, Calendar, and many other
-         useful things to learn about our tradition.%0A ACHARYA is available for iPhone, Android and Widows phone and more
-         over it 's FREE of cost.%0A You can get it now from htts://jetuk.org/ACHARYA. Or else you can reach on info@jetuk.org">Share</a>
+    <a class="shareemail " ui-sref="app.share">Share</a>
     <span style="padding-top: 5px;">&nbsp;     JETUK &copy All Rights Reserved, 2017 </span>
     <div class="buttons" ng-click="doSomething()">
     </div>
