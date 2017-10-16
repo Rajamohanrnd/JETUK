@@ -1,0 +1,35 @@
+<ion-view view-title="About Us">
+    <ion-nav-title view-title="" center>
+        <div id="hometitle">ACHARYA<img alt="logo" class="guru" height="40" src="img\AcharyaLogo.png"></div>
+    </ion-nav-title>
+
+    <div class="bar bar-subheader bar-assertive">
+        <ul class="sub_nav">
+            <li class="sub_nav"><a ui-sref="app.home" class="active">Home</a></li>
+            <li class="sub_nav"><a ui-sref="app.event">Events & Alerts</a></li>
+            <li class="sub_nav"><a href="#" ng-click="openUrl('https://jetuk.org/donations/')">Donate</a></li>
+            <li class="sub_nav"><a href="#" ng-click="openUrl('https://jetuk.org/live/')">Live</a></li>
+        </ul>
+    </div>
+    <ion-content class="navpage aboutus">
+        <ion-list>
+            <a href="#" class="viewall navheading">Thank You</a>
+        </ion-list>
+
+        <p><b style="align-content: center">THANK YOU</b></p>
+        <p style="text-align: justify"> Thank you for taking some time out to reach out to us. One of our team members will get back to you shortly. In the mean time please feel free to visit <a href="#" ng-click="openUrl('http://www.jetuk.org')">JET UK</a> or <a href="#" ng-click="openUrl('http://chinnajeeyar.guru/chinnajeeyar/')">JET Bharat</a>
+        </p>
+
+        <br/>
+        <img src="img\Ramanuja-Sahasrabdi-View10.jpg " width="100%" />
+    </ion-content>
+
+</ion-view>
+<ion-footer-bar align-title="center " class="bar-dark ">
+    <div class="buttons ">
+    </div>
+    <a class="shareemail" ui-sref="app.share">Share</a>
+    <span style="padding-top: 5px;">&nbsp;     JETUK &copy All Rights Reserved, 2017 </span>
+    <div class="buttons" ng-click="doSomething()">
+    </div>
+</ion-footer-bar>

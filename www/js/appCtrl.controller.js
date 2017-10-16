@@ -11,7 +11,7 @@
         $scope.prajanaStudentData = {};
         $scope.feedbackData = {};
         $scope.shareData = {};
-    
+        $scope.subscriberData = {};
         $scope.submitPrajnaStudentData = function() {
     
             var _sendPrajanStudentRegistrationMailtoJetUK = JSON.stringify({
@@ -189,6 +189,40 @@
                     // or server returns response with an error status.
                 });
             };
+            $scope.submitsubcriberdata = function() {
+                
+                            var _sendRequestMailtoJetUK = JSON.stringify({
+                                FromEmailAddress: $scope.subscriberData.Email,
+                                ToEmailAddress: "info@jetuk.org",
+                                Subject: "New subscriber - Acharya App",
+                                Body: "<p><h7>New Subscriber registered with Acharya App</h7></p>"
+                            });
+                
+                            var _sendThanksMailtoRequestor = JSON.stringify({
+                                FromEmailAddress: "info@jetuk.org",
+                                ToEmailAddress: $scope.subscriberData.Email,
+                                Subject: "Welcome to Jeeyar Educational Trust UK",
+                                Body: "<p><h5>Dear Devotee,</h5><h5></h5><p>Thank you for expressing your interest in our activities. With Acharya’s blessings, we conduct various spiritual and social events throughout the year at different locations. </p><p>We will do our best to update you with the upcoming events in your area and around the world while making sure you are not spammed with junk. </p><p>Please feel free to visit <a href='www.jetuk.org'>JET UK</a> or  <a href='https://chinnajeeyar.guru/chinnajeeyar/'>JET Bharat</a> for more information about our services to the society.</p><p>If you would like to participate, volunteer or support, please do get in touch with us on info@jetuk.org</p><p>May Acharya's grace be upon us. </p><p>At your service,<h5>TEAM JETUK</h5></p>"
+                            });
+                
+                            $http.post("http://jetuk-org.azurewebsites.net/api/SendEmail/post", _sendRequestMailtoJetUK).
+                            success(function(data, status, headers, config) {
+                
+                                $http.post("http://jetuk-org.azurewebsites.net/api/SendEmail/post", _sendThanksMailtoRequestor).
+                                success(function(data, status, headers, config) {
+                                    $state.go('app.thankyou');
+                                }).
+                                error(function(data, status, headers, config) {
+                                    // called asynchronously if an error occurs
+                                    // or server returns response with an error status.
+                                });
+                
+                            }).
+                            error(function(data, status, headers, config) {
+                                // called asynchronously if an error occurs
+                                // or server returns response with an error status.
+                            });
+                        };
         // With the new view caching in Ionic, Controllers are only called
         // when they are recreated or on app start, instead of every page change.
         // To listen for when this page is active (for example, to refresh data),

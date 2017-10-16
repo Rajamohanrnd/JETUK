@@ -14,31 +14,26 @@
     </div>
     <ion-content class="navpage aboutus">
         <ion-list>
-            <a href="#" class="viewall navheading">Contact Us</a>
+            <a href="#" class="viewall navheading">Share ACHARYA App</a>
         </ion-list>
-        <p>Jai Srimannarayana, <br/> Thank you for visiting our app. We are here to answer any questions you may have about our services towards the community. Reach out to us and we will respond as soon as we can.</p>
-        <form ng-submit="submitcontactusdata()">
+        <p>Jai Srimannarayana, <br/> Thank you for sharing our app and taking part in divine service.</p>
+        <form name="formShare" ng-submit="submitSharedata()" novalidate>
             <div class="list">
-                <label class="item item-input item-stacked-label">
-<span class="input-label">Name</span>
-<input type="text" placeholder="Enter Your Name" ng-model="contactusData.Name">
-</label>
-                <label class="item item-input item-stacked-label">
-<span class="input-label">Email</span>
-<input type="text" placeholder="Enter Your Email" ng-model="contactusData.Email">
-</label>
-                <label class="item item-input item-stacked-label">
-   <span class="input-label">Contact</span>
-   <input type="text" placeholder="Enter Your Contact" ng-model="contactusData.Contact">
-   </label>
 
                 <label class="item item-input item-stacked-label">
-   <textarea rows="4" cols="50" placeholder="Your Message" ng-model="contactusData.Message"></textarea>
-   </label>
+                        <label class="required">*</label><span class="input-label">From Email</span>
+                <input type="Email" required name="FromEmail" placeholder="Enter From Email" ng-model="shareData.FromEmail">
+                </label>
+                <div ng-show="formShare.FromEmail.$invalid && !formShare.FromEmail.$pristine" class="help-block required">Please Enter Valid From Email</div>
+
                 <label class="item item-input item-stacked-label">
-   <button type="submit" color="primary" class="disable-hover button button-ios button-default button-default-ios button-block button-block-ios button-ios-primary custombtn" ng-reflect-color="primary"><span class="button-inner">Submit</span><div class="button-effect"></div></button>
-   </label>
+                        <label class="required">*</label><span class="input-label">To Email</span>
+                <input type="Email" required name="ToEmail" placeholder="Enter To Email" ng-model="shareData.ToEmail">
+                </label>
+                <div ng-show="formShare.ToEmail.$invalid && !formShare.ToEmail.$pristine" class="help-block required">Please Enter Valid To Email</div>
+
             </div>
+            <button type="submit" color="primary" ng-disabled="formShare.$invalid" class="disable-hover button button-ios button-default button-default-ios button-block button-block-ios button-ios-primary custombtn" ng-reflect-color="primary"><span class="button-inner">Submit</span><div class="button-effect"></div></button>
         </form>
         <p>You can use our user-friendly search feature on our website to search any Sri Vaishnava devotional topic. If you are not able to any info about that topic, please drop us a message below and we will enquire it for you and let you know to our best
             of our efforts.<br/><b>Website :</b><a href="#" ng-click="openUrl('http://www.jetuk.org')"> www.jetuk.org</a> <br/><b>Email :</b> <a href="mailto:info@jetuk.org?subject=Enquiry">info@jetuk.org</a><br/> <b>Contact number :</b> +44 208 248 8753</p><br/>
@@ -49,7 +44,7 @@
 <ion-footer-bar align-title="center " class="bar-dark ">
     <div class="buttons ">
     </div>
-    <a class="shareemail " ui-sref="app.share">Share</a>
+    <a class="shareemail" ui-sref="app.share">Share</a>
     <span style="padding-top: 5px;">&nbsp;     JETUK &copy All Rights Reserved, 2017 </span>
     <div class="buttons" ng-click="doSomething()">
     </div>

@@ -148,21 +148,28 @@
                     <ion-item>
                         <div class="video-container ">
                             <iframe src="https://www.youtube.com/embed/Zkr8-y0pFAQ" frameborder="0 " width="100%
-                         " height="200px"></iframe>
+                         " height="200px" allowfullscreen></iframe>
                             <p style="text-align: center">Statue Of Equality walkthrough</p>
                         </div>
                     </ion-item>
                 </div>
             </ion-list>
             <div class="list subscribe_item_div">
-                <span class="sucscribe_title" style="padding-left: 30px;">Subscribe to get latest event updates:</span>
-                <div class="item item-input-inset subscribe_item ">
-                    <label class="item item-input-wrapper ">		
-                <input type="text " placeholder="Enter your email id ">
-                </label>
-                    <button class="button subscribebtn ">Subscribe</button>
+                    <span class="sucscribe_title" style="padding-left: 30px;">Subscribe to get latest event updates:</span>
+                    <form name="formSubscribe" ng-submit="submitsubcriberdata()" novalidate>
+                        <div class="item item-input-inset subscribe_item">
+        
+                            <label style="width:100%" class="item item-input item-stacked-label" ng-class="{ 'has-error' : formSubscribe.Email.$invalid && !formSubscribe.Email.$pristine }">
+                            <input type="email" class="item item-input-inset subscribe_item" name="Email" required placeholder="Enter Subscriber Email" ng-model="subscriberData.Email">
+                            </label>
+                            <br/>
+        
+                        </div>
+                        <div style="padding-left: 10px;" ng-show="formSubscribe.Email.$invalid && !formSubscribe.Email.$pristine" class="help-block required">Please Enter Valid Email</div>
+                        <button type="submit" block="" color="primary" ion-button="" ng-disabled="formSubscribe.$invalid" class="disable-hover button button-ios button-default button-default-ios button-block button-block-ios button-ios-primary custombtn" ng-reflect-color="primary"><span class="button-inner">Subscribe</span><div class="button-effect"></div></button>
+                    </form>
                 </div>
-            </div>
+        
             <div class="card">
                 <div class="item item-text-wrap abouttext">
                     <p>JET UK is a registered (1139951) Charity Non-Profit organization which is committed to improving human lives through "Education, Service and Ancient Wisdom". For over three decades, we have been providing charitable and philanthropic services....
