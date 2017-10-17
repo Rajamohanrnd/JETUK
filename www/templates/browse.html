@@ -1,6 +1,6 @@
 <ion-view view-title="About Us">
     <ion-nav-title view-title="" center>
-        <div id="hometitle">ACHARYA<img alt="logo" class="guru" height="40" src="img\AcharyaLogo.png"></div>
+        <div id="hometitle">JAI ACHARYA<img alt="logo" class="guru" height="40" src="img\AcharyaLogo.png"></div>
 
     </ion-nav-title>
 
@@ -21,7 +21,7 @@
                 <ion-item>
                     <div class="video-container ">
                         
-                        <p style="text-align: center"><h4>{{event.title}}</h4></p>
+                        <span class="item-text-wrap"><h4>{{event.title}}</h4></span>
                         <img src="{{ event.enclosure.url  }}" width="100% ">
 						<span class="item-text-wrap" style="text-align: center">{{event.description}}</span>
 						<a href="#" ng-click="openUrl(event.link)">{{event.link}}</a>
